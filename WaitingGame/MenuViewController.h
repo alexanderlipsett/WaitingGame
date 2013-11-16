@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MenuViewController.h
 //  WaitingGame
 //
 //  Created by Alex Lipsett on 11/16/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MenuViewController : UIViewController
 
 @end
