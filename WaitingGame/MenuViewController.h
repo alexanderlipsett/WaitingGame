@@ -10,4 +10,10 @@
 
 @interface MenuViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *english;
+@property (strong, nonatomic) IBOutlet UIButton *spanish;
+
+- (IBAction)englishButtonTapped:(id)sender;
+- (IBAction)spanishButtonTapped:(id)sender;
+
 @end

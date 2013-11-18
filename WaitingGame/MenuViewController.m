@@ -35,4 +35,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)englishButtonTapped:(id)sender
+{
+    NSLog(@"Enlgish Button Tapped");
+//    QuizCategoryViewController *quizCategoryViewController = [[QuizCategoryViewController alloc] initWithNibName:@"QuizCategoryViewController"];
+    
+}
+
+- (IBAction)spanishButtonTapped:(id)sender
+{
+    NSLog(@"Spanish Button Tapped");
+}
+
+
 @end

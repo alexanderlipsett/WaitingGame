@@ -126,10 +126,10 @@
 				FABA592C183811850038FBA7 /* MenuViewController.m */,
 				FABA592D183811850038FBA7 /* MenuViewController.xib */,
 				FABA5930183817520038FBA7 /* TrueFalseQuestion.h */,
+				FABA5931183817520038FBA7 /* TrueFalseQuestion.m */,
 				FABA593318381AAA0038FBA7 /* TrueFalseQuestionViewController.h */,
 				FABA593418381AAA0038FBA7 /* TrueFalseQuestionViewController.m */,
 				FABA593518381AAA0038FBA7 /* TrueFalseQuestionViewController.xib */,
-				FABA5931183817520038FBA7 /* TrueFalseQuestion.m */,
 				FABA590E183810A50038FBA7 /* Images.xcassets */,
 				FABA58FA183810A50038FBA7 /* Supporting Files */,
 			);
@@ -470,6 +470,7 @@
 				FABA5927183810A50038FBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FABA5928183810A50038FBA7 /* Build configuration list for PBXNativeTarget "WaitingGameTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +479,7 @@
 				FABA592A183810A50038FBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
