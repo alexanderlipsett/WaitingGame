@@ -1,5 +1,5 @@
 //
-//  MultipleChoiceQuestionViewController.h
+//  RootViewController.h
 //  WaitingGame
 //
 //  Created by Alex Lipsett on 11/16/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MultipleChoiceQuestionViewController : UIViewController
+@interface RootViewController : UIViewController
 
 @end

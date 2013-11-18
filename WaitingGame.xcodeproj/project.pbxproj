@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA39069318398F9A00E251E8 /* MultipleChoiceQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39069218398F9A00E251E8 /* MultipleChoiceQuestion.m */; };
+		FA3906961839976D00E251E8 /* CategorizationQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3906951839976D00E251E8 /* CategorizationQuestion.m */; };
+		FA390699183999E600E251E8 /* ShoppingCartQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA390698183999E600E251E8 /* ShoppingCartQuestion.m */; };
 		FABA58F4183810A50038FBA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F3183810A50038FBA7 /* Foundation.framework */; };
 		FABA58F6183810A50038FBA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F5183810A50038FBA7 /* CoreGraphics.framework */; };
 		FABA58F8183810A50038FBA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F7183810A50038FBA7 /* UIKit.framework */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA39069118398F9A00E251E8 /* MultipleChoiceQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleChoiceQuestion.h; sourceTree = "<group>"; };
+		FA39069218398F9A00E251E8 /* MultipleChoiceQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleChoiceQuestion.m; sourceTree = "<group>"; };
+		FA3906941839976D00E251E8 /* CategorizationQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorizationQuestion.h; sourceTree = "<group>"; };
+		FA3906951839976D00E251E8 /* CategorizationQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorizationQuestion.m; sourceTree = "<group>"; };
+		FA390697183999E600E251E8 /* ShoppingCartQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartQuestion.h; sourceTree = "<group>"; };
+		FA390698183999E600E251E8 /* ShoppingCartQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartQuestion.m; sourceTree = "<group>"; };
 		FABA58F0183810A50038FBA7 /* WaitingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABA58F3183810A50038FBA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FABA58F5183810A50038FBA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,15 +130,21 @@
 			isa = PBXGroup;
 			children = (
 				FABA5902183810A50038FBA7 /* AppDelegate.h */,
+				FA39069118398F9A00E251E8 /* MultipleChoiceQuestion.h */,
+				FA39069218398F9A00E251E8 /* MultipleChoiceQuestion.m */,
 				FABA5903183810A50038FBA7 /* AppDelegate.m */,
 				FABA592B183811850038FBA7 /* MenuViewController.h */,
 				FABA592C183811850038FBA7 /* MenuViewController.m */,
+				FA3906941839976D00E251E8 /* CategorizationQuestion.h */,
+				FA390697183999E600E251E8 /* ShoppingCartQuestion.h */,
+				FA390698183999E600E251E8 /* ShoppingCartQuestion.m */,
+				FA3906951839976D00E251E8 /* CategorizationQuestion.m */,
 				FABA592D183811850038FBA7 /* MenuViewController.xib */,
 				FABA5930183817520038FBA7 /* TrueFalseQuestion.h */,
+				FABA5931183817520038FBA7 /* TrueFalseQuestion.m */,
 				FABA593318381AAA0038FBA7 /* TrueFalseQuestionViewController.h */,
 				FABA593418381AAA0038FBA7 /* TrueFalseQuestionViewController.m */,
 				FABA593518381AAA0038FBA7 /* TrueFalseQuestionViewController.xib */,
-				FABA5931183817520038FBA7 /* TrueFalseQuestion.m */,
 				FABA590E183810A50038FBA7 /* Images.xcassets */,
 				FABA58FA183810A50038FBA7 /* Supporting Files */,
 			);
@@ -265,9 +280,12 @@
 			files = (
 				FABA5904183810A50038FBA7 /* AppDelegate.m in Sources */,
 				FABA5932183817520038FBA7 /* TrueFalseQuestion.m in Sources */,
+				FA39069318398F9A00E251E8 /* MultipleChoiceQuestion.m in Sources */,
+				FA390699183999E600E251E8 /* ShoppingCartQuestion.m in Sources */,
 				FABA593618381AAA0038FBA7 /* TrueFalseQuestionViewController.m in Sources */,
 				FABA592E183811850038FBA7 /* MenuViewController.m in Sources */,
 				FABA5900183810A50038FBA7 /* main.m in Sources */,
+				FA3906961839976D00E251E8 /* CategorizationQuestion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +488,7 @@
 				FABA5927183810A50038FBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FABA5928183810A50038FBA7 /* Build configuration list for PBXNativeTarget "WaitingGameTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +497,7 @@
 				FABA592A183810A50038FBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

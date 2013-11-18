@@ -10,4 +10,16 @@
 
 @implementation MultipleChoiceQuestion
 
+- (BOOL) submitAnswer:(NSInteger *)index
+{
+    if (index == self.correctAnswer)
+    {
+        return TRUE;
+    }
+    else
+    {
+        return FALSE;
+    }
+}
+
 @end

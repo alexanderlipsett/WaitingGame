@@ -10,4 +10,13 @@
 
 @interface CategorizationQuestion : NSObject
 
+@property (strong, nonatomic) NSString *comicName;
+@property (strong, nonatomic) NSString *questionText;
+@property (strong, nonatomic) NSDictionary *options;
+@property (strong, nonatomic) NSArray *correct;
+@property (strong, nonatomic) NSArray *incorrect;
+
+- (void) moveWord:(NSString *)word toArray:(NSArray *)array;
+- (BOOL) submitAnswers;
+
 @end

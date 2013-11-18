@@ -9,8 +9,18 @@
 #import "TrueFalseQuestion.h"
 
 @implementation TrueFalseQuestion
-@synthesize comicName;
-@synthesize questionText;
-@synthesize correctAnswer;
+
+- (BOOL) submitAnswer:(BOOL)answer
+{
+    if (answer == self.correctAnswer)
+    {
+        return TRUE;
+    }
+    
+    else
+    {
+        return FALSE;
+    }
+}
 
 @end

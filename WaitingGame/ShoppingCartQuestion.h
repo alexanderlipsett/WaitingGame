@@ -10,4 +10,13 @@
 
 @interface ShoppingCartQuestion : NSObject
 
+@property (nonatomic, strong) NSString *comicName;
+@property (nonatomic, strong) NSString *questionText;
+@property (nonatomic, strong) NSDictionary *options;
+@property (nonatomic, strong) NSArray *answers;
+
+- (void) addAnswer:(NSString *) answer;
+- (BOOL) checkAnswer;
+
+
 @end

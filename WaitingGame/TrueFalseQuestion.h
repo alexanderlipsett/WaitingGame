@@ -14,4 +14,7 @@
 @property (nonatomic) NSString *questionText;
 @property (nonatomic) BOOL correctAnswer;
 
+
+- (BOOL)submitAnswer:(BOOL) answer;
+
 @end

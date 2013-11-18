@@ -1,35 +1,30 @@
 //
-//  MenuViewController.m
+//  RootViewController.m
 //  WaitingGame
 //
 //  Created by Alex Lipsett on 11/16/13.
 //  Copyright (c) 2013 Alex Lipsett. All rights reserved.
 //
 
-#import "MenuViewController.h"
+#import "RootViewController.h"
 
-@interface MenuViewController ()
+@interface RootViewController ()
 
 @end
 
-@implementation MenuViewController
+@implementation RootViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.view.backgroundColor = [UIColor colorWithRed:244
-                                                    green:241
-                                                     blue:215
-                                                    alpha:100];
-
+        // Custom initialization
     }
     return self;
 }
 
 - (void)viewDidLoad
 {
-
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

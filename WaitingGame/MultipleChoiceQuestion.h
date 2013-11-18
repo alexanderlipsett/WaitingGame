@@ -10,4 +10,13 @@
 
 @interface MultipleChoiceQuestion : NSObject
 
+@property (nonatomic, strong) NSString *comicName;
+@property (nonatomic, strong) NSString *questionText;
+@property (nonatomic, strong) NSMutableArray *options;
+@property (nonatomic) NSInteger *correctAnswer;
+
+
+-(BOOL) submitAnswer:(NSInteger *)index;
+
+
 @end
