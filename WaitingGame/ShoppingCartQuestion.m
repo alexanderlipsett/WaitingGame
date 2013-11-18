@@ -1,13 +1,13 @@
 //
-//  MultipleChoiceQuestion.m
+//  ShoppingCartQuestion.m
 //  WaitingGame
 //
 //  Created by Alex Lipsett on 11/17/13.
 //  Copyright (c) 2013 Alex Lipsett. All rights reserved.
 //
 
-#import "MultipleChoiceQuestion.h"
+#import "ShoppingCartQuestion.h"
 
-@implementation MultipleChoiceQuestion
+@implementation ShoppingCartQuestion
 
 @end

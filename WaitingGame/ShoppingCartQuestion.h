@@ -1,13 +1,13 @@
 //
-//  MultipleChoiceQuestion.m
+//  ShoppingCartQuestion.h
 //  WaitingGame
 //
 //  Created by Alex Lipsett on 11/17/13.
 //  Copyright (c) 2013 Alex Lipsett. All rights reserved.
 //
 
-#import "MultipleChoiceQuestion.h"
+#import <Foundation/Foundation.h>
 
-@implementation MultipleChoiceQuestion
+@interface ShoppingCartQuestion : NSObject
 
 @end
