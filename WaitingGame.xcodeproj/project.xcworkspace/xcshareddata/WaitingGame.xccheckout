@@ -5,31 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
-	<string>27B1B419-3C68-4A64-B19A-D26DAD7225E0</string>
-=======
-	<string>59AF2AA6-2E73-4623-8CC2-B6BE576733B5</string>
->>>>>>> 31c4172e0c7be4339201322a793efca5560898f5
+	<string>928592A5-5FB5-4512-8B2C-393DD87542A5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>WaitingGame</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>DC203546-5284-4179-A247-C559648FAFAD</key>
-=======
-		<key>069130E3-9F72-44AB-A7D6-23660D28DB89</key>
->>>>>>> 31c4172e0c7be4339201322a793efca5560898f5
+		<key>E313ABD5-308D-4065-8708-773445C80847</key>
 		<string>https://github.com/alexanderlipsett/WaitingGame.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>WaitingGame.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>DC203546-5284-4179-A247-C559648FAFAD</key>
-=======
-		<key>069130E3-9F72-44AB-A7D6-23660D28DB89</key>
->>>>>>> 31c4172e0c7be4339201322a793efca5560898f5
+		<key>E313ABD5-308D-4065-8708-773445C80847</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -37,22 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-<<<<<<< HEAD
-	<string>DC203546-5284-4179-A247-C559648FAFAD</string>
-=======
-	<string>069130E3-9F72-44AB-A7D6-23660D28DB89</string>
->>>>>>> 31c4172e0c7be4339201322a793efca5560898f5
+	<string>E313ABD5-308D-4065-8708-773445C80847</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-<<<<<<< HEAD
-			<string>DC203546-5284-4179-A247-C559648FAFAD</string>
-=======
-			<string>069130E3-9F72-44AB-A7D6-23660D28DB89</string>
->>>>>>> 31c4172e0c7be4339201322a793efca5560898f5
+			<string>E313ABD5-308D-4065-8708-773445C80847</string>
 			<key>IDESourceControlWCCName</key>
 			<string>WaitingGame</string>
 		</dict>

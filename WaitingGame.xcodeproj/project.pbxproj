@@ -10,6 +10,14 @@
 		FA39069318398F9A00E251E8 /* MultipleChoiceQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39069218398F9A00E251E8 /* MultipleChoiceQuestion.m */; };
 		FA3906961839976D00E251E8 /* CategorizationQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3906951839976D00E251E8 /* CategorizationQuestion.m */; };
 		FA390699183999E600E251E8 /* ShoppingCartQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA390698183999E600E251E8 /* ShoppingCartQuestion.m */; };
+		FA662BC6183C6E02007E40B2 /* EnglishSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA662BC4183C6E02007E40B2 /* EnglishSelectViewController.m */; };
+		FA662BC7183C6E02007E40B2 /* EnglishSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA662BC5183C6E02007E40B2 /* EnglishSelectViewController.xib */; };
+		FA662BCB183C74D5007E40B2 /* MultipleChoiceQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA662BC9183C74D5007E40B2 /* MultipleChoiceQuestionViewController.m */; };
+		FA662BCC183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA662BCA183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib */; };
+		FA662BD0183C7797007E40B2 /* CategorizationQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA662BCE183C7797007E40B2 /* CategorizationQuestionViewController.m */; };
+		FA662BD1183C7797007E40B2 /* CategorizationQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA662BCF183C7797007E40B2 /* CategorizationQuestionViewController.xib */; };
+		FA662BDA183C77E3007E40B2 /* SpanishMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA662BD8183C77E3007E40B2 /* SpanishMenuViewController.m */; };
+		FA662BDB183C77E3007E40B2 /* SpanishMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA662BD9183C77E3007E40B2 /* SpanishMenuViewController.xib */; };
 		FABA58F4183810A50038FBA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F3183810A50038FBA7 /* Foundation.framework */; };
 		FABA58F6183810A50038FBA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F5183810A50038FBA7 /* CoreGraphics.framework */; };
 		FABA58F8183810A50038FBA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F7183810A50038FBA7 /* UIKit.framework */; };
@@ -46,6 +54,18 @@
 		FA3906951839976D00E251E8 /* CategorizationQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorizationQuestion.m; sourceTree = "<group>"; };
 		FA390697183999E600E251E8 /* ShoppingCartQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartQuestion.h; sourceTree = "<group>"; };
 		FA390698183999E600E251E8 /* ShoppingCartQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartQuestion.m; sourceTree = "<group>"; };
+		FA662BC3183C6E02007E40B2 /* EnglishSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnglishSelectViewController.h; sourceTree = "<group>"; };
+		FA662BC4183C6E02007E40B2 /* EnglishSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnglishSelectViewController.m; sourceTree = "<group>"; };
+		FA662BC5183C6E02007E40B2 /* EnglishSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnglishSelectViewController.xib; sourceTree = "<group>"; };
+		FA662BC8183C74D5007E40B2 /* MultipleChoiceQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleChoiceQuestionViewController.h; sourceTree = "<group>"; };
+		FA662BC9183C74D5007E40B2 /* MultipleChoiceQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleChoiceQuestionViewController.m; sourceTree = "<group>"; };
+		FA662BCA183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleChoiceQuestionViewController.xib; sourceTree = "<group>"; };
+		FA662BCD183C7797007E40B2 /* CategorizationQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorizationQuestionViewController.h; sourceTree = "<group>"; };
+		FA662BCE183C7797007E40B2 /* CategorizationQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorizationQuestionViewController.m; sourceTree = "<group>"; };
+		FA662BCF183C7797007E40B2 /* CategorizationQuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategorizationQuestionViewController.xib; sourceTree = "<group>"; };
+		FA662BD7183C77E3007E40B2 /* SpanishMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpanishMenuViewController.h; sourceTree = "<group>"; };
+		FA662BD8183C77E3007E40B2 /* SpanishMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpanishMenuViewController.m; sourceTree = "<group>"; };
+		FA662BD9183C77E3007E40B2 /* SpanishMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpanishMenuViewController.xib; sourceTree = "<group>"; };
 		FABA58F0183810A50038FBA7 /* WaitingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABA58F3183810A50038FBA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FABA58F5183810A50038FBA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,17 +149,29 @@
 		FABA58F9183810A50038FBA7 /* WaitingGame */ = {
 			isa = PBXGroup;
 			children = (
+				FA662BC8183C74D5007E40B2 /* MultipleChoiceQuestionViewController.h */,
+				FA662BC9183C74D5007E40B2 /* MultipleChoiceQuestionViewController.m */,
+				FA662BCA183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib */,
 				FABA5902183810A50038FBA7 /* AppDelegate.h */,
+				FA662BC3183C6E02007E40B2 /* EnglishSelectViewController.h */,
+				FA662BD7183C77E3007E40B2 /* SpanishMenuViewController.h */,
+				FA662BD8183C77E3007E40B2 /* SpanishMenuViewController.m */,
+				FA662BD9183C77E3007E40B2 /* SpanishMenuViewController.xib */,
+				FA662BC4183C6E02007E40B2 /* EnglishSelectViewController.m */,
+				FA662BC5183C6E02007E40B2 /* EnglishSelectViewController.xib */,
 				FA39069118398F9A00E251E8 /* MultipleChoiceQuestion.h */,
 				FA39069218398F9A00E251E8 /* MultipleChoiceQuestion.m */,
 				FABA5903183810A50038FBA7 /* AppDelegate.m */,
 				FABA592B183811850038FBA7 /* MenuViewController.h */,
 				FABA592C183811850038FBA7 /* MenuViewController.m */,
+				FABA592D183811850038FBA7 /* MenuViewController.xib */,
 				FA3906941839976D00E251E8 /* CategorizationQuestion.h */,
+				FA3906951839976D00E251E8 /* CategorizationQuestion.m */,
+				FA662BCD183C7797007E40B2 /* CategorizationQuestionViewController.h */,
+				FA662BCE183C7797007E40B2 /* CategorizationQuestionViewController.m */,
+				FA662BCF183C7797007E40B2 /* CategorizationQuestionViewController.xib */,
 				FA390697183999E600E251E8 /* ShoppingCartQuestion.h */,
 				FA390698183999E600E251E8 /* ShoppingCartQuestion.m */,
-				FA3906951839976D00E251E8 /* CategorizationQuestion.m */,
-				FABA592D183811850038FBA7 /* MenuViewController.xib */,
 				FABA5930183817520038FBA7 /* TrueFalseQuestion.h */,
 				FABA5931183817520038FBA7 /* TrueFalseQuestion.m */,
 				FABA593318381AAA0038FBA7 /* TrueFalseQuestionViewController.h */,
@@ -257,8 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABA590F183810A50038FBA7 /* Images.xcassets in Resources */,
+				FA662BCC183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib in Resources */,
+				FA662BDB183C77E3007E40B2 /* SpanishMenuViewController.xib in Resources */,
 				FABA592F183811850038FBA7 /* MenuViewController.xib in Resources */,
 				FABA593718381AAA0038FBA7 /* TrueFalseQuestionViewController.xib in Resources */,
+				FA662BC7183C6E02007E40B2 /* EnglishSelectViewController.xib in Resources */,
+				FA662BD1183C7797007E40B2 /* CategorizationQuestionViewController.xib in Resources */,
 				FABA58FE183810A50038FBA7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,12 +314,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA662BD0183C7797007E40B2 /* CategorizationQuestionViewController.m in Sources */,
 				FABA5904183810A50038FBA7 /* AppDelegate.m in Sources */,
+				FA662BCB183C74D5007E40B2 /* MultipleChoiceQuestionViewController.m in Sources */,
 				FABA5932183817520038FBA7 /* TrueFalseQuestion.m in Sources */,
 				FA39069318398F9A00E251E8 /* MultipleChoiceQuestion.m in Sources */,
 				FA390699183999E600E251E8 /* ShoppingCartQuestion.m in Sources */,
 				FABA593618381AAA0038FBA7 /* TrueFalseQuestionViewController.m in Sources */,
+				FA662BC6183C6E02007E40B2 /* EnglishSelectViewController.m in Sources */,
 				FABA592E183811850038FBA7 /* MenuViewController.m in Sources */,
+				FA662BDA183C77E3007E40B2 /* SpanishMenuViewController.m in Sources */,
 				FABA5900183810A50038FBA7 /* main.m in Sources */,
 				FA3906961839976D00E251E8 /* CategorizationQuestion.m in Sources */,
 			);
@@ -410,6 +450,7 @@
 				GCC_PREFIX_HEADER = "WaitingGame/WaitingGame-Prefix.pch";
 				INFOPLIST_FILE = "WaitingGame/WaitingGame-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -423,6 +464,7 @@
 				GCC_PREFIX_HEADER = "WaitingGame/WaitingGame-Prefix.pch";
 				INFOPLIST_FILE = "WaitingGame/WaitingGame-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

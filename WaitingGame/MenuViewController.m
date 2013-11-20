@@ -18,10 +18,6 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.view.backgroundColor = [UIColor colorWithRed:244
-                                                    green:241
-                                                     blue:215
-                                                    alpha:100];
 
     }
     return self;

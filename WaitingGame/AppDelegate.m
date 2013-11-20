@@ -15,9 +15,15 @@
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
     MenuViewController *menuViewController = [[MenuViewController alloc] initWithNibName:@"MenuViewController"
                                                                                   bundle:nil];
-    self.window.rootViewController = menuViewController;
+    UINavigationController *rootNavigationController = [[UINavigationController alloc] initWithRootViewController:menuViewController];
+    rootNavigationController.navigationBar.hidden = YES;
+    [[self window] setRootViewController:rootNavigationController];
+    
+    self.window.backgroundColor = [UIColor colorWithRed:244 green:241 blue:215 alpha:100];
+   
     [self.window makeKeyAndVisible];
     return YES;
     

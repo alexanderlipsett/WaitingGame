@@ -10,4 +10,10 @@
 
 @interface MultipleChoiceQuestionViewController : UIViewController
 
+-(IBAction)optionOnePressed:(id)sender;
+-(IBAction)optionTwoPressed:(id)sender;
+-(IBAction)optionThreePressed:(id)sender;
+-(IBAction)optionFourPressed:(id)sender;
+
+
 @end

@@ -13,5 +13,8 @@
 
 @property (nonatomic) TrueFalseQuestion *question;
 
+-(IBAction)truePressed:(id)sender;
+-(IBAction)falsePressed:(id)sender;
+
 
 @end
