@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController">
             <connections>
+                <outlet property="englishButton" destination="gkL-6h-0OF" id="bpj-Lc-jBo"/>
+                <outlet property="spanishButton" destination="sjn-uN-ac5" id="bYR-9q-5nY"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>

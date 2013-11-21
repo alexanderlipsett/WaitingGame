@@ -10,11 +10,6 @@
 
 @interface SelectViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIButton *quiz1;
-@property (weak, nonatomic) IBOutlet UIButton *quiz2;
-@property (weak, nonatomic) IBOutlet UIButton *quiz3;
-@property (weak, nonatomic) IBOutlet UIButton *quiz4;
-
 -(IBAction)basicMechanismsTapped:(id)sender;
 -(IBAction)preventionTapped:(id)sender;
 -(IBAction)treatmentTapped:(id)sender;

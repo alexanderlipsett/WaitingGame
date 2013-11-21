@@ -12,6 +12,11 @@
 @interface MultipleChoiceQuestionViewController : UIViewController
 
 @property (nonatomic) MultipleChoiceQuestion *question;
+@property (weak, nonatomic) IBOutlet UILabel *questionText;
+@property (weak, nonatomic) IBOutlet UIButton *optionOne;
+@property (weak, nonatomic) IBOutlet UIButton *optionTwo;
+@property (weak, nonatomic) IBOutlet UIButton *optionThree;
+@property (weak, nonatomic) IBOutlet UIButton *optionFour;
 
 -(IBAction)optionOnePressed:(id)sender;
 -(IBAction)optionTwoPressed:(id)sender;
