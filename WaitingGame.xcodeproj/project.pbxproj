@@ -18,6 +18,9 @@
 		FA662BD1183C7797007E40B2 /* CategorizationQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA662BCF183C7797007E40B2 /* CategorizationQuestionViewController.xib */; };
 		FA662BDA183C77E3007E40B2 /* SpanishMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA662BD8183C77E3007E40B2 /* SpanishMenuViewController.m */; };
 		FA662BDB183C77E3007E40B2 /* SpanishMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA662BD9183C77E3007E40B2 /* SpanishMenuViewController.xib */; };
+		FA7A8B80183D9413000BBA72 /* sampleQuiz.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA7A8B7F183D9412000BBA72 /* sampleQuiz.plist */; };
+		FA7A8B84183D9F5C000BBA72 /* ThreeComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8B82183D9F5C000BBA72 /* ThreeComicViewController.m */; };
+		FA7A8B85183D9F5C000BBA72 /* ThreeComicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7A8B83183D9F5C000BBA72 /* ThreeComicViewController.xib */; };
 		FABA58F4183810A50038FBA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F3183810A50038FBA7 /* Foundation.framework */; };
 		FABA58F6183810A50038FBA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F5183810A50038FBA7 /* CoreGraphics.framework */; };
 		FABA58F8183810A50038FBA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F7183810A50038FBA7 /* UIKit.framework */; };
@@ -66,6 +69,10 @@
 		FA662BD7183C77E3007E40B2 /* SpanishMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpanishMenuViewController.h; sourceTree = "<group>"; };
 		FA662BD8183C77E3007E40B2 /* SpanishMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpanishMenuViewController.m; sourceTree = "<group>"; };
 		FA662BD9183C77E3007E40B2 /* SpanishMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpanishMenuViewController.xib; sourceTree = "<group>"; };
+		FA7A8B7F183D9412000BBA72 /* sampleQuiz.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sampleQuiz.plist; sourceTree = "<group>"; };
+		FA7A8B81183D9F5C000BBA72 /* ThreeComicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeComicViewController.h; sourceTree = "<group>"; };
+		FA7A8B82183D9F5C000BBA72 /* ThreeComicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeComicViewController.m; sourceTree = "<group>"; };
+		FA7A8B83183D9F5C000BBA72 /* ThreeComicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeComicViewController.xib; sourceTree = "<group>"; };
 		FABA58F0183810A50038FBA7 /* WaitingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABA58F3183810A50038FBA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FABA58F5183810A50038FBA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -152,6 +159,9 @@
 				FA662BC8183C74D5007E40B2 /* MultipleChoiceQuestionViewController.h */,
 				FA662BC9183C74D5007E40B2 /* MultipleChoiceQuestionViewController.m */,
 				FA662BCA183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib */,
+				FA7A8B81183D9F5C000BBA72 /* ThreeComicViewController.h */,
+				FA7A8B82183D9F5C000BBA72 /* ThreeComicViewController.m */,
+				FA7A8B83183D9F5C000BBA72 /* ThreeComicViewController.xib */,
 				FABA5902183810A50038FBA7 /* AppDelegate.h */,
 				FA662BC3183C6E02007E40B2 /* EnglishSelectViewController.h */,
 				FA662BD7183C77E3007E40B2 /* SpanishMenuViewController.h */,
@@ -187,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				FABA58FB183810A50038FBA7 /* WaitingGame-Info.plist */,
+				FA7A8B7F183D9412000BBA72 /* sampleQuiz.plist */,
 				FABA58FC183810A50038FBA7 /* InfoPlist.strings */,
 				FABA58FF183810A50038FBA7 /* main.m */,
 				FABA5901183810A50038FBA7 /* WaitingGame-Prefix.pch */,
@@ -293,9 +304,11 @@
 				FA662BDB183C77E3007E40B2 /* SpanishMenuViewController.xib in Resources */,
 				FABA592F183811850038FBA7 /* MenuViewController.xib in Resources */,
 				FABA593718381AAA0038FBA7 /* TrueFalseQuestionViewController.xib in Resources */,
+				FA7A8B85183D9F5C000BBA72 /* ThreeComicViewController.xib in Resources */,
 				FA662BC7183C6E02007E40B2 /* EnglishSelectViewController.xib in Resources */,
 				FA662BD1183C7797007E40B2 /* CategorizationQuestionViewController.xib in Resources */,
 				FABA58FE183810A50038FBA7 /* InfoPlist.strings in Resources */,
+				FA7A8B80183D9413000BBA72 /* sampleQuiz.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +334,7 @@
 				FA39069318398F9A00E251E8 /* MultipleChoiceQuestion.m in Sources */,
 				FA390699183999E600E251E8 /* ShoppingCartQuestion.m in Sources */,
 				FABA593618381AAA0038FBA7 /* TrueFalseQuestionViewController.m in Sources */,
+				FA7A8B84183D9F5C000BBA72 /* ThreeComicViewController.m in Sources */,
 				FA662BC6183C6E02007E40B2 /* EnglishSelectViewController.m in Sources */,
 				FABA592E183811850038FBA7 /* MenuViewController.m in Sources */,
 				FA662BDA183C77E3007E40B2 /* SpanishMenuViewController.m in Sources */,
