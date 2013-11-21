@@ -1,18 +1,19 @@
 //
-//  EnglishSelectViewController.m
+//  TitleViewController.m
 //  WaitingGame
 //
-//  Created by Alex Lipsett on 11/19/13.
+//  Created by Derrick J Chie on 11/21/13.
 //  Copyright (c) 2013 Alex Lipsett. All rights reserved.
 //
 
-#import "SelectViewController.h"
+#import "TitleViewController.h"
+#import "MenuViewController.h"
 
-@interface SelectViewController ()
+@interface TitleViewController ()
 
 @end
 
-@implementation SelectViewController
+@implementation TitleViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,24 +36,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)basicMechanismsTapped:(id)sender
+- (IBAction)beginButtonTapped:(id)sender
 {
-    
-}
-
-- (void)preventionTapped:(id)sender
-{
-    
-}
-
-- (void)treatmentTapped:(id)sender
-{
-    
-}
-
-- (void)potentialComplicationsTapped:(id)sender
-{
-    
+    MenuViewController *menuViewController = [[MenuViewController alloc] init];
+    [self.navigationController pushViewController:menuViewController animated:YES];
 }
 
 @end

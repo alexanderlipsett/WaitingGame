@@ -15,10 +15,10 @@
 @property (weak, nonatomic) IBOutlet UIButton *quiz3;
 @property (weak, nonatomic) IBOutlet UIButton *quiz4;
 
--(IBAction)quizOneTapped:(id)sender;
--(IBAction)quizTwoTapped:(id)sender;
--(IBAction)quizThreeTapped:(id)sender;
--(IBAction)quizFourTapped:(id)sender;
+-(IBAction)basicMechanismsTapped:(id)sender;
+-(IBAction)preventionTapped:(id)sender;
+-(IBAction)treatmentTapped:(id)sender;
+-(IBAction)potentialComplicationsTapped:(id)sender;
 
 
 

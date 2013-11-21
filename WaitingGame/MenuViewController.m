@@ -7,6 +7,7 @@
 //
 
 #import "MenuViewController.h"
+#import "SelectViewController.h"
 
 @interface MenuViewController ()
 
@@ -39,13 +40,15 @@
 - (IBAction)englishButtonTapped:(id)sender
 {
     NSLog(@"Enlgish Button Tapped");
-//    QuizCategoryViewController *quizCategoryViewController = [[QuizCategoryViewController alloc] initWithNibName:@"QuizCategoryViewController"];
-    
+    SelectViewController *selectViewController = [[SelectViewController alloc] init];
+    [self.navigationController pushViewController:selectViewController animated:YES];
 }
 
 - (IBAction)spanishButtonTapped:(id)sender
 {
     NSLog(@"Spanish Button Tapped");
+    SelectViewController *selectViewController = [[SelectViewController alloc] init];
+    [self.navigationController pushViewController:selectViewController animated:YES];
 }
 
 
