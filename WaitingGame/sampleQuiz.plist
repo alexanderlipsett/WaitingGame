@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>metadata</key>
+	<dict>
+		<key>numberOfQuestions</key>
+		<integer>5</integer>
+		<key>quizTitle</key>
+		<string>Sample Quiz</string>
+	</dict>
 	<key>question1</key>
 	<dict>
 		<key>questionType</key>
@@ -116,6 +123,19 @@
 		<string>multicomic2.jpg</string>
 		<key>comicThree</key>
 		<string>multicomic3.jpg</string>
+	</dict>
+	<key>summary</key>
+	<dict>
+		<key>goodSummaryImage</key>
+		<string>goodSummaryImage.jpg</string>
+		<key>badSummaryImage</key>
+		<string>badSummaryImage.jpg</string>
+		<key>goodSummaryText</key>
+		<string>You did well overall. Here&apos;s why.</string>
+		<key>badSummaryText</key>
+		<string>You don&apos;t know jack about the beetus.</string>
+		<key>goodThreshold</key>
+		<integer>3</integer>
 	</dict>
 </dict>
 </plist>
