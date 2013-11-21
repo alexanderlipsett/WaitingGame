@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MultipleChoiceQuestion.h"
 
 @interface MultipleChoiceQuestionViewController : UIViewController
+
+@property (nonatomic) MultipleChoiceQuestion *question;
 
 -(IBAction)optionOnePressed:(id)sender;
 -(IBAction)optionTwoPressed:(id)sender;

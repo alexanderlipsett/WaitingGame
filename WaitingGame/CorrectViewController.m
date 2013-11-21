@@ -1,18 +1,18 @@
 //
-//  MultipleChoiceQuestionViewController.m
+//  CorrectViewController.m
 //  WaitingGame
 //
-//  Created by Alex Lipsett on 11/16/13.
+//  Created by Alex Lipsett on 11/20/13.
 //  Copyright (c) 2013 Alex Lipsett. All rights reserved.
 //
 
-#import "MultipleChoiceQuestionViewController.h"
+#import "CorrectViewController.h"
 
-@interface MultipleChoiceQuestionViewController ()
+@interface CorrectViewController ()
 
 @end
 
-@implementation MultipleChoiceQuestionViewController
+@implementation CorrectViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,8 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning

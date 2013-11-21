@@ -12,11 +12,14 @@
 
 @property (nonatomic, strong) NSString *comicName;
 @property (nonatomic, strong) NSString *questionText;
-@property (nonatomic, strong) NSMutableArray *options;
-@property (nonatomic) NSInteger *correctAnswer;
+@property (nonatomic, strong) NSArray *options;
+@property (nonatomic) NSInteger correctAnswer;
+@property (nonatomic) BOOL isPictureBased;
 
 
--(BOOL) submitAnswer:(NSInteger *)index;
+-(BOOL)submitAnswer:(NSInteger)index;
+-(id)initWithComicName:(NSString *)comicName questionText:(NSString *)questionText options:(NSArray *)options correctAnswer:(NSInteger)correctAnswer isPictureBased:(BOOL)pics;
+
 
 
 @end

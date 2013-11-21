@@ -10,7 +10,7 @@
 
 @implementation TrueFalseQuestion
 
-- (BOOL) submitAnswer:(BOOL)answer
+-(BOOL)submitAnswer:(BOOL)answer
 {
     if (answer == self.correctAnswer)
     {
@@ -21,6 +21,19 @@
     {
         return FALSE;
     }
+}
+
+-(id)initWithComicName:(NSString *)comicName questionText:(NSString *)questionText correctAnswer:(BOOL)correctAnswer
+{
+    self = [super self];
+    
+    if (self){
+        _comicName = comicName;
+        _questionText = questionText;
+        _correctAnswer = correctAnswer;
+    }
+    
+    return self;
 }
 
 @end

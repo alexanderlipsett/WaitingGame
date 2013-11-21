@@ -15,4 +15,6 @@
 @property (strong, nonatomic) NSDictionary *options;
 
 
+-(id)initWithComicName:(NSString *)comicName questionText:(NSString *)comicText options:(NSDictionary *)options;
+
 @end

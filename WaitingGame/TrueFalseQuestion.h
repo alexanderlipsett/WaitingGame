@@ -15,6 +15,7 @@
 @property (nonatomic) BOOL correctAnswer;
 
 
-- (BOOL)submitAnswer:(BOOL) answer;
+-(BOOL)submitAnswer:(BOOL) answer;
+-(id)initWithComicName:(NSString *)comicName questionText:(NSString *)questionText correctAnswer:(BOOL)correctAnswer;
 
 @end

@@ -12,6 +12,10 @@
 		<string>test</string>
 		<key>correctAnswer</key>
 		<false/>
+		<key>correctResponse</key>
+		<string>You did well.</string>
+		<key>incorrectResponse</key>
+		<string>What a complete travesty.</string>
 	</dict>
 	<key>question2</key>
 	<dict>
@@ -31,6 +35,10 @@
 		<string>four</string>
 		<key>correctAnswer</key>
 		<integer>1</integer>
+		<key>correctResponse</key>
+		<string>Knocked it out of the ballpark, chief.</string>
+		<key>incorrectResponse</key>
+		<string>Well, this is diappointing.</string>
 	</dict>
 	<key>question3</key>
 	<dict>
@@ -70,6 +78,10 @@
 		</dict>
 		<key>correctAnswer</key>
 		<integer>1</integer>
+		<key>correctResponse</key>
+		<string>Neato!</string>
+		<key>incorrectResponse</key>
+		<string>Totally not neat.</string>
 	</dict>
 	<key>question4</key>
 	<dict>
@@ -89,6 +101,10 @@
 		<string>option4.jpg</string>
 		<key>correctAnswer</key>
 		<integer>1</integer>
+		<key>correctResponse</key>
+		<string>Nice work ace.</string>
+		<key>incorrectResponse</key>
+		<string>Better luck next time, slugger.</string>
 	</dict>
 	<key>question5</key>
 	<dict>
