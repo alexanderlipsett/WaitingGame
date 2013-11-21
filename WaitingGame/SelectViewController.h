@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EnglishSelectViewController : UIViewController
+@interface SelectViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *quiz1;
 @property (weak, nonatomic) IBOutlet UIButton *quiz2;
