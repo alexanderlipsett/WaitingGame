@@ -6,6 +6,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MultipleChoiceQuestionViewController">
             <connections>
+                <outlet property="comic" destination="B9h-Ux-yPy" id="u3a-zI-NZz"/>
+                <outlet property="optionFour" destination="ruy-Yb-e1d" id="Us3-Wr-0yX"/>
+                <outlet property="optionOne" destination="hfl-a7-4o0" id="Ztw-O0-tHM"/>
+                <outlet property="optionThree" destination="SgE-Os-dEI" id="Gx7-qH-SdB"/>
+                <outlet property="optionTwo" destination="akT-9K-Pmc" id="Mo5-hj-xc8"/>
+                <outlet property="questionText" destination="jKt-Px-sPB" id="lwK-BH-CX6"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>
@@ -66,7 +72,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1L-Ya-9HO">
-                    <rect key="frame" x="858" y="700" width="58" height="30"/>
+                    <rect key="frame" x="946" y="718" width="58" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Check >">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>

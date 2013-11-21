@@ -10,10 +10,10 @@
 
 @interface EnglishSelectViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIButton *quiz1;
-@property (weak, nonatomic) IBOutlet UIButton *quiz2;
-@property (weak, nonatomic) IBOutlet UIButton *quiz3;
-@property (weak, nonatomic) IBOutlet UIButton *quiz4;
+@property (weak, nonatomic) IBOutlet UIButton *quizOne;
+@property (weak, nonatomic) IBOutlet UIButton *quizTwo;
+@property (weak, nonatomic) IBOutlet UIButton *quizThree;
+@property (weak, nonatomic) IBOutlet UIButton *quizFour;
 
 -(IBAction)quizOneTapped:(id)sender;
 -(IBAction)quizTwoTapped:(id)sender;

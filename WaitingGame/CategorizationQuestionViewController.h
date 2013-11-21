@@ -20,9 +20,6 @@
     __weak IBOutlet UISegmentedControl *segmentThree;
     __weak IBOutlet UILabel *optionFourText;
     __weak IBOutlet UISegmentedControl *segment4;
-    
-    
-    
 }
 - (IBAction)nextPressed:(id)sender;
 

@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface IncorrectViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak, nonatomic) IBOutlet UILabel *description;
+
+- (IBAction)nextPressed:(id)sender;
 
 @end

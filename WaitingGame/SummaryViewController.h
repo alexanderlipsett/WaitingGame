@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface SummaryViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *title;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak, nonatomic) IBOutlet UILabel *score;
+@property (weak, nonatomic) IBOutlet UILabel *summaryText;
+
+
+- (IBAction)backToLobbyPressed:(id)sender;
+
 
 @end

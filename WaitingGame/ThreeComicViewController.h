@@ -10,4 +10,10 @@
 
 @interface ThreeComicViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *comicOne;
+@property (weak, nonatomic) IBOutlet UIImageView *comicTwo;
+@property (weak, nonatomic) IBOutlet UIImageView *comicThree;
+
+- (IBAction)nextPressed:(id)sender;
+
 @end
