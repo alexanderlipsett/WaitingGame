@@ -10,6 +10,8 @@
 
 @interface MenuViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *logo;
+
 - (IBAction)englishButtonTapped:(id)sender;
 - (IBAction)spanishButtonTapped:(id)sender;
 

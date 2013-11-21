@@ -6,16 +6,16 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CategorizationQuestionViewController">
             <connections>
-                <outlet property="comic" destination="8vC-xU-FEJ" id="q9u-L2-IdA"/>
-                <outlet property="optionFourText" destination="4Xa-j9-YeZ" id="fjx-De-pCN"/>
-                <outlet property="optionOneText" destination="Jgy-vk-n1K" id="1mo-WY-5ua"/>
-                <outlet property="optionThreeText" destination="Txm-Jh-pCu" id="P5E-1S-WxV"/>
-                <outlet property="optionTwoText" destination="btI-bP-JQJ" id="bGE-hQ-9c8"/>
-                <outlet property="questionText" destination="kfV-c9-TtU" id="J4X-g1-H6D"/>
-                <outlet property="segment4" destination="HIh-hF-wCl" id="VnL-IQ-OOF"/>
-                <outlet property="segmentOne" destination="OXM-bP-DHm" id="QHM-WF-Gzy"/>
-                <outlet property="segmentThree" destination="HvC-Yg-716" id="sNp-J0-1Gg"/>
-                <outlet property="segmentTwo" destination="4Yk-Jl-wyo" id="qaq-7P-PKt"/>
+                <outlet property="comic" destination="8vC-xU-FEJ" id="DdR-k6-EIH"/>
+                <outlet property="optionFour" destination="4Xa-j9-YeZ" id="L6r-Sk-4aN"/>
+                <outlet property="optionOne" destination="Jgy-vk-n1K" id="cXj-VD-gZW"/>
+                <outlet property="optionThree" destination="Txm-Jh-pCu" id="bn5-oc-cqh"/>
+                <outlet property="optionTwo" destination="btI-bP-JQJ" id="9ea-Kr-spM"/>
+                <outlet property="questionText" destination="kfV-c9-TtU" id="SHQ-DC-2rj"/>
+                <outlet property="segmentedFour" destination="HIh-hF-wCl" id="i1j-7j-CAm"/>
+                <outlet property="segmentedOne" destination="OXM-bP-DHm" id="ii3-XY-17a"/>
+                <outlet property="segmentedThree" destination="HvC-Yg-716" id="aAb-7q-nDw"/>
+                <outlet property="segmentedTwo" destination="4Yk-Jl-wyo" id="Xci-ML-Y8c"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>

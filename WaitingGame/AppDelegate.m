@@ -22,7 +22,7 @@
     rootNavigationController.navigationBar.hidden = YES;
     [[self window] setRootViewController:rootNavigationController];
     
-    self.window.backgroundColor = [UIColor colorWithRed:244 green:241 blue:215 alpha:100];
+    
    
     [self.window makeKeyAndVisible];
     return YES;

@@ -10,6 +10,8 @@
 		C1A26544183DFBC300CAE795 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A26542183DFBC300CAE795 /* TitleViewController.m */; };
 		C1A26545183DFBC300CAE795 /* TitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A26543183DFBC300CAE795 /* TitleViewController.xib */; };
 		C1A26547183DFD3600CAE795 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A26546183DFD3600CAE795 /* Logo.png */; };
+		FA11F8BB183E9C8A0028FB70 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */; };
+		FA11F8BC183E9C8A0028FB70 /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */; };
 		FA39069318398F9A00E251E8 /* MultipleChoiceQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39069218398F9A00E251E8 /* MultipleChoiceQuestion.m */; };
 		FA3906961839976D00E251E8 /* CategorizationQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3906951839976D00E251E8 /* CategorizationQuestion.m */; };
 		FA390699183999E600E251E8 /* ShoppingCartQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA390698183999E600E251E8 /* ShoppingCartQuestion.m */; };
@@ -62,6 +64,9 @@
 		C1A26542183DFBC300CAE795 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
 		C1A26543183DFBC300CAE795 /* TitleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleViewController.xib; sourceTree = "<group>"; };
 		C1A26546183DFD3600CAE795 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		FA11F8B8183E9C8A0028FB70 /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
+		FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
+		FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
 		FA39069118398F9A00E251E8 /* MultipleChoiceQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleChoiceQuestion.h; sourceTree = "<group>"; };
 		FA39069218398F9A00E251E8 /* MultipleChoiceQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleChoiceQuestion.m; sourceTree = "<group>"; };
 		FA3906941839976D00E251E8 /* CategorizationQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorizationQuestion.h; sourceTree = "<group>"; };
@@ -174,6 +179,9 @@
 		FABA58F9183810A50038FBA7 /* WaitingGame */ = {
 			isa = PBXGroup;
 			children = (
+				FA11F8B8183E9C8A0028FB70 /* SummaryViewController.h */,
+				FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */,
+				FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */,
 				FABA5902183810A50038FBA7 /* AppDelegate.h */,
 				FABA5903183810A50038FBA7 /* AppDelegate.m */,
 				C1A26541183DFBC300CAE795 /* TitleViewController.h */,
@@ -335,6 +343,7 @@
 				FABA592F183811850038FBA7 /* MenuViewController.xib in Resources */,
 				C1A26545183DFBC300CAE795 /* TitleViewController.xib in Resources */,
 				FABA593718381AAA0038FBA7 /* TrueFalseQuestionViewController.xib in Resources */,
+				FA11F8BC183E9C8A0028FB70 /* SummaryViewController.xib in Resources */,
 				C1A26547183DFD3600CAE795 /* Logo.png in Resources */,
 				FA7A8B85183D9F5C000BBA72 /* ThreeComicViewController.xib in Resources */,
 				FA662BC7183C6E02007E40B2 /* SelectViewController.xib in Resources */,
@@ -370,6 +379,7 @@
 				FABA593618381AAA0038FBA7 /* TrueFalseQuestionViewController.m in Sources */,
 				FA7A8B84183D9F5C000BBA72 /* ThreeComicViewController.m in Sources */,
 				FA662BC6183C6E02007E40B2 /* SelectViewController.m in Sources */,
+				FA11F8BB183E9C8A0028FB70 /* SummaryViewController.m in Sources */,
 				C1A26544183DFBC300CAE795 /* TitleViewController.m in Sources */,
 				FABA592E183811850038FBA7 /* MenuViewController.m in Sources */,
 				FABA5900183810A50038FBA7 /* main.m in Sources */,

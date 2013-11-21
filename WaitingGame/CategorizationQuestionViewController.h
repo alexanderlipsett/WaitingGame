@@ -10,22 +10,20 @@
 #import "CategorizationQuestion.h"
 
 @interface CategorizationQuestionViewController : UIViewController
-{
-    @property (nonatomic) CategorizationQuestion *question;
-    __weak IBOutlet UIImageView *comic;
-    __weak IBOutlet UILabel *questionText;
-    __weak IBOutlet UILabel *optionOneText;
-    __weak IBOutlet UISegmentedControl *segmentOne;
-    __weak IBOutlet UILabel *optionTwoText;
-    __weak IBOutlet UISegmentedControl *segmentTwo;
-    __weak IBOutlet UILabel *optionThreeText;
-    __weak IBOutlet UISegmentedControl *segmentThree;
-    __weak IBOutlet UILabel *optionFourText;
-    __weak IBOutlet UISegmentedControl *segment4;
-    
-    
-    
-}
+
+@property (strong, nonatomic) IBOutlet UIImageView *comic;
+@property (strong, nonatomic) IBOutlet UILabel *questionText;
+@property (strong, nonatomic) IBOutlet UILabel *optionOne;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segmentedOne;
+@property (strong, nonatomic) IBOutlet UILabel *optionTwo;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segmentedTwo;
+@property (strong, nonatomic) IBOutlet UILabel *optionThree;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segmentedThree;
+@property (strong, nonatomic) IBOutlet UILabel *optionFour;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segmentedFour;
+
+
+
 - (IBAction)nextPressed:(id)sender;
 
 @end
