@@ -25,6 +25,8 @@
 		FA7A8B94183DB06C000BBA72 /* ThreeComicTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8B93183DB06C000BBA72 /* ThreeComicTemplate.m */; };
 		FA7A8B98183DB0FF000BBA72 /* CorrectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8B96183DB0FF000BBA72 /* CorrectViewController.m */; };
 		FA7A8B99183DB0FF000BBA72 /* CorrectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7A8B97183DB0FF000BBA72 /* CorrectViewController.xib */; };
+		FA7A8B9D183DBD8B000BBA72 /* IncorrectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8B9B183DBD8B000BBA72 /* IncorrectViewController.m */; };
+		FA7A8B9E183DBD8B000BBA72 /* IncorrectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7A8B9C183DBD8B000BBA72 /* IncorrectViewController.xib */; };
 		FABA58F4183810A50038FBA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F3183810A50038FBA7 /* Foundation.framework */; };
 		FABA58F6183810A50038FBA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F5183810A50038FBA7 /* CoreGraphics.framework */; };
 		FABA58F8183810A50038FBA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F7183810A50038FBA7 /* UIKit.framework */; };
@@ -84,6 +86,9 @@
 		FA7A8B95183DB0FF000BBA72 /* CorrectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorrectViewController.h; sourceTree = "<group>"; };
 		FA7A8B96183DB0FF000BBA72 /* CorrectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorrectViewController.m; sourceTree = "<group>"; };
 		FA7A8B97183DB0FF000BBA72 /* CorrectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CorrectViewController.xib; sourceTree = "<group>"; };
+		FA7A8B9A183DBD8B000BBA72 /* IncorrectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncorrectViewController.h; sourceTree = "<group>"; };
+		FA7A8B9B183DBD8B000BBA72 /* IncorrectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncorrectViewController.m; sourceTree = "<group>"; };
+		FA7A8B9C183DBD8B000BBA72 /* IncorrectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncorrectViewController.xib; sourceTree = "<group>"; };
 		FABA58F0183810A50038FBA7 /* WaitingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABA58F3183810A50038FBA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FABA58F5183810A50038FBA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -203,6 +208,9 @@
 				FA7A8B95183DB0FF000BBA72 /* CorrectViewController.h */,
 				FA7A8B96183DB0FF000BBA72 /* CorrectViewController.m */,
 				FA7A8B97183DB0FF000BBA72 /* CorrectViewController.xib */,
+				FA7A8B9A183DBD8B000BBA72 /* IncorrectViewController.h */,
+				FA7A8B9B183DBD8B000BBA72 /* IncorrectViewController.m */,
+				FA7A8B9C183DBD8B000BBA72 /* IncorrectViewController.xib */,
 				FA7A8B92183DB06C000BBA72 /* ThreeComicTemplate.h */,
 				FA7A8B93183DB06C000BBA72 /* ThreeComicTemplate.m */,
 				FABA590E183810A50038FBA7 /* Images.xcassets */,
@@ -317,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7A8B9E183DBD8B000BBA72 /* IncorrectViewController.xib in Resources */,
 				FABA590F183810A50038FBA7 /* Images.xcassets in Resources */,
 				FA662BCC183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib in Resources */,
 				FA662BDB183C77E3007E40B2 /* SpanishMenuViewController.xib in Resources */,
@@ -347,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA662BD0183C7797007E40B2 /* CategorizationQuestionViewController.m in Sources */,
+				FA7A8B9D183DBD8B000BBA72 /* IncorrectViewController.m in Sources */,
 				FABA5904183810A50038FBA7 /* AppDelegate.m in Sources */,
 				FA662BCB183C74D5007E40B2 /* MultipleChoiceQuestionViewController.m in Sources */,
 				FABA5932183817520038FBA7 /* TrueFalseQuestion.m in Sources */,
