@@ -1,18 +1,18 @@
 //
-//  SpanishMenuViewController.m
+//  EnglishSelectViewController.m
 //  WaitingGame
 //
 //  Created by Alex Lipsett on 11/19/13.
 //  Copyright (c) 2013 Alex Lipsett. All rights reserved.
 //
 
-#import "SpanishMenuViewController.h"
+#import "SelectViewController.h"
 
-@interface SpanishMenuViewController ()
+@interface SelectViewController ()
 
 @end
 
-@implementation SpanishMenuViewController
+@implementation SelectViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,6 +33,26 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)basicMechanismsTapped:(id)sender
+{
+    
+}
+
+- (void)preventionTapped:(id)sender
+{
+    
+}
+
+- (void)treatmentTapped:(id)sender
+{
+    
+}
+
+- (void)potentialComplicationsTapped:(id)sender
+{
+    
 }
 
 @end

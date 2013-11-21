@@ -13,9 +13,13 @@
 -(void)addQuestions:(NSString *) quizName
 {
     NSString *pListPath = [[NSBundle mainBundle] pathForResource:quizName ofType:@"plist"];
+<<<<<<< HEAD
     NSDictionary *quiz = [[NSDictionary alloc] initWithContentsOfFile:pListPath];
     
     
+=======
+    NSDictionary *quiz;
+>>>>>>> a1ef9e5bd7fab74bfef9c795d84749a6c26f8bed
     
 }
 @end

@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CategorizationQuestion.h"
 
 @interface CategorizationQuestionViewController : UIViewController
 {
+    @property (nonatomic) CategorizationQuestion *question;
     __weak IBOutlet UIImageView *comic;
     __weak IBOutlet UILabel *questionText;
     __weak IBOutlet UILabel *optionOneText;

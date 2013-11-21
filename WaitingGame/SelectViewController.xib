@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="13A2093" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectViewController">
+            <connections>
+                <outlet property="quizFour" destination="M0C-KV-a2p" id="jDs-Es-Fnx"/>
+                <outlet property="quizOne" destination="0kO-jX-yZN" id="BnJ-T2-t2p"/>
+                <outlet property="quizThree" destination="zbp-Tv-DSe" id="hWm-9Z-9XV"/>
+                <outlet property="quizTwo" destination="DSf-rL-mW2" id="b13-MW-KpB"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0kO-jX-yZN">
+                    <rect key="frame" x="99" y="172" width="409" height="208"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                    <state key="normal" title="Basic Mechanisms">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quizOneTapped:" destination="-1" eventType="touchUpInside" id="qnt-vZ-qPs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="S7C-Q4-wMz">
+                    <rect key="frame" x="516" y="172" width="409" height="208"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                    <state key="normal" title="Prevention">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quizOneTapped:" destination="-1" eventType="touchUpInside" id="tlm-Kt-QYX"/>
+                        <action selector="quizTwoTapped:" destination="-1" eventType="touchUpInside" id="Lii-jv-loC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XXq-WW-EB9">
+                    <rect key="frame" x="516" y="388" width="409" height="208"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                    <state key="normal" title="Potential Complications">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quizFourTapped:" destination="-1" eventType="touchUpInside" id="U5S-YQ-AZI"/>
+                        <action selector="quizOneTapped:" destination="-1" eventType="touchUpInside" id="7dN-kR-UJh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="h5V-w1-AZG">
+                    <rect key="frame" x="99" y="388" width="409" height="208"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                    <state key="normal" title="Treatment">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+<<<<<<< HEAD:WaitingGame/EnglishSelectViewController.xib
+                        <action selector="quizOneTapped:" destination="-1" eventType="touchUpInside" id="tmF-DM-76N"/>
+=======
+                        <action selector="quizOneTapped:" destination="-1" eventType="touchUpInside" id="d00-kE-wqu"/>
+                        <action selector="quizThreeTapped:" destination="-1" eventType="touchUpInside" id="S6c-yG-a9E"/>
+>>>>>>> a1ef9e5bd7fab74bfef9c795d84749a6c26f8bed:WaitingGame/SelectViewController.xib
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+</document>
