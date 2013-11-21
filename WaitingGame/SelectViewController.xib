@@ -6,10 +6,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectViewController">
             <connections>
-                <outlet property="quizFour" destination="M0C-KV-a2p" id="jDs-Es-Fnx"/>
-                <outlet property="quizOne" destination="0kO-jX-yZN" id="BnJ-T2-t2p"/>
-                <outlet property="quizThree" destination="zbp-Tv-DSe" id="hWm-9Z-9XV"/>
-                <outlet property="quizTwo" destination="DSf-rL-mW2" id="b13-MW-KpB"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>
@@ -61,12 +57,8 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-<<<<<<< HEAD:WaitingGame/EnglishSelectViewController.xib
-                        <action selector="quizOneTapped:" destination="-1" eventType="touchUpInside" id="tmF-DM-76N"/>
-=======
                         <action selector="quizOneTapped:" destination="-1" eventType="touchUpInside" id="d00-kE-wqu"/>
                         <action selector="quizThreeTapped:" destination="-1" eventType="touchUpInside" id="S6c-yG-a9E"/>
->>>>>>> a1ef9e5bd7fab74bfef9c795d84749a6c26f8bed:WaitingGame/SelectViewController.xib
                     </connections>
                 </button>
             </subviews>

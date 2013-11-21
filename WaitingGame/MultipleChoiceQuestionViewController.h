@@ -12,25 +12,18 @@
 @interface MultipleChoiceQuestionViewController : UIViewController
 
 @property (nonatomic) MultipleChoiceQuestion *question;
-<<<<<<< HEAD
-@property (weak, nonatomic) IBOutlet UIImageView *comic;
-=======
->>>>>>> a1ef9e5bd7fab74bfef9c795d84749a6c26f8bed
-@property (weak, nonatomic) IBOutlet UILabel *questionText;
-@property (weak, nonatomic) IBOutlet UIButton *optionOne;
-@property (weak, nonatomic) IBOutlet UIButton *optionTwo;
-@property (weak, nonatomic) IBOutlet UIButton *optionThree;
-@property (weak, nonatomic) IBOutlet UIButton *optionFour;
-<<<<<<< HEAD
-
-=======
->>>>>>> a1ef9e5bd7fab74bfef9c795d84749a6c26f8bed
+@property (nonatomic) IBOutlet UILabel *questionText;
+@property (nonatomic) IBOutlet UIButton *optionOne;
+@property (nonatomic) IBOutlet UIButton *optionTwo;
+@property (nonatomic) IBOutlet UIButton *optionThree;
+@property (nonatomic) IBOutlet UIButton *optionFour;
+@property (nonatomic) NSMutableArray *answers;
 
 -(IBAction)optionOnePressed:(id)sender;
 -(IBAction)optionTwoPressed:(id)sender;
 -(IBAction)optionThreePressed:(id)sender;
 -(IBAction)optionFourPressed:(id)sender;
--(id)initWithQuestion:(MultipleChoiceQuestion *)question;
+- (IBAction)checkButtonPressed:(id)sender;
 
 
 @end

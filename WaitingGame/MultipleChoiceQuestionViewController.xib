@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="13A2093" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MultipleChoiceQuestionViewController">
             <connections>
-<<<<<<< HEAD
-                <outlet property="comic" destination="B9h-Ux-yPy" id="u3a-zI-NZz"/>
-                <outlet property="optionFour" destination="ruy-Yb-e1d" id="Us3-Wr-0yX"/>
-                <outlet property="optionOne" destination="hfl-a7-4o0" id="Ztw-O0-tHM"/>
-                <outlet property="optionThree" destination="SgE-Os-dEI" id="Gx7-qH-SdB"/>
-                <outlet property="optionTwo" destination="akT-9K-Pmc" id="Mo5-hj-xc8"/>
-                <outlet property="questionText" destination="jKt-Px-sPB" id="lwK-BH-CX6"/>
-=======
+                <outlet property="nextButtonPressed" destination="k1L-Ya-9HO" id="hfo-yE-ZCZ"/>
                 <outlet property="optionFour" destination="ruy-Yb-e1d" id="1oY-ai-CZt"/>
                 <outlet property="optionOne" destination="hfl-a7-4o0" id="mau-zG-5w0"/>
                 <outlet property="optionThree" destination="SgE-Os-dEI" id="lux-1K-fXQ"/>
                 <outlet property="optionTwo" destination="akT-9K-Pmc" id="6GO-fN-kOl"/>
                 <outlet property="questionText" destination="jKt-Px-sPB" id="64L-Bn-Qkg"/>
->>>>>>> a1ef9e5bd7fab74bfef9c795d84749a6c26f8bed
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>
@@ -85,6 +77,9 @@
                     <state key="normal" title="Check >">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="checkButtonPressed:" destination="-1" eventType="touchUpInside" id="R60-8h-eQI"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

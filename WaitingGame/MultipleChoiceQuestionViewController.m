@@ -16,12 +16,6 @@
 
 @implementation MultipleChoiceQuestionViewController
 
-@synthesize question;
-@synthesize questionText;
-@synthesize optionOne;
-@synthesize optionTwo;
-@synthesize optionThree;
-@synthesize optionFour;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,13 +30,12 @@
 {
     [super viewDidLoad];
     
-    [questionText setText:[question questionText]];
-    
-    NSArray *options = [question options];
-    [optionOne setTitle:[options objectAtIndex:0] forState:UIControlStateNormal];
-    [optionTwo setTitle:[options objectAtIndex:1] forState:UIControlStateNormal];
-    [optionThree setTitle:[options objectAtIndex:2] forState:UIControlStateNormal];
-    [optionFour setTitle:[options objectAtIndex:3] forState:UIControlStateNormal];
+    [self.questionText setText:[self.question questionText]];
+    NSArray *options = [self.question options];
+    [self.optionOne setTitle:[options objectAtIndex:0] forState:UIControlStateNormal];
+    [self.optionTwo setTitle:[options objectAtIndex:1] forState:UIControlStateNormal];
+    [self.optionThree setTitle:[options objectAtIndex:2] forState:UIControlStateNormal];
+    [self.optionFour setTitle:[options objectAtIndex:3] forState:UIControlStateNormal];
     
 }
 
@@ -54,6 +47,7 @@
 
 - (void)optionOnePressed:(id)sender
 {
+    /*
     if ([question submitAnswer:0] == NO)
     {
         IncorrectViewController *incorrectViewController = [[IncorrectViewController alloc] init];
@@ -64,10 +58,25 @@
         CorrectViewController *correctViewController = [[CorrectViewController alloc] init];
         [self.navigationController pushViewController:correctViewController animated:YES];
     }
+    */
+    
+    if (!self.optionOne.isSelected)
+    {
+        [self.optionOne setSelected:YES];
+        [self.answers  insertObject:[NSNumber numberWithBool:YES] atIndex:0];
+        
+    }
+    else
+    {
+        [self.optionOne setSelected:NO];
+        [self.answers replaceObjectAtIndex:0 withObject:[NSNumber numberWithBool:NO]];
+    }
+    
 }
 
 - (void)optionTwoPressed:(id)sender
 {
+    /*
     if ([question submitAnswer:1] == NO)
     {
         IncorrectViewController *incorrectViewController = [[IncorrectViewController alloc] init];
@@ -78,10 +87,25 @@
         CorrectViewController *correctViewController = [[CorrectViewController alloc] init];
         [self.navigationController pushViewController:correctViewController animated:YES];
     }
+     */
+    
+    if (!self.optionTwo.isSelected)
+    {
+        [self.optionTwo setSelected:YES];
+        [self.answers insertObject:[NSNumber numberWithBool:YES] atIndex:1];
+        
+    }
+    else
+    {
+        [self.optionTwo setSelected:NO];
+        [self.answers replaceObjectAtIndex:1 withObject:[NSNumber numberWithBool:NO]];
+    }
 }
 
 - (void)optionThreePressed:(id)sender
 {
+    
+    /*
     if ([question submitAnswer:0] == NO)
     {
         IncorrectViewController *incorrectViewController = [[IncorrectViewController alloc] init];
@@ -91,11 +115,25 @@
     {
         CorrectViewController *correctViewController = [[CorrectViewController alloc] init];
         [self.navigationController pushViewController:correctViewController animated:YES];
+    }
+     */
+    
+    if (!self.optionThree.isSelected)
+    {
+        [self.optionThree setSelected:YES];
+        [self.answers insertObject:[NSNumber numberWithBool:YES] atIndex:2];
+    }
+    
+    else
+    {
+        [self.optionThree setSelected:NO];
+        [self.answers replaceObjectAtIndex:2 withObject:[NSNumber numberWithBool:NO]];
     }
 }
 
 - (void)optionFourPressed:(id)sender
 {
+    /*
     if ([question submitAnswer:0] == NO)
     {
         IncorrectViewController *incorrectViewController = [[IncorrectViewController alloc] init];
@@ -106,6 +144,24 @@
         CorrectViewController *correctViewController = [[CorrectViewController alloc] init];
         [self.navigationController pushViewController:correctViewController animated:YES];
     }
+     */
+    
+    if (!self.optionFour.isSelected)
+    {
+        [self.optionFour setSelected:YES];
+        [self.answers insertObject:[NSNumber numberWithBool:YES] atIndex:3];
+    }
+    else
+    {
+        [self.optionFour setSelected:NO];
+        [self.answers replaceObjectAtIndex:3 withObject:[NSNumber numberWithBool:NO]];
+    }
+    
+    
 }
+
+- (IBAction)checkButtonPressed:(id)sender {
+}
+
 
 @end

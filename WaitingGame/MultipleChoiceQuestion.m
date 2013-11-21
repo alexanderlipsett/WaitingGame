@@ -10,9 +10,13 @@
 
 @implementation MultipleChoiceQuestion
 
-- (BOOL) submitAnswer:(NSInteger)index
+- (BOOL) submitAnswer:(NSArray *)answers
 {
-    if (index == self.correctAnswer)
+    if ([answers objectAtIndex:0] == [self.answers objectAtIndex:0] &&
+        [answers objectAtIndex:1] == [self.answers objectAtIndex:1] &&
+        [answers objectAtIndex:2] == [self.answers objectAtIndex:2] &&
+        [answers objectAtIndex:3] == [self.answers objectAtIndex:3])
+        
     {
         return TRUE;
     }
@@ -22,7 +26,7 @@
     }
 }
 
--(id)initWithComicName:(NSString *)comicName questionText:(NSString *)questionText options:(NSArray *)options correctAnswer:(NSInteger)correctAnswer isPictureBased:(BOOL)pics
+-(id)initWithComicName:(NSString *)comicName questionText:(NSString *)questionText options:(NSArray *)options answers:(NSArray *)answers isPictureBased:(BOOL)pics
 {
     self = [super init];
     
@@ -31,7 +35,7 @@
         _comicName = comicName;
         _questionText = questionText;
         _options = options;
-        _correctAnswer = correctAnswer;
+        _answers = answers;
         _isPictureBased = pics;
     }
     

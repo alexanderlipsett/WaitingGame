@@ -40,12 +40,19 @@
 		<string>three</string>
 		<key>option4</key>
 		<string>four</string>
-		<key>correctAnswer</key>
-		<integer>1</integer>
+		<key>correctAnswers</key>
+		<array>
+			<true/>
+			<false/>
+			<false/>
+			<false/>
+		</array>
 		<key>correctResponse</key>
 		<string>Knocked it out of the ballpark, chief.</string>
 		<key>incorrectResponse</key>
 		<string>Well, this is diappointing.</string>
+		<key>isPictureBased</key>
+		<false/>
 	</dict>
 	<key>question3</key>
 	<dict>

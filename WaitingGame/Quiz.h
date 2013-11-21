@@ -11,8 +11,6 @@
 @interface Quiz : NSObject
 
 @property NSArray *questions;
-@property NSInteger currentQuestion;
-@property NSInteger numberCorrect;
 
 -(void)addQuestions:(NSString *) quizName;
 

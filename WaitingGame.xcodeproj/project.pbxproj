@@ -28,8 +28,6 @@
 		FA7A8B99183DB0FF000BBA72 /* CorrectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7A8B97183DB0FF000BBA72 /* CorrectViewController.xib */; };
 		FA7A8B9D183DBD8B000BBA72 /* IncorrectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8B9B183DBD8B000BBA72 /* IncorrectViewController.m */; };
 		FA7A8B9E183DBD8B000BBA72 /* IncorrectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7A8B9C183DBD8B000BBA72 /* IncorrectViewController.xib */; };
-		FA7A8BA2183DC044000BBA72 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8BA0183DC044000BBA72 /* SummaryViewController.m */; };
-		FA7A8BA3183DC044000BBA72 /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7A8BA1183DC044000BBA72 /* SummaryViewController.xib */; };
 		FABA58F4183810A50038FBA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F3183810A50038FBA7 /* Foundation.framework */; };
 		FABA58F6183810A50038FBA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F5183810A50038FBA7 /* CoreGraphics.framework */; };
 		FABA58F8183810A50038FBA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA58F7183810A50038FBA7 /* UIKit.framework */; };
@@ -93,9 +91,6 @@
 		FA7A8B9A183DBD8B000BBA72 /* IncorrectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncorrectViewController.h; sourceTree = "<group>"; };
 		FA7A8B9B183DBD8B000BBA72 /* IncorrectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncorrectViewController.m; sourceTree = "<group>"; };
 		FA7A8B9C183DBD8B000BBA72 /* IncorrectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncorrectViewController.xib; sourceTree = "<group>"; };
-		FA7A8B9F183DC044000BBA72 /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
-		FA7A8BA0183DC044000BBA72 /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
-		FA7A8BA1183DC044000BBA72 /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
 		FABA58F0183810A50038FBA7 /* WaitingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABA58F3183810A50038FBA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FABA58F5183810A50038FBA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -220,9 +215,6 @@
 				FA7A8B83183D9F5C000BBA72 /* ThreeComicViewController.xib */,
 				FA7A8B92183DB06C000BBA72 /* ThreeComicTemplate.h */,
 				FA7A8B93183DB06C000BBA72 /* ThreeComicTemplate.m */,
-				FA7A8B9F183DC044000BBA72 /* SummaryViewController.h */,
-				FA7A8BA0183DC044000BBA72 /* SummaryViewController.m */,
-				FA7A8BA1183DC044000BBA72 /* SummaryViewController.xib */,
 				FABA590E183810A50038FBA7 /* Images.xcassets */,
 				FABA58FA183810A50038FBA7 /* Supporting Files */,
 			);
@@ -339,11 +331,6 @@
 				FA7A8B9E183DBD8B000BBA72 /* IncorrectViewController.xib in Resources */,
 				FABA590F183810A50038FBA7 /* Images.xcassets in Resources */,
 				FA662BCC183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib in Resources */,
-<<<<<<< HEAD
-				FA7A8BA3183DC044000BBA72 /* SummaryViewController.xib in Resources */,
-				FA662BDB183C77E3007E40B2 /* SpanishMenuViewController.xib in Resources */,
-=======
->>>>>>> a1ef9e5bd7fab74bfef9c795d84749a6c26f8bed
 				FA7A8B99183DB0FF000BBA72 /* CorrectViewController.xib in Resources */,
 				FABA592F183811850038FBA7 /* MenuViewController.xib in Resources */,
 				C1A26545183DFBC300CAE795 /* TitleViewController.xib in Resources */,
@@ -382,13 +369,8 @@
 				FA7A8B88183DACB9000BBA72 /* Quiz.m in Sources */,
 				FABA593618381AAA0038FBA7 /* TrueFalseQuestionViewController.m in Sources */,
 				FA7A8B84183D9F5C000BBA72 /* ThreeComicViewController.m in Sources */,
-<<<<<<< HEAD
-				FA662BC6183C6E02007E40B2 /* EnglishSelectViewController.m in Sources */,
-				FA7A8BA2183DC044000BBA72 /* SummaryViewController.m in Sources */,
-=======
 				FA662BC6183C6E02007E40B2 /* SelectViewController.m in Sources */,
 				C1A26544183DFBC300CAE795 /* TitleViewController.m in Sources */,
->>>>>>> a1ef9e5bd7fab74bfef9c795d84749a6c26f8bed
 				FABA592E183811850038FBA7 /* MenuViewController.m in Sources */,
 				FABA5900183810A50038FBA7 /* main.m in Sources */,
 				FA7A8B94183DB06C000BBA72 /* ThreeComicTemplate.m in Sources */,
