@@ -10,10 +10,8 @@
 
 @interface Summary : NSObject
 
-@property (nonatomic) NSString *goodTitle;
 @property (nonatomic) NSString *goodComic;
 @property (nonatomic) NSString *goodDescription;
-@property (nonatomic) NSString *badTitle;
 @property (nonatomic) NSString *badComic;
 @property (nonatomic) NSString *badDescription;
 @property (nonatomic) NSNumber *score;

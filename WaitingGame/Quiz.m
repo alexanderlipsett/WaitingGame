@@ -16,6 +16,8 @@
 
 @implementation Quiz
 
+@synthesize currentQuestion;
+
 -(void)readPlist:(NSString *)quizName
 {
     NSString *pListPath = [[NSBundle mainBundle] pathForResource:quizName ofType:@"plist"];
@@ -154,12 +156,22 @@
     NSString *badSummaryText = [summary objectForKey:@"badSummaryText"];
     NSNumber *threshold = [summary objectForKey:@"goodThreshold"];
     
-    sum.goodTitle
+<<<<<<< HEAD
+    sum.goodTitle;
 
+=======
+    sum.goodComic = goodSummaryImage;
+    sum.badComic = badSummaryImage;
+    sum.goodDescription = goodSummaryText;
+    sum.badDescription = badSummaryText;
+    sum.threshold = threshold;
+    
+    [self.questions addObject:sum];
+>>>>>>> b393df4b4eea5a381f170975a1c2e313eaee8182
     
 }
 
-- (BOOL)quizIsDone:(NSNumber *)currentQuestion
+- (BOOL)quizIsDone
 {
     BOOL done = YES;
     if (currentQuestion != [self totalQuestions])
@@ -167,5 +179,11 @@
         done = NO;
     }
     return done;
+}
+
+- (void)incrementCurrentQuestion
+{
+    int value = [currentQuestion intValue];
+    currentQuestion = [NSNumber numberWithInt:value + 1];
 }
 @end
