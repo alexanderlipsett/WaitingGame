@@ -45,11 +45,32 @@
     
     [self.questionText setText:[self.question questionText]];
     NSArray *options = [self.question options];
-    [self.optionOne setTitle:[options objectAtIndex:0] forState:UIControlStateNormal];
-    [self.optionTwo setTitle:[options objectAtIndex:1] forState:UIControlStateNormal];
-    [self.optionThree setTitle:[options objectAtIndex:2] forState:UIControlStateNormal];
-    [self.optionFour setTitle:[options objectAtIndex:3] forState:UIControlStateNormal];
     
+    if(!self.question.isPictureBased)
+    {
+        [self.optionOne setTitle:[options objectAtIndex:0] forState:UIControlStateNormal];
+        [self.optionTwo setTitle:[options objectAtIndex:1] forState:UIControlStateNormal];
+        [self.optionThree setTitle:[options objectAtIndex:2] forState:UIControlStateNormal];
+        [self.optionFour setTitle:[options objectAtIndex:3] forState:UIControlStateNormal];
+    }
+    else
+    {
+        UIImage *btnImageOne = [UIImage imageNamed:[self.question.options objectAtIndex:0]];
+        [self.optionOne setImage:btnImageOne forState:UIControlStateNormal];
+        [self.optionOne setImage:btnImageOne forState:UIControlStateSelected];
+        
+        UIImage *btnImageTwo = [UIImage imageNamed:[self.question.options objectAtIndex:1]];
+        [self.optionTwo setImage:btnImageTwo forState:UIControlStateNormal];
+        [self.optionTwo setImage:btnImageTwo forState:UIControlStateSelected];
+        
+        UIImage *btnImageThree = [UIImage imageNamed:[self.question.options objectAtIndex:2]];
+        [self.optionThree setImage:btnImageThree forState:UIControlStateNormal];
+        [self.optionThree setImage:btnImageThree forState:UIControlStateSelected];
+        
+        UIImage *btnImageFour = [UIImage imageNamed:[self.question.options objectAtIndex:3]];
+        [self.optionFour setImage:btnImageFour forState:UIControlStateNormal];
+        [self.optionFour setImage:btnImageFour forState:UIControlStateSelected];
+    }
 }
 
 - (void)didReceiveMemoryWarning

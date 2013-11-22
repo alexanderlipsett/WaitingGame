@@ -60,7 +60,18 @@
             
             NSString *incorrectResponse = [question objectForKey:@"incorrectResponse"];
             tfQuest.incorrectResponse = incorrectResponse;
+<<<<<<< HEAD
 
+=======
+            
+            NSString *trueQuestionLabel = [question objectForKey:@"trueQuestionLabel"];
+            tfQuest.trueQuestionLabel = trueQuestionLabel;
+            
+            NSString *falseQuestionLabel = [question objectForKey@"falseQuestionLabel"];
+            tfQuest.falseQuestionLabel = falseQuestionLabel;
+            
+            
+>>>>>>> 73879da0c37eb53df30f2bc2d072839b5e340e3e
             [self.questions addObject:tfQuest];
             NSLog(@"Size of the questions array is: %d", [self.questions count]);
         }

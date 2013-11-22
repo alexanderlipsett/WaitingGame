@@ -38,6 +38,20 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UIImage *comic = [UIImage imageNamed:self.question.comicName];
+    [self.comic setImage:comic];
+    
+    [self.questionText setText:self.question.questionText];
+    [self.trueButton setTitle:self.question.trueQuestionLabel
+                     forState:UIControlStateNormal];
+    [self.trueButton setTitle:self.question.trueQuestionLabel
+                     forState:UIControlStateSelected];
+    
+    [self.falseButton setTitle:self.question.falseQuestionLabel
+                      forState:UIControlStateNormal];
+    [self.falseButton setTitle:self.question.falseQuestionLabel
+                      forState:UIControlStateSelected];
+     
 }
 
 - (void)didReceiveMemoryWarning

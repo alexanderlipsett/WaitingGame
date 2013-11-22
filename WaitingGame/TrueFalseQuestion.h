@@ -15,6 +15,8 @@
 @property (nonatomic) BOOL correctAnswer;
 @property (nonatomic) NSString *correctResponse;
 @property (nonatomic) NSString *incorrectResponse;
+@property (nonatomic) NSString *trueQuestionLabel;
+@property (nonatomic) NSString *falseQuestionLabel;
 
 -(BOOL)submitAnswer:(BOOL) answer;
 -(id)initWithComicName:(NSString *)comicName questionText:(NSString *)questionText correctAnswer:(BOOL)correctAnswer;

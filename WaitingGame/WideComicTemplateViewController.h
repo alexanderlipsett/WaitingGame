@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WideComicTemplate.h"
 
 @interface WideComicTemplateViewController : UIViewController
+
+@property (nonatomic) WideComicTemplate *template;
 @property (strong, nonatomic) IBOutlet UIImageView *comic;
 @property (strong, nonatomic) IBOutlet UILabel *text;
 
