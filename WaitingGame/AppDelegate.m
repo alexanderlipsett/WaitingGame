@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TitleViewController.h"
+#import "MenuViewController.h"
 
 @implementation AppDelegate
 
@@ -16,14 +16,12 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    TitleViewController *titleViewController = [[TitleViewController alloc] initWithNibName:@"TitleViewController"
+    MenuViewController *menuViewController = [[MenuViewController alloc] initWithNibName:@"MenuViewController"
                                                                                   bundle:nil];
-    UINavigationController *rootNavigationController = [[UINavigationController alloc] initWithRootViewController:titleViewController];
+    UINavigationController *rootNavigationController = [[UINavigationController alloc] initWithRootViewController:menuViewController];
     rootNavigationController.navigationBar.hidden = YES;
     [[self window] setRootViewController:rootNavigationController];
     
-    
-   
     [self.window makeKeyAndVisible];
     return YES;
     

@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Quiz.h"
 
 @interface SelectViewController : UIViewController
+
+@property (strong, nonatomic) Quiz *quiz;
 
 -(IBAction)basicMechanismsTapped:(id)sender;
 -(IBAction)preventionTapped:(id)sender;

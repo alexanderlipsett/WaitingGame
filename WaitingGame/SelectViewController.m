@@ -14,6 +14,8 @@
 
 @implementation SelectViewController
 
+@synthesize quiz;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -38,22 +40,26 @@
 
 - (void)basicMechanismsTapped:(id)sender
 {
-    
+    quiz = [[Quiz alloc] init];
+    [quiz addQuestions:basicMechanismPList];
 }
 
 - (void)preventionTapped:(id)sender
 {
-    
+    quiz = [[Quiz alloc] init];
+    [quiz addQuestions:preventionPList];
 }
 
 - (void)treatmentTapped:(id)sender
 {
-    
+    quiz = [[Quiz alloc] init];
+    [quiz addQuestions:treatmentPList];
 }
 
 - (void)potentialComplicationsTapped:(id)sender
 {
-    
+    quiz = [[Quiz alloc] init];
+    [quiz addQuestions:potentialComplicationsPList];
 }
 
 @end

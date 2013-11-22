@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TitleViewController : UIViewController
+@interface QuizTitleViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *beginButton;
 

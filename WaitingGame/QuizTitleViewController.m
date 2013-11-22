@@ -6,14 +6,13 @@
 //  Copyright (c) 2013 Alex Lipsett. All rights reserved.
 //
 
-#import "TitleViewController.h"
-#import "MenuViewController.h"
+#import "QuizTitleViewController.h"
 
-@interface TitleViewController ()
+@interface QuizTitleViewController ()
 
 @end
 
-@implementation TitleViewController
+@implementation QuizTitleViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -42,8 +41,7 @@
 
 - (IBAction)beginButtonTapped:(id)sender
 {
-    MenuViewController *menuViewController = [[MenuViewController alloc] init];
-    [self.navigationController pushViewController:menuViewController animated:YES];
+
 }
 
 @end
