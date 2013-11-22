@@ -30,10 +30,7 @@
 		FA662BCC183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA662BCA183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib */; };
 		FA662BD0183C7797007E40B2 /* CategorizationQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA662BCE183C7797007E40B2 /* CategorizationQuestionViewController.m */; };
 		FA662BD1183C7797007E40B2 /* CategorizationQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA662BCF183C7797007E40B2 /* CategorizationQuestionViewController.xib */; };
-		FA7A8B84183D9F5C000BBA72 /* ThreeComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8B82183D9F5C000BBA72 /* ThreeComicViewController.m */; };
-		FA7A8B85183D9F5C000BBA72 /* ThreeComicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7A8B83183D9F5C000BBA72 /* ThreeComicViewController.xib */; };
 		FA7A8B88183DACB9000BBA72 /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8B87183DACB9000BBA72 /* Quiz.m */; };
-		FA7A8B94183DB06C000BBA72 /* ThreeComicTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8B93183DB06C000BBA72 /* ThreeComicTemplate.m */; };
 		FA7A8B98183DB0FF000BBA72 /* CorrectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8B96183DB0FF000BBA72 /* CorrectViewController.m */; };
 		FA7A8B99183DB0FF000BBA72 /* CorrectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7A8B97183DB0FF000BBA72 /* CorrectViewController.xib */; };
 		FA7A8B9D183DBD8B000BBA72 /* IncorrectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A8B9B183DBD8B000BBA72 /* IncorrectViewController.m */; };
@@ -107,13 +104,8 @@
 		FA662BCD183C7797007E40B2 /* CategorizationQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorizationQuestionViewController.h; sourceTree = "<group>"; };
 		FA662BCE183C7797007E40B2 /* CategorizationQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorizationQuestionViewController.m; sourceTree = "<group>"; };
 		FA662BCF183C7797007E40B2 /* CategorizationQuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategorizationQuestionViewController.xib; sourceTree = "<group>"; };
-		FA7A8B81183D9F5C000BBA72 /* ThreeComicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeComicViewController.h; sourceTree = "<group>"; };
-		FA7A8B82183D9F5C000BBA72 /* ThreeComicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeComicViewController.m; sourceTree = "<group>"; };
-		FA7A8B83183D9F5C000BBA72 /* ThreeComicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeComicViewController.xib; sourceTree = "<group>"; };
 		FA7A8B86183DACB9000BBA72 /* Quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz.h; sourceTree = "<group>"; };
 		FA7A8B87183DACB9000BBA72 /* Quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
-		FA7A8B92183DB06C000BBA72 /* ThreeComicTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeComicTemplate.h; sourceTree = "<group>"; };
-		FA7A8B93183DB06C000BBA72 /* ThreeComicTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeComicTemplate.m; sourceTree = "<group>"; };
 		FA7A8B95183DB0FF000BBA72 /* CorrectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorrectViewController.h; sourceTree = "<group>"; };
 		FA7A8B96183DB0FF000BBA72 /* CorrectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorrectViewController.m; sourceTree = "<group>"; };
 		FA7A8B97183DB0FF000BBA72 /* CorrectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CorrectViewController.xib; sourceTree = "<group>"; };
@@ -242,11 +234,6 @@
 				FA7A8B9A183DBD8B000BBA72 /* IncorrectViewController.h */,
 				FA7A8B9B183DBD8B000BBA72 /* IncorrectViewController.m */,
 				FA7A8B9C183DBD8B000BBA72 /* IncorrectViewController.xib */,
-				FA7A8B81183D9F5C000BBA72 /* ThreeComicViewController.h */,
-				FA7A8B82183D9F5C000BBA72 /* ThreeComicViewController.m */,
-				FA7A8B83183D9F5C000BBA72 /* ThreeComicViewController.xib */,
-				FA7A8B92183DB06C000BBA72 /* ThreeComicTemplate.h */,
-				FA7A8B93183DB06C000BBA72 /* ThreeComicTemplate.m */,
 				FA11F8B8183E9C8A0028FB70 /* SummaryViewController.h */,
 				FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */,
 				FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */,
@@ -393,7 +380,6 @@
 				FA11F8BC183E9C8A0028FB70 /* SummaryViewController.xib in Resources */,
 				C1A26547183DFD3600CAE795 /* Logo.png in Resources */,
 				FA0FF6DE183F3E680013EBFD /* FourPanelComicTemplateViewController.xib in Resources */,
-				FA7A8B85183D9F5C000BBA72 /* ThreeComicViewController.xib in Resources */,
 				FA662BC7183C6E02007E40B2 /* SelectViewController.xib in Resources */,
 				FA662BD1183C7797007E40B2 /* CategorizationQuestionViewController.xib in Resources */,
 				FABA58FE183810A50038FBA7 /* InfoPlist.strings in Resources */,
@@ -430,14 +416,12 @@
 				FABA593618381AAA0038FBA7 /* TrueFalseQuestionViewController.m in Sources */,
 				FA0FF6DC183F3E680013EBFD /* FourPanelComicTemplate.m in Sources */,
 				FA0FF6E3183F50940013EBFD /* Correct.m in Sources */,
-				FA7A8B84183D9F5C000BBA72 /* ThreeComicViewController.m in Sources */,
 				FA662BC6183C6E02007E40B2 /* SelectViewController.m in Sources */,
 				FA11F8BB183E9C8A0028FB70 /* SummaryViewController.m in Sources */,
 				FA0FF6DF183F3E680013EBFD /* WideComicTemplateViewController.m in Sources */,
 				C1A26544183DFBC300CAE795 /* QuizTitleViewController.m in Sources */,
 				FABA592E183811850038FBA7 /* MenuViewController.m in Sources */,
 				FABA5900183810A50038FBA7 /* main.m in Sources */,
-				FA7A8B94183DB06C000BBA72 /* ThreeComicTemplate.m in Sources */,
 				FA7A8B98183DB0FF000BBA72 /* CorrectViewController.m in Sources */,
 				FA3906961839976D00E251E8 /* CategorizationQuestion.m in Sources */,
 			);

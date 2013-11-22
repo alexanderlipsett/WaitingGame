@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Correct.h"
+#import "Quiz.h"
 
 @interface CorrectViewController : UIViewController
-@property (nonatomic) Correct
-@property (strong, nonatomic) IBOutlet UIImageView *image;
+@property (nonatomic)Correct *correct;
+@property (nonatomic)Quiz *quiz;
+@property (strong, nonatomic) IBOutlet UIImageView *comicName;
 @property (strong, nonatomic) IBOutlet UILabel *description;
 
-- (IBAction)nextPressed:(id)sender;
+-(IBAction)nextPressed:(id)sender;
+-(id)initWithCorrectTemplate:(Correct *)correctTemplate andQuiz:(Quiz *)quiz;
+
+
 @end

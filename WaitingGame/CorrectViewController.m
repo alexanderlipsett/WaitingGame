@@ -23,10 +23,24 @@
     return self;
 }
 
+-(id)initWithCorrectTemplate:(Correct *)correctTemplate andQuiz:(Quiz *)quiz
+{
+    self = [super self];
+    if (self)
+    {
+        self.correct = correctTemplate;
+        self.quiz = quiz;
+    }
+    
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [self.description setText:self.correct.description];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,6 +49,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)nextPressed:(id)sender {
+- (IBAction)nextPressed:(id)sender{
+    
 }
 @end

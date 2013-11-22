@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CorrectViewController">
             <connections>
+                <outlet property="comicName" destination="Lx7-n8-BBU" id="jUe-RU-AMJ"/>
                 <outlet property="description" destination="JGT-Xf-oRq" id="uKN-c3-vMp"/>
                 <outlet property="image" destination="Lx7-n8-BBU" id="c0S-Wn-7ec"/>
                 <outlet property="view" destination="2" id="3"/>
@@ -23,7 +24,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lx7-n8-BBU">
-                    <rect key="frame" x="387" y="259" width="250" height="250"/>
+                    <rect key="frame" x="387" y="260" width="250" height="250"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Words words words" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGT-Xf-oRq">
