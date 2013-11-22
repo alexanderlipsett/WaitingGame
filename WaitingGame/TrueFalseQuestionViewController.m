@@ -7,6 +7,8 @@
 //
 
 #import "TrueFalseQuestionViewController.h"
+#import "Correct.h"
+#import "CorrectViewController.h"
 #import "IncorrectViewController.h"
 
 @interface TrueFalseQuestionViewController ()
@@ -108,7 +110,11 @@
     
     if(self.selectedAnswer == self.question.correctAnswer)
     {
-        //load correct view controller, pass along state info if neccessary
+        Correct *correct = [[Correct alloc] init];
+        correct.description = self.question.description;
+        correct.comicName = self.question.comicName;
+        CorrectViewController *correctViewController = [[CorrectViewController alloc] initWithCorrectTemplate:correct andQuiz:self.quiz];
+        [self.navigationController pushViewController:correctViewController animated:YES];
     }
     else
     {

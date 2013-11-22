@@ -10,6 +10,8 @@
 
 @implementation Correct
 
+@synthesize comicName;
+@synthesize description;
 
 
 @end
