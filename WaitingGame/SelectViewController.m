@@ -104,14 +104,14 @@
         {
            FourPanelComicTemplateViewController *panelViewController =
             [[FourPanelComicTemplateViewController alloc]
-             initWithTemplate:(FourPanelComicTemplate *)currentQuestion];
+             initWithTemplate:currentQuestion andQuiz:quiz];
             [self.navigationController pushViewController:panelViewController animated:YES];
         }
         else if ([currentQuestion isKindOfClass:[WideComicTemplate class]])
         {
             WideComicTemplateViewController *panelViewController =
             [[WideComicTemplateViewController alloc]
-             initWithTemplate:(WideComicTemplate *)currentQuestion];
+             initWithTemplate:currentQuestion andQuiz:quiz];
             [self.navigationController pushViewController:panelViewController animated:YES];
         }
         else

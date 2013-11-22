@@ -9,6 +9,6 @@
 
 
 
-@implementation FourPanelComicTemplate
+@implementation FourPanelComicTemplate : NSObject
 
 @end
