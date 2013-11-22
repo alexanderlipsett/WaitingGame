@@ -50,6 +50,8 @@
     [self.questionText setText:[self.question questionText]];
     NSArray *options = [self.question options];
     
+    self.answers = [[NSMutableArray alloc] initWithCapacity:4];
+    
     if(!self.question.isPictureBased)
     {
         [self.option1 setTitle:[options objectAtIndex:0] forState:UIControlStateNormal];
