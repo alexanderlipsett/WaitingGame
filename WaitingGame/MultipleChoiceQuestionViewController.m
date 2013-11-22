@@ -47,10 +47,17 @@
     UIImage *comic = [UIImage imageNamed:self.question.comicName];
     [self.comicName setImage:comic];
     
-    [self.questionText setText:[self.question questionText]];
-    NSArray *options = [self.question options];
+    self.questionText.numberOfLines = 0;
     
-    self.answers = [[NSMutableArray alloc] initWithCapacity:4];
+    [self.questionText setText:[self.question questionText]];
+    NSMutableArray *options = [[NSMutableArray alloc] initWithArray:self.question.options];
+    
+    self.answers = [[NSMutableArray alloc] init];
+   
+    for (NSInteger i = 0; i < 4; ++i)
+    {
+        [self.answers addObject:[NSNumber numberWithBool:NO]];
+    }
     
     if(!self.question.isPictureBased)
     {
@@ -201,7 +208,7 @@
     
 }
 
-- (IBAction)checkButtonPressed:(id)sender
+- (IBAction)nextButtonPressed:(id)sender
 {
 
     if([self.question submitAnswers:self.answers])

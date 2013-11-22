@@ -37,7 +37,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
         
-    [self.description setText:self.incorrect.description];
+    [self.description setText:self.incorrect.text];
+    self.view.backgroundColor = [UIColor orangeColor];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,5 +51,10 @@
 - (IBAction)tryAgainButtonPressed:(id)sender
 {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)mainMenuPressed:(id)sender
+{
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 @end

@@ -39,7 +39,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithRed:244/255.0f green:241/255.0f blue:215/255.0f alpha:1.0f];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -52,7 +51,7 @@
 - (void)basicMechanismsTapped:(id)sender
 {
     quiz = [[Quiz alloc] init];
-    [quiz readPlist:@"sampleQuiz"];
+    [quiz readPlist:@"1. Understanding Diabetes"];
     
     [self presentNextQuestion];
 }
@@ -104,14 +103,14 @@
         {
            FourPanelComicTemplateViewController *panelViewController =
             [[FourPanelComicTemplateViewController alloc]
-             initWithTemplate:currentQuestion andQuiz:quiz];
+             initWithTemplate:(FourPanelComicTemplate *)currentQuestion andQuiz:quiz];
             [self.navigationController pushViewController:panelViewController animated:YES];
         }
         else if ([currentQuestion isKindOfClass:[WideComicTemplate class]])
         {
             WideComicTemplateViewController *panelViewController =
             [[WideComicTemplateViewController alloc]
-             initWithTemplate:currentQuestion andQuiz:quiz];
+             initWithTemplate:(WideComicTemplate *)currentQuestion andQuiz:quiz];
             [self.navigationController pushViewController:panelViewController animated:YES];
         }
         else
@@ -124,6 +123,7 @@
     else
     {
         NSLog(@"Quiz is done!");
+        [self.navigationController popToRootViewControllerAnimated:YES];
     }
 }
 

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>metadata</key>
+	<dict>
+		<key>numberOfQuestions</key>
+		<integer>26</integer>
+		<key>quizTitle</key>
+		<string>1. Understanding Diabetes</string>
+	</dict>
+	<key>question1</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>luisdoc12x.png</string>
+		<key>comicText</key>
+		<string>Doctor: Hi Joey! Do you know what diabetes is?</string>
+	</dict>
+	<key>question2</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>luisdoc12x.png</string>
+		<key>questionText</key>
+		<string>Joey: I think so.  Is it when you have too much _________ in your ________?</string>
+		<key>option1</key>
+		<string>Fat In Your Body?</string>
+		<key>option2</key>
+		<string>Cookies In Your Belly?</string>
+		<key>option3</key>
+		<string>Sugar in Your Blood</string>
+		<key>option4</key>
+		<string>Money in Your Bank Account</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<false/>
+			<true/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>That&apos;s Right! Diabetes results in having too much sugar in the blood.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<false/>
+	</dict>
+	<key>question3</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>luisdoc12x.png</string>
+		<key>questionText</key>
+		<string>Doctor: In medicine and on food labels, a number of words are used that mean sugar.  Which THREE of the following words mean sugar?</string>
+		<key>option1</key>
+		<string>Glucose</string>
+		<key>option2</key>
+		<string>Cholesterol</string>
+		<key>option3</key>
+		<string>Carbohydrates</string>
+		<key>option4</key>
+		<string>Fructose</string>
+		<key>correctAnswers</key>
+		<array>
+			<true/>
+			<false/>
+			<true/>
+			<true/>
+		</array>
+		<key>correctResponse</key>
+		<string>That&apos;s Right! Glucose, Carbohydrates, and Fructose are all words that mean sugars.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<false/>
+	</dict>
+	<key>question4</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>luisdoc12x.png</string>
+		<key>comicText</key>
+		<string>Doctor: Every part of your body needs sugar for energy.  This sugar is constantly traveling in your blood, but your body’s organs will not grab that sugar up without being told.  </string>
+	</dict>
+	<key>question5</key>
+	<dict>
+		<key>questionType</key>
+		<integer>1</integer>
+		<key>comicName</key>
+		<string>talldoc2x.png</string>
+		<key>questionText</key>
+		<string>Doctor: Therefore, our body produces an important chemical called _____  that tells your organs to soak up sugar from the blood.</string>
+		<key>correctAnswer</key>
+		<true/>
+		<key>correctResponse</key>
+		<string>That&apos;s right!</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>trueQuestionLabel</key>
+		<string>Insulin</string>
+		<key>falseQuestionLabel</key>
+		<string>Epinephrine</string>
+	</dict>
+	<key>question6</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>shrink.png</string>
+		<key>comicText</key>
+		<string>Doctor: Luckily for you, I brought my shrink ray!  Let’s go in the body and see if we can see Insulin in action!</string>
+	</dict>
+	<key>question7</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>healthydiet.png</string>
+		<key>comicText</key>
+		<string>Insulin: Eat your sugar!</string>
+	</dict>
+	<key>question8</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>healthydiet.png</string>
+		<key>comicText</key>
+		<string>Organs: Yeah, Ok</string>
+	</dict>
+	<key>question9</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>shrink.png</string>
+		<key>comicText</key>
+		<string>Doctor: If you eat a lot of sugar, you can end up with tons of sugar in your blood.</string>
+	</dict>
+	<key>question10</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>unhealthydiet.png</string>
+		<key>comicText</key>
+		<string>Doctor: After years of high levels of sugar in your blood, your organs will get tired of having to eat so much sugar, and they will stop listening to Insulin!</string>
+	</dict>
+	<key>question11</key>
+	<dict>
+		<key>questionType</key>
+		<integer>1</integer>
+		<key>comicName</key>
+		<string>talldoc.png</string>
+		<key>questionText</key>
+		<string>Doctor: This is how _______ Diabetes works.  It is far more common, and the only type we will focus on today.</string>
+		<key>correctAnswer</key>
+		<false/>
+		<key>correctResponse</key>
+		<string>That&apos;s right! Type II Diabetes is far more common and the only type covered in this program.</string>
+		<key>incorrectResponse</key>
+		<string>Not quite! Try Again!</string>
+		<key>trueQuestionLabel</key>
+		<string>Type I</string>
+		<key>falseQuestionLabel</key>
+		<string>Type II</string>
+	</dict>
+	<key>question12</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>unhealthydiet.png</string>
+		<key>comicText</key>
+		<string>Heart: I&apos;m getting tired of having to eat all this sugar!</string>
+	</dict>
+	<key>question13</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>type2diabetes.png</string>
+		<key>comicText</key>
+		<string>Insulin: Hey guys! Eat your sugar!</string>
+	</dict>
+	<key>question14</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>type2diabetes.png</string>
+		<key>comicText</key>
+		<string>Organs: No!</string>
+	</dict>
+	<key>question15</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>shrink.png</string>
+		<key>comicText</key>
+		<string>Lewis: Yikes!  How do I know how much sugar is in my blood?  Do I need to taste it?</string>
+	</dict>
+	<key>question16</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>luisdoc1.png</string>
+		<key>comicText</key>
+		<string>Doctor: Haha no no.  Using technology, we can measure the amount of sugar in your blood at any time. This number is your Blood Glucose Level.</string>
+	</dict>
+	<key>question17</key>
+	<dict>
+		<key>questionType</key>
+		<integer>1</integer>
+		<key>comicName</key>
+		<string>talldoc.png</string>
+		<key>questionText</key>
+		<string>Doctor: After you eat a meal, your Blood Glucose Level goes ______.</string>
+		<key>correctAnswer</key>
+		<true/>
+		<key>correctResponse</key>
+		<string>That&apos;s right!  Blood glucose rises after meals.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>trueQuestionLabel</key>
+		<string>Up</string>
+		<key>falseQuestionLabel</key>
+		<string>Down</string>
+	</dict>
+	<key>question18</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>shrink.png</string>
+		<key>comicText</key>
+		<string>Doctor: To test for diabetes, we need to test blood sugar long after a meal, because eating causes a rise and fall of blood glucose levels that make measurements inaccurate.  Therefore, we measure at least 8 hours after a meal, which is called “Fasting Blood Glucose”.</string>
+	</dict>
+	<key>question19</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>luisdoc1.png</string>
+		<key>questionText</key>
+		<string>Doctor: Doctors will also check for blood levels of a protein called A1C.  A1C is nice because it tells us your average blood glucose levels  ______.</string>
+		<key>option1</key>
+		<string>For the Past 3 Months</string>
+		<key>option2</key>
+		<string>Since You Were Born</string>
+		<key>option3</key>
+		<string>After A Meal</string>
+		<key>option4</key>
+		<string>In Airplanes</string>
+		<key>correctAnswers</key>
+		<array>
+			<true/>
+			<false/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>That&apos;s Right! A1C shows us your average blood glucose for the last 3 months.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<false/>
+	</dict>
+	<key>question20</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>luisdoc1.png</string>
+		<key>comicText</key>
+		<string>Doctor: Think of A1C as standing for “Allows 1 to See” into the past, since it tells us about the past 3 months.</string>
+	</dict>
+	<key>question21</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>luisdoc1.png</string>
+		<key>comicText</key>
+		<string>Joey: Yikes!  I don’t want to get Diabetes!  How do I know if I have it?</string>
+	</dict>
+	<key>question22</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>shrink.png</string>
+		<key>comicText</key>
+		<string>Doctor: Well luckily, kids do not usually get Type II Diabetes.  It takes years to develop and usually affects adults over the age of 45.  Unfortunately though, with the rise of obesity in children, we have begun to see a few kids get Diabetes!</string>
+	</dict>
+	<key>question23</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>shrink.png</string>
+		<key>comicText</key>
+		<string>Doctor: Let’s go look at someone who does not know they have Diabetes but is beginning to show the first signs!</string>
+	</dict>
+	<key>question24</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>june.png</string>
+		<key>questionText</key>
+		<string>This poor fella is starting to show the first signs of Diabetes.  What might she be saying?</string>
+		<key>option1</key>
+		<string>I have to pee a lot.</string>
+		<key>option2</key>
+		<string>I am always tired.</string>
+		<key>option3</key>
+		<string>I have been losing weight lately without trying.</string>
+		<key>option4</key>
+		<string>I am really thirsty all the time.</string>
+		<key>correctAnswers</key>
+		<array>
+			<true/>
+			<true/>
+			<true/>
+			<true/>
+		</array>
+		<key>correctResponse</key>
+		<string>That&apos;s Right! Those were all early signs that an individual might have diabetes and should go meet a doctor.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<false/>
+	</dict>
+	<key>question25</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>shrink.png</string>
+		<key>comicText</key>
+		<string>Joey: Thanks for showing me around Doc!</string>
+	</dict>
+	<key>question26</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>luisdoc1.png</string>
+		<key>comicText</key>
+		<string>Joey: Wait... you remembered to bring the Unshrink Ray, right?</string>
+	</dict>
+</dict>
+</plist>

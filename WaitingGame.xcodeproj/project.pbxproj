@@ -22,6 +22,36 @@
 		FA0FF6DF183F3E680013EBFD /* WideComicTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0FF6DA183F3E680013EBFD /* WideComicTemplateViewController.m */; };
 		FA0FF6E0183F3E680013EBFD /* WideComicTemplateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6DB183F3E680013EBFD /* WideComicTemplateViewController.xib */; };
 		FA0FF6E3183F50940013EBFD /* Correct.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0FF6E2183F50940013EBFD /* Correct.m */; };
+		FA0FF6E6183FBBC00013EBFD /* 2. Preventing Diabetes.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6E4183FBBC00013EBFD /* 2. Preventing Diabetes.plist */; };
+		FA0FF6E7183FBBC00013EBFD /* 1. Understanding Diabetes.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6E5183FBBC00013EBFD /* 1. Understanding Diabetes.plist */; };
+		FA0FF6F9183FBD690013EBFD /* running2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6E8183FBD690013EBFD /* running2x.png */; };
+		FA0FF6FA183FBD690013EBFD /* running.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6E9183FBD690013EBFD /* running.png */; };
+		FA0FF6FB183FBD690013EBFD /* june2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6EA183FBD690013EBFD /* june2x.png */; };
+		FA0FF6FC183FBD690013EBFD /* type2diabetes2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6EB183FBD690013EBFD /* type2diabetes2x.png */; };
+		FA0FF6FD183FBD690013EBFD /* type2diabetes.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6EC183FBD690013EBFD /* type2diabetes.png */; };
+		FA0FF6FE183FBD690013EBFD /* yearslater2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6ED183FBD690013EBFD /* yearslater2x.png */; };
+		FA0FF6FF183FBD690013EBFD /* yearslater.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6EE183FBD690013EBFD /* yearslater.png */; };
+		FA0FF700183FBD690013EBFD /* unhealthydiet2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6EF183FBD690013EBFD /* unhealthydiet2x.png */; };
+		FA0FF701183FBD690013EBFD /* unhealthydiet.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6F0183FBD690013EBFD /* unhealthydiet.png */; };
+		FA0FF702183FBD690013EBFD /* healthydiet2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6F1183FBD690013EBFD /* healthydiet2x.png */; };
+		FA0FF703183FBD690013EBFD /* healthydiet.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6F2183FBD690013EBFD /* healthydiet.png */; };
+		FA0FF704183FBD690013EBFD /* shrink2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6F3183FBD690013EBFD /* shrink2x.png */; };
+		FA0FF705183FBD690013EBFD /* shrink.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6F4183FBD690013EBFD /* shrink.png */; };
+		FA0FF706183FBD690013EBFD /* talldoc2x(2).png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6F5183FBD690013EBFD /* talldoc2x(2).png */; };
+		FA0FF707183FBD690013EBFD /* talldoc.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6F6183FBD690013EBFD /* talldoc.png */; };
+		FA0FF708183FBD690013EBFD /* luisdoc1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6F7183FBD690013EBFD /* luisdoc1.png */; };
+		FA0FF709183FBD690013EBFD /* luisdoc12x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6F8183FBD690013EBFD /* luisdoc12x.png */; };
+		FA0FF70B183FBEA90013EBFD /* talldoc2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF70A183FBEA90013EBFD /* talldoc2x.png */; };
+		FA0FF70D183FC0BD0013EBFD /* june.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF70C183FC0BD0013EBFD /* june.png */; };
+		FA0FF710183FC9860013EBFD /* frownie.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF70E183FC9850013EBFD /* frownie.png */; };
+		FA0FF711183FC9860013EBFD /* frownie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF70F183FC9850013EBFD /* frownie@2x.png */; };
+		FA0FF714183FCA4F0013EBFD /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF712183FCA4F0013EBFD /* smiley.png */; };
+		FA0FF715183FCA4F0013EBFD /* smiley@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF713183FCA4F0013EBFD /* smiley@2x.png */; };
+		FA0FF717183FCFF10013EBFD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF716183FCFF10013EBFD /* icon.png */; };
+		FA0FF71A183FD0A00013EBFD /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF718183FD0A00013EBFD /* icon1.png */; };
+		FA0FF71B183FD0A00013EBFD /* icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF719183FD0A00013EBFD /* icon1@2x.png */; };
+		FA0FF71E183FD11F0013EBFD /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF71C183FD11F0013EBFD /* icon2.png */; };
+		FA0FF71F183FD11F0013EBFD /* icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF71D183FD11F0013EBFD /* icon2@2x.png */; };
 		FA11F8BB183E9C8A0028FB70 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */; };
 		FA11F8BC183E9C8A0028FB70 /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */; };
 		FA39069318398F9A00E251E8 /* MultipleChoiceQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39069218398F9A00E251E8 /* MultipleChoiceQuestion.m */; };
@@ -92,6 +122,36 @@
 		FA0FF6DB183F3E680013EBFD /* WideComicTemplateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WideComicTemplateViewController.xib; sourceTree = "<group>"; };
 		FA0FF6E1183F50940013EBFD /* Correct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Correct.h; sourceTree = "<group>"; };
 		FA0FF6E2183F50940013EBFD /* Correct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Correct.m; sourceTree = "<group>"; };
+		FA0FF6E4183FBBC00013EBFD /* 2. Preventing Diabetes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "2. Preventing Diabetes.plist"; sourceTree = "<group>"; };
+		FA0FF6E5183FBBC00013EBFD /* 1. Understanding Diabetes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "1. Understanding Diabetes.plist"; sourceTree = "<group>"; };
+		FA0FF6E8183FBD690013EBFD /* running2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = running2x.png; sourceTree = "<group>"; };
+		FA0FF6E9183FBD690013EBFD /* running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = running.png; sourceTree = "<group>"; };
+		FA0FF6EA183FBD690013EBFD /* june2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = june2x.png; sourceTree = "<group>"; };
+		FA0FF6EB183FBD690013EBFD /* type2diabetes2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type2diabetes2x.png; sourceTree = "<group>"; };
+		FA0FF6EC183FBD690013EBFD /* type2diabetes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type2diabetes.png; sourceTree = "<group>"; };
+		FA0FF6ED183FBD690013EBFD /* yearslater2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yearslater2x.png; sourceTree = "<group>"; };
+		FA0FF6EE183FBD690013EBFD /* yearslater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yearslater.png; sourceTree = "<group>"; };
+		FA0FF6EF183FBD690013EBFD /* unhealthydiet2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unhealthydiet2x.png; sourceTree = "<group>"; };
+		FA0FF6F0183FBD690013EBFD /* unhealthydiet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unhealthydiet.png; sourceTree = "<group>"; };
+		FA0FF6F1183FBD690013EBFD /* healthydiet2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healthydiet2x.png; sourceTree = "<group>"; };
+		FA0FF6F2183FBD690013EBFD /* healthydiet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healthydiet.png; sourceTree = "<group>"; };
+		FA0FF6F3183FBD690013EBFD /* shrink2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shrink2x.png; sourceTree = "<group>"; };
+		FA0FF6F4183FBD690013EBFD /* shrink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shrink.png; sourceTree = "<group>"; };
+		FA0FF6F5183FBD690013EBFD /* talldoc2x(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talldoc2x(2).png"; sourceTree = "<group>"; };
+		FA0FF6F6183FBD690013EBFD /* talldoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talldoc.png; sourceTree = "<group>"; };
+		FA0FF6F7183FBD690013EBFD /* luisdoc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luisdoc1.png; sourceTree = "<group>"; };
+		FA0FF6F8183FBD690013EBFD /* luisdoc12x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luisdoc12x.png; sourceTree = "<group>"; };
+		FA0FF70A183FBEA90013EBFD /* talldoc2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talldoc2x.png; sourceTree = "<group>"; };
+		FA0FF70C183FC0BD0013EBFD /* june.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = june.png; sourceTree = "<group>"; };
+		FA0FF70E183FC9850013EBFD /* frownie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frownie.png; sourceTree = "<group>"; };
+		FA0FF70F183FC9850013EBFD /* frownie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frownie@2x.png"; sourceTree = "<group>"; };
+		FA0FF712183FCA4F0013EBFD /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
+		FA0FF713183FCA4F0013EBFD /* smiley@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smiley@2x.png"; sourceTree = "<group>"; };
+		FA0FF716183FCFF10013EBFD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FA0FF718183FD0A00013EBFD /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		FA0FF719183FD0A00013EBFD /* icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@2x.png"; sourceTree = "<group>"; };
+		FA0FF71C183FD11F0013EBFD /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		FA0FF71D183FD11F0013EBFD /* icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2@2x.png"; sourceTree = "<group>"; };
 		FA11F8B8183E9C8A0028FB70 /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
 		FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
 		FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
@@ -202,12 +262,12 @@
 		FABA58F9183810A50038FBA7 /* WaitingGame */ = {
 			isa = PBXGroup;
 			children = (
-				C1A2654A183F763B00CAE795 /* Rugrats2.jpg */,
 				FABA5902183810A50038FBA7 /* AppDelegate.h */,
 				FABA5903183810A50038FBA7 /* AppDelegate.m */,
 				FABA592B183811850038FBA7 /* MenuViewController.h */,
 				FABA592C183811850038FBA7 /* MenuViewController.m */,
 				FABA592D183811850038FBA7 /* MenuViewController.xib */,
+				FA0FF716183FCFF10013EBFD /* icon.png */,
 				FA662BC3183C6E02007E40B2 /* SelectViewController.h */,
 				FA662BC4183C6E02007E40B2 /* SelectViewController.m */,
 				FA662BC5183C6E02007E40B2 /* SelectViewController.xib */,
@@ -268,6 +328,36 @@
 		FABA58FA183810A50038FBA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA0FF718183FD0A00013EBFD /* icon1.png */,
+				FA0FF719183FD0A00013EBFD /* icon1@2x.png */,
+				FA0FF71C183FD11F0013EBFD /* icon2.png */,
+				FA0FF71D183FD11F0013EBFD /* icon2@2x.png */,
+				C1A2654A183F763B00CAE795 /* Rugrats2.jpg */,
+				FA0FF6E4183FBBC00013EBFD /* 2. Preventing Diabetes.plist */,
+				FA0FF6E5183FBBC00013EBFD /* 1. Understanding Diabetes.plist */,
+				FA0FF70C183FC0BD0013EBFD /* june.png */,
+				FA0FF70E183FC9850013EBFD /* frownie.png */,
+				FA0FF70F183FC9850013EBFD /* frownie@2x.png */,
+				FA0FF6E8183FBD690013EBFD /* running2x.png */,
+				FA0FF6E9183FBD690013EBFD /* running.png */,
+				FA0FF712183FCA4F0013EBFD /* smiley.png */,
+				FA0FF713183FCA4F0013EBFD /* smiley@2x.png */,
+				FA0FF6EA183FBD690013EBFD /* june2x.png */,
+				FA0FF6EB183FBD690013EBFD /* type2diabetes2x.png */,
+				FA0FF6EC183FBD690013EBFD /* type2diabetes.png */,
+				FA0FF6ED183FBD690013EBFD /* yearslater2x.png */,
+				FA0FF6EE183FBD690013EBFD /* yearslater.png */,
+				FA0FF6EF183FBD690013EBFD /* unhealthydiet2x.png */,
+				FA0FF6F0183FBD690013EBFD /* unhealthydiet.png */,
+				FA0FF6F1183FBD690013EBFD /* healthydiet2x.png */,
+				FA0FF6F2183FBD690013EBFD /* healthydiet.png */,
+				FA0FF6F3183FBD690013EBFD /* shrink2x.png */,
+				FA0FF6F4183FBD690013EBFD /* shrink.png */,
+				FA0FF6F5183FBD690013EBFD /* talldoc2x(2).png */,
+				FA0FF70A183FBEA90013EBFD /* talldoc2x.png */,
+				FA0FF6F6183FBD690013EBFD /* talldoc.png */,
+				FA0FF6F7183FBD690013EBFD /* luisdoc1.png */,
+				FA0FF6F8183FBD690013EBFD /* luisdoc12x.png */,
 				C1A26548183F6FB200CAE795 /* Rugrats.jpg */,
 				C1A26546183DFD3600CAE795 /* Logo.png */,
 				FABA58FB183810A50038FBA7 /* WaitingGame-Info.plist */,
@@ -344,6 +434,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Alex Lipsett";
 				TargetAttributes = {
+					FABA58EF183810A50038FBA7 = {
+						DevelopmentTeam = 4NZP92642L;
+					};
 					FABA5913183810A50038FBA7 = {
 						TestTargetID = FABA58EF183810A50038FBA7;
 					};
@@ -374,23 +467,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7A8B9E183DBD8B000BBA72 /* IncorrectViewController.xib in Resources */,
+				FA0FF6FE183FBD690013EBFD /* yearslater2x.png in Resources */,
 				FABA590F183810A50038FBA7 /* Images.xcassets in Resources */,
 				FA662BCC183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib in Resources */,
+				FA0FF71F183FD11F0013EBFD /* icon2@2x.png in Resources */,
+				FA0FF714183FCA4F0013EBFD /* smiley.png in Resources */,
+				FA0FF703183FBD690013EBFD /* healthydiet.png in Resources */,
+				FA0FF70B183FBEA90013EBFD /* talldoc2x.png in Resources */,
 				C1A2654B183F763B00CAE795 /* Rugrats2.jpg in Resources */,
+				FA0FF71A183FD0A00013EBFD /* icon1.png in Resources */,
+				FA0FF702183FBD690013EBFD /* healthydiet2x.png in Resources */,
+				FA0FF70D183FC0BD0013EBFD /* june.png in Resources */,
 				FA7A8B99183DB0FF000BBA72 /* CorrectViewController.xib in Resources */,
+				FA0FF6FB183FBD690013EBFD /* june2x.png in Resources */,
+				FA0FF705183FBD690013EBFD /* shrink.png in Resources */,
+				FA0FF711183FC9860013EBFD /* frownie@2x.png in Resources */,
+				FA0FF71E183FD11F0013EBFD /* icon2.png in Resources */,
 				FAABFD69183F3589005F6644 /* sampleQuiz.plist in Resources */,
 				FA0FF6D3183F38420013EBFD /* TitleViewController.xib in Resources */,
+				FA0FF71B183FD0A00013EBFD /* icon1@2x.png in Resources */,
 				C1A26549183F6FB200CAE795 /* Rugrats.jpg in Resources */,
+				FA0FF6F9183FBD690013EBFD /* running2x.png in Resources */,
+				FA0FF6FD183FBD690013EBFD /* type2diabetes.png in Resources */,
 				FABA592F183811850038FBA7 /* MenuViewController.xib in Resources */,
+				FA0FF6FF183FBD690013EBFD /* yearslater.png in Resources */,
 				C1A26545183DFBC300CAE795 /* QuizTitleViewController.xib in Resources */,
 				FA0FF6E0183F3E680013EBFD /* WideComicTemplateViewController.xib in Resources */,
+				FA0FF708183FBD690013EBFD /* luisdoc1.png in Resources */,
+				FA0FF700183FBD690013EBFD /* unhealthydiet2x.png in Resources */,
 				FABA593718381AAA0038FBA7 /* TrueFalseQuestionViewController.xib in Resources */,
 				FA11F8BC183E9C8A0028FB70 /* SummaryViewController.xib in Resources */,
 				C1A26547183DFD3600CAE795 /* Logo.png in Resources */,
+				FA0FF717183FCFF10013EBFD /* icon.png in Resources */,
+				FA0FF709183FBD690013EBFD /* luisdoc12x.png in Resources */,
+				FA0FF6E6183FBBC00013EBFD /* 2. Preventing Diabetes.plist in Resources */,
+				FA0FF701183FBD690013EBFD /* unhealthydiet.png in Resources */,
+				FA0FF704183FBD690013EBFD /* shrink2x.png in Resources */,
+				FA0FF707183FBD690013EBFD /* talldoc.png in Resources */,
 				FA0FF6DE183F3E680013EBFD /* FourPanelComicTemplateViewController.xib in Resources */,
+				FA0FF710183FC9860013EBFD /* frownie.png in Resources */,
+				FA0FF706183FBD690013EBFD /* talldoc2x(2).png in Resources */,
 				FA662BC7183C6E02007E40B2 /* SelectViewController.xib in Resources */,
 				FA662BD1183C7797007E40B2 /* CategorizationQuestionViewController.xib in Resources */,
+				FA0FF6FA183FBD690013EBFD /* running.png in Resources */,
+				FA0FF715183FCA4F0013EBFD /* smiley@2x.png in Resources */,
+				FA0FF6FC183FBD690013EBFD /* type2diabetes2x.png in Resources */,
 				FABA58FE183810A50038FBA7 /* InfoPlist.strings in Resources */,
+				FA0FF6E7183FBBC00013EBFD /* 1. Understanding Diabetes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,10 +675,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WaitingGame/WaitingGame-Prefix.pch";
 				INFOPLIST_FILE = "WaitingGame/WaitingGame-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -566,10 +692,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WaitingGame/WaitingGame-Prefix.pch";
 				INFOPLIST_FILE = "WaitingGame/WaitingGame-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};

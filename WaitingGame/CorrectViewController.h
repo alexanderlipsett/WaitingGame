@@ -18,5 +18,6 @@
 -(IBAction)nextPressed:(id)sender;
 -(id)initWithCorrectTemplate:(Correct *)correctTemplate andQuiz:(Quiz *)quiz;
 
+- (IBAction)mainMenuPressed:(id)sender;
 
 @end

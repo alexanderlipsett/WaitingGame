@@ -78,6 +78,8 @@
             NSLog(@"Multiple Choice question");
             MultipleChoiceQuestion *mcQuest = [[MultipleChoiceQuestion alloc] init];
             
+            mcQuest.options = [[NSMutableArray alloc] initWithCapacity:4];
+            
             NSString *comicName = [question objectForKey:@"comicName"];
             mcQuest.comicName = comicName;
             
@@ -168,7 +170,7 @@
         }
 
     }
-    
+    /*
     NSDictionary *summary = [quiz objectForKey:@"summary"];
     
     Summary *sum = [[Summary alloc] init];
@@ -188,7 +190,7 @@
     sum.threshold = threshold;
     
     [self.questions addObject:sum];
-    
+    */
 }
 
 - (BOOL)quizIsDone

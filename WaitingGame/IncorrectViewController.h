@@ -19,5 +19,6 @@
 -(id)initWithIncorrectTemplate:(Incorrect *)incorrect;
 
 
+- (IBAction)mainMenuPressed:(id)sender;
 
 @end

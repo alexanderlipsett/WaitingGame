@@ -48,12 +48,19 @@
     return self;
 }
 
+- (IBAction)mainMenuPressed:(id)sender {
+    
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
+    self.description.numberOfLines = 0;
     [self.description setText:self.correct.text];
+    self.view.backgroundColor = [UIColor greenColor];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -117,6 +124,7 @@
     else
     {
         NSLog(@"Quiz is done!");
+        [self.navigationController popToRootViewControllerAnimated:YES];
     }
 }
 

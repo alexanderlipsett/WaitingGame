@@ -45,6 +45,7 @@
     UIImage *comic = [UIImage imageNamed:self.question.comicName];
     [self.comic setImage:comic];
     
+    self.questionText.numberOfLines = 0;
     [self.questionText setText:self.question.questionText];
     [self.trueButton setTitle:self.question.trueQuestionLabel
                      forState:UIControlStateNormal];
@@ -111,7 +112,7 @@
     if(self.selectedAnswer == self.question.correctAnswer)
     {
         Correct *correct = [[Correct alloc] init];
-        correct.text = self.question.description;
+        correct.text = self.question.correctResponse;
         CorrectViewController *correctViewController = [[CorrectViewController alloc] initWithCorrectTemplate:correct andQuiz:self.quiz];
         [self.navigationController pushViewController:correctViewController animated:YES];
     }

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>metadata</key>
+	<dict>
+		<key>numberOfQuestions</key>
+		<integer>27</integer>
+		<key>quizTitle</key>
+		<string>2. Preventing Diabetes</string>
+	</dict>
+	<key>question1</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Jane and Doc</string>
+		<key>comicText</key>
+		<string>Doctor: So you already know that Diabetes is when there is too much sugar in the blood. Do you understand what causes it?</string>
+	</dict>
+	<key>question2</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Jane and Doc</string>
+		<key>comicText</key>
+		<string>Jane: Well I heard my grandma got diabetes from having a big scare. (El susto)  She almost got hit by a bus!</string>
+	</dict>
+	<key>question3</key>
+	<dict>
+		<key>questionType</key>
+		<integer>1</integer>
+		<key>comicName</key>
+		<string>Jane Alone</string>
+		<key>questionText</key>
+		<string>Jane:Do you think that is how she got diabetes?</string>
+		<key>correctAnswer</key>
+		<false/>
+		<key>correctResponse</key>
+		<string>That&apos;s Correct!</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>trueQuestionLabel</key>
+		<string>That would do it!</string>
+		<key>falseQuestionLabel</key>
+		<string>Not exactly...</string>
+	</dict>
+	<key>question4</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Jane and Doc</string>
+		<key>comicText</key>
+		<string>Doctor: It is true that stress can cause more sugar to be in your blood, and that longterm stress can help cause diabetes.</string>
+	</dict>
+	<key>question5</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Jane and Doc</string>
+		<key>comicText</key>
+		<string>Doctor: It is true that stress can cause more sugar to be in your blood, and that longterm stress can help cause diabetes. So for example, if your grandma worked a stressful job for years, then that could have helped cause her Diabetes.</string>
+	</dict>
+	<key>question6</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Jane and Doc</string>
+		<key>comicText</key>
+		<string>Doctor: One single stressful event, like your Grandma and the bus, though, would not be enough to cause Diabetes.</string>
+	</dict>
+	<key>question7</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Jane and Doc</string>
+		<key>comicText</key>
+		<string>Doctor: Stress can play a role, but Diet and Exercise are the most important factors that can lead to Diabetes.</string>
+	</dict>
+	<key>question8</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Jane and Doc</string>
+		<key>comicText</key>
+		<string>Doctor: Being overweight places you at high risk for developing diabetes.</string>
+	</dict>
+	<key>question9</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Doc with Chart, pointing to top</string>
+		<key>questionText</key>
+		<string>Doctor: All food contains calories.  Do you know what the word &quot;Calories&quot; means exactly?</string>
+		<key>option1</key>
+		<string>How Many Preservatives Are in a Food</string>
+		<key>option2</key>
+		<string>How Much Energy Is in a Food</string>
+		<key>option3</key>
+		<string>How Much It Fills You Up</string>
+		<key>option4</key>
+		<string>How Tasty Something Is</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<true/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>That&apos;s right!  Calories represent how much energy a food has.</string>
+		<key>incorrectResponse</key>
+		<string>Nope! Try Again!</string>
+		<key>isPictureBased</key>
+		<false/>
+	</dict>
+	<key>question10</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Doc with Chart, pointing to top</string>
+		<key>comicText</key>
+		<string>Doctor: Our body needs that energy to work...</string>
+	</dict>
+	<key>question11</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Doc with Chart, pointing to top</string>
+		<key>comicText</key>
+		<string>Doctor: Our body needs that energy to work...\nBut we have to be careful to not give it too much.</string>
+	</dict>
+	<key>question12</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Doc with Chart, pointing to MIDDLE</string>
+		<key>comicText</key>
+		<string>Doctor: Our body absorbs the calories that are in the food we eat, and then a lot of that energy is used for exercise.</string>
+	</dict>
+	<key>question13</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Doc with Chart, pointing to MIDDLE</string>
+		<key>comicText</key>
+		<string>Doctor: The more exercise we do, the more calories we burn!</string>
+	</dict>
+	<key>question14</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Doc with Chart, pointing to BOTTOM w Question Mark</string>
+		<key>questionText</key>
+		<string>Doctor: What happens to the leftover energy/calories that we eat buy our body does not use?</string>
+		<key>option1</key>
+		<string>It come out as sweat.</string>
+		<key>option2</key>
+		<string>We burp it out.</string>
+		<key>option3</key>
+		<string>It turns into fat.</string>
+		<key>option4</key>
+		<string>We pee and poop it out.</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<false/>
+			<true/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>Yep! It gets stored as fat.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<false/>
+	</dict>
+	<key>question15</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Doc with Chart, pointing to Bottom w &quot;FAT&quot; written there</string>
+		<key>comicText</key>
+		<string>Doctor: Over months and years, this gaining of fat causes someone to first become overweight and then become obese.</string>
+	</dict>
+	<key>question16</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Doc with Chart, pointing to Bottom w &quot;FAT&quot; written there</string>
+		<key>comicText</key>
+		<string>Doctor: Remember, being overweight or obese places you at high risk for developing diabetes.</string>
+	</dict>
+	<key>question17</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Doc with Chart, pointing to BOTTOM w Question Mark</string>
+		<key>questionText</key>
+		<string>Doctor: What are the TWO keys to preventing the weight gain and losing weight?</string>
+		<key>option1</key>
+		<string>Eating Less Calories</string>
+		<key>option2</key>
+		<string>Drinking More Water</string>
+		<key>option3</key>
+		<string>Exercising More</string>
+		<key>option4</key>
+		<string>Talking Louder</string>
+		<key>correctAnswers</key>
+		<array>
+			<true/>
+			<false/>
+			<true/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>Yep! It gets stored as fat.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<false/>
+	</dict>
+	<key>question18</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Doc with Chart, pointing to TOP</string>
+		<key>comicText</key>
+		<string>Doctor: Let&apos;s go over what kind of food can fill your stomach without being high in calories!</string>
+	</dict>
+	<key>question19</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of:</string>
+		<key>questionText</key>
+		<string>BREAD</string>
+		<key>option1</key>
+		<string>bread1.png</string>
+		<key>option2</key>
+		<string>bread2.png</string>
+		<key>option3</key>
+		<string>bread3.png</string>
+		<key>option4</key>
+		<string>bread4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<true/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>You got it!  Each piece of bread is about 100 calories.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question20</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of:</string>
+		<key>questionText</key>
+		<string>CARROTS</string>
+		<key>option1</key>
+		<string>carrots1.png</string>
+		<key>option2</key>
+		<string>carrots2.png</string>
+		<key>option3</key>
+		<string>carrots3.png</string>
+		<key>option4</key>
+		<string>carrots4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<true/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>You got it!  Each piece of bread is about 100 calories.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question21</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of:</string>
+		<key>questionText</key>
+		<string>Pizza</string>
+		<key>option1</key>
+		<string>pizza1.png</string>
+		<key>option2</key>
+		<string>pizza2.png</string>
+		<key>option3</key>
+		<string>pizza3.png</string>
+		<key>option4</key>
+		<string>pizza4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<true/>
+			<false/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>Yep!  Sadly, pizza is commonly about 300 calories per slice.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question22</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of:</string>
+		<key>questionText</key>
+		<string>APPLES</string>
+		<key>option1</key>
+		<string>apples1.png</string>
+		<key>option2</key>
+		<string>apples2.png</string>
+		<key>option3</key>
+		<string>apples3.png</string>
+		<key>option4</key>
+		<string>apples4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<false/>
+			<false/>
+			<true/>
+		</array>
+		<key>correctResponse</key>
+		<string>That&apos;s right. That was a picture of 2 apples sliced up, and each apple is about 100 calories.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again...</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question23</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of:</string>
+		<key>questionText</key>
+		<string>Candy</string>
+		<key>option1</key>
+		<string>candy1.png</string>
+		<key>option2</key>
+		<string>candy2.png</string>
+		<key>option3</key>
+		<string>candy3.png</string>
+		<key>option4</key>
+		<string>candy4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<false/>
+			<true/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>You got it!  One pack of this candy (1.5 oz) is 230 calories.</string>
+		<key>incorrectResponse</key>
+		<string>We got you!  Try again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question24</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of </string>
+		<key>questionText</key>
+		<string>Bean and Cheese Burrito</string>
+		<key>option1</key>
+		<string>burrito1.png</string>
+		<key>option2</key>
+		<string>burrito2.png</string>
+		<key>option3</key>
+		<string>burrito3.png</string>
+		<key>option4</key>
+		<string>burrito4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<true/>
+			<false/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>You got it!  Each burrito is over 400 calories!</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question25</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of </string>
+		<key>questionText</key>
+		<string>Green Beans</string>
+		<key>option1</key>
+		<string>greens1.png</string>
+		<key>option2</key>
+		<string>greens2.png</string>
+		<key>option3</key>
+		<string>greens3.png</string>
+		<key>option4</key>
+		<string>greens4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<false/>
+			<false/>
+			<true/>
+		</array>
+		<key>correctResponse</key>
+		<string>Yeah!  A whopping 680 grams (6 cups) of green beans only have 200 calores!</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question26</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of </string>
+		<key>questionText</key>
+		<string>Tortilla Chips</string>
+		<key>option1</key>
+		<string>chips1.png</string>
+		<key>option2</key>
+		<string>chips2.png</string>
+		<key>option3</key>
+		<string>chips3.png</string>
+		<key>option4</key>
+		<string>chips4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<true/>
+			<false/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>You got it!  Sadly, just 14 tortilla chips is 200 calories!</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question27</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of </string>
+		<key>questionText</key>
+		<string>Fast Food Cheeseburger</string>
+		<key>option1</key>
+		<string>burger1.png</string>
+		<key>option2</key>
+		<string>burger2.png</string>
+		<key>option3</key>
+		<string>burger3.png</string>
+		<key>option4</key>
+		<string>burger4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<true/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>Correct!  Just one fast food cheeseburger has 520 calories!</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question28</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of </string>
+		<key>questionText</key>
+		<string>Orange Juice, Undiluted</string>
+		<key>option1</key>
+		<string>juice1.png</string>
+		<key>option2</key>
+		<string>juice2.png</string>
+		<key>option3</key>
+		<string>juice3.png</string>
+		<key>option4</key>
+		<string>juice4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<true/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>Yeah, juice can be deceptive!  Every 8oz of juice has 100 calories.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question29</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of </string>
+		<key>questionText</key>
+		<string>Light Beer</string>
+		<key>option1</key>
+		<string>light1.png</string>
+		<key>option2</key>
+		<string>light2.png</string>
+		<key>option3</key>
+		<string>light3.png</string>
+		<key>option4</key>
+		<string>light4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<true/>
+			<false/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>Yep!  One and a half 12 oz cans of light beers is 200 calories.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question30</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Select the plate with 200 calories worth of </string>
+		<key>questionText</key>
+		<string>Heavy Beer, IPA</string>
+		<key>option1</key>
+		<string>heavy1.png</string>
+		<key>option2</key>
+		<string>heavy2.png</string>
+		<key>option3</key>
+		<string>heavy3.png</string>
+		<key>option4</key>
+		<string>heavy4.png</string>
+		<key>correctAnswers</key>
+		<array>
+			<true/>
+			<false/>
+			<false/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>Correct!  Just one 12 oz heavy beer is about 200 calories.</string>
+		<key>incorrectResponse</key>
+		<string>Try Again!</string>
+		<key>isPictureBased</key>
+		<true/>
+	</dict>
+	<key>question31</key>
+	<dict>
+		<key>questionType</key>
+		<integer>5</integer>
+		<key>comicName</key>
+		<string>Guy on Treadmill</string>
+		<key>comicText</key>
+		<string>With unhealthy foods like candy, some people may be able to eat 200 calories is just one bite!  Unfortunately, it takes a lot longer to work off those calories in fat.</string>
+	</dict>
+	<key>question32</key>
+	<dict>
+		<key>questionType</key>
+		<integer>2</integer>
+		<key>comicName</key>
+		<string>Guy on Treadmill</string>
+		<key>questionText</key>
+		<string>How long would it take a 200 pound person to burn 200 calories by WALKING at a Stroll</string>
+		<key>option1</key>
+		<string>5 Minutes</string>
+		<key>option2</key>
+		<string>20 Minutes</string>
+		<key>option3</key>
+		<string>45 Minutes</string>
+		<key>option4</key>
+		<string>An Hour and a Half</string>
+		<key>correctAnswers</key>
+		<array>
+			<false/>
+			<false/>
+			<true/>
+			<false/>
+		</array>
+		<key>correctResponse</key>
+		<string>Yep!  In order to burn 200 calories by walking slowly, a 200 pound person would have to </string>
+		<key>incorrectResponse</key>
+		<string>Nope! Try Again!</string>
+		<key>isPictureBased</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

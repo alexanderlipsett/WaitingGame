@@ -27,6 +27,7 @@
 - (IBAction)optionTwoPressed:(id)sender;
 - (IBAction)optionThreePressed:(id)sender;
 - (IBAction)optionFourPressed:(id)sender;
+- (IBAction)nextButtonPressed:(id)sender;
 
 -(id)initWithQuestion:(MultipleChoiceQuestion *)question andQuiz:(Quiz *)quiz;
 

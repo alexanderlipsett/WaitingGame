@@ -57,6 +57,8 @@
     UIImage *comicImage = [UIImage imageNamed:self.template.comicName];
     [self.comic setImage:comicImage];
     
+    self.text.numberOfLines = 0;
+    
     [self.text setText:self.template.text];
     
     
@@ -116,6 +118,7 @@
     else
     {
         NSLog(@"Quiz is done!");
+        [self.navigationController popToRootViewControllerAnimated:YES];
     }
 }
 

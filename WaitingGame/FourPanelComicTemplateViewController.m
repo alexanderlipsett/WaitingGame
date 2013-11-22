@@ -117,6 +117,7 @@
     else
     {
         NSLog(@"Quiz is done!");
+        [self.navigationController popToRootViewControllerAnimated:YES];
     }
 }
 
