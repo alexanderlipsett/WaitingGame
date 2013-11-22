@@ -160,6 +160,8 @@
     sum.badDescription = badSummaryText;
     sum.threshold = threshold;
     
+    [self.questions addObject:sum];
+    
 }
 
 - (BOOL)quizIsDone:(NSNumber *)currentQuestion
