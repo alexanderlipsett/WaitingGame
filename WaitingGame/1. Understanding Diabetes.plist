@@ -314,9 +314,9 @@
 		<key>questionType</key>
 		<integer>2</integer>
 		<key>comicName</key>
-		<string>june.png</string>
+		<string>Bob2.png</string>
 		<key>questionText</key>
-		<string>This poor fella is starting to show the first signs of Diabetes.  What might she be saying?</string>
+		<string>This poor fella is starting to show the first signs of Diabetes.  What might he be saying?</string>
 		<key>option1</key>
 		<string>I have to pee a lot.</string>
 		<key>option2</key>

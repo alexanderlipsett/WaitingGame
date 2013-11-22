@@ -52,6 +52,7 @@
 		FA0FF71B183FD0A00013EBFD /* icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF719183FD0A00013EBFD /* icon1@2x.png */; };
 		FA0FF71E183FD11F0013EBFD /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF71C183FD11F0013EBFD /* icon2.png */; };
 		FA0FF71F183FD11F0013EBFD /* icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF71D183FD11F0013EBFD /* icon2@2x.png */; };
+		FA0FF721183FE73D0013EBFD /* Bob2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF720183FE73D0013EBFD /* Bob2.png */; };
 		FA11F8BB183E9C8A0028FB70 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */; };
 		FA11F8BC183E9C8A0028FB70 /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */; };
 		FA39069318398F9A00E251E8 /* MultipleChoiceQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39069218398F9A00E251E8 /* MultipleChoiceQuestion.m */; };
@@ -152,6 +153,7 @@
 		FA0FF719183FD0A00013EBFD /* icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@2x.png"; sourceTree = "<group>"; };
 		FA0FF71C183FD11F0013EBFD /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
 		FA0FF71D183FD11F0013EBFD /* icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2@2x.png"; sourceTree = "<group>"; };
+		FA0FF720183FE73D0013EBFD /* Bob2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bob2.png; sourceTree = "<group>"; };
 		FA11F8B8183E9C8A0028FB70 /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
 		FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
 		FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 				FA662BC8183C74D5007E40B2 /* MultipleChoiceQuestionViewController.h */,
 				FA662BC9183C74D5007E40B2 /* MultipleChoiceQuestionViewController.m */,
 				FA662BCA183C74D5007E40B2 /* MultipleChoiceQuestionViewController.xib */,
+				FA0FF720183FE73D0013EBFD /* Bob2.png */,
 				FA0FF6CA183F38420013EBFD /* Incorrect.h */,
 				FA0FF6CB183F38420013EBFD /* Incorrect.m */,
 				FA7A8B9A183DBD8B000BBA72 /* IncorrectViewController.h */,
@@ -291,7 +294,6 @@
 				FA0FF6E1183F50940013EBFD /* Correct.h */,
 				FA0FF6E2183F50940013EBFD /* Correct.m */,
 				FA7A8B95183DB0FF000BBA72 /* CorrectViewController.h */,
-				FA7A8B96183DB0FF000BBA72 /* CorrectViewController.m */,
 				FA7A8B97183DB0FF000BBA72 /* CorrectViewController.xib */,
 				FA0FF6D4183F3E680013EBFD /* FourPanelComicTemplate.h */,
 				FA0FF6D5183F3E680013EBFD /* FourPanelComicTemplate.m */,
@@ -328,6 +330,7 @@
 		FABA58FA183810A50038FBA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA7A8B96183DB0FF000BBA72 /* CorrectViewController.m */,
 				FA0FF718183FD0A00013EBFD /* icon1.png */,
 				FA0FF719183FD0A00013EBFD /* icon1@2x.png */,
 				FA0FF71C183FD11F0013EBFD /* icon2.png */,
@@ -485,6 +488,7 @@
 				FA0FF71E183FD11F0013EBFD /* icon2.png in Resources */,
 				FAABFD69183F3589005F6644 /* sampleQuiz.plist in Resources */,
 				FA0FF6D3183F38420013EBFD /* TitleViewController.xib in Resources */,
+				FA0FF721183FE73D0013EBFD /* Bob2.png in Resources */,
 				FA0FF71B183FD0A00013EBFD /* icon1@2x.png in Resources */,
 				C1A26549183F6FB200CAE795 /* Rugrats.jpg in Resources */,
 				FA0FF6F9183FBD690013EBFD /* running2x.png in Resources */,
