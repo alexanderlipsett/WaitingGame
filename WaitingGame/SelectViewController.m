@@ -38,7 +38,7 @@
 
 - (void)basicMechanismsTapped:(id)sender
 {
-    
+    Quiz *newQuiz = 
 }
 
 - (void)preventionTapped:(id)sender

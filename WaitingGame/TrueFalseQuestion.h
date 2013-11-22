@@ -13,7 +13,8 @@
 @property (nonatomic) NSString *comicName;
 @property (nonatomic) NSString *questionText;
 @property (nonatomic) BOOL correctAnswer;
-
+@property (nonatomic) NSString *correctResponse;
+@property (nonatomic) NSString *incorrectResponse;
 
 -(BOOL)submitAnswer:(BOOL) answer;
 -(id)initWithComicName:(NSString *)comicName questionText:(NSString *)questionText correctAnswer:(BOOL)correctAnswer;

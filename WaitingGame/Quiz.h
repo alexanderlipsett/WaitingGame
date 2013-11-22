@@ -10,8 +10,11 @@
 
 @interface Quiz : NSObject
 
-@property NSArray *questions;
+@property NSMutableArray *questions;
+@property NSNumber *currentQuestion;
+@property NSNumber *totalQuestions;
+@property NSString *quizTitle;
 
--(void)addQuestions:(NSString *) quizName;
+-(void)readPlist:(NSString *)quizName;
 
 @end

@@ -124,11 +124,11 @@
 	<dict>
 		<key>questionType</key>
 		<integer>5</integer>
-		<key>comicOne</key>
+		<key>comic1</key>
 		<string>multicomic1.jpg</string>
-		<key>comicTwo</key>
+		<key>comic2</key>
 		<string>multicomic2.jpg</string>
-		<key>comicThree</key>
+		<key>comic3</key>
 		<string>multicomic3.jpg</string>
 	</dict>
 	<key>summary</key>

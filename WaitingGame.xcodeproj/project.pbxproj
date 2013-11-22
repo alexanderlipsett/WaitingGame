@@ -46,6 +46,8 @@
 		FABA5932183817520038FBA7 /* TrueFalseQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FABA5931183817520038FBA7 /* TrueFalseQuestion.m */; };
 		FABA593618381AAA0038FBA7 /* TrueFalseQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABA593418381AAA0038FBA7 /* TrueFalseQuestionViewController.m */; };
 		FABA593718381AAA0038FBA7 /* TrueFalseQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABA593518381AAA0038FBA7 /* TrueFalseQuestionViewController.xib */; };
+		FAFCCF37183EFD3D00C40B07 /* Summary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFCCF36183EFD3D00C40B07 /* Summary.m */; };
+		FAFCCF3A183EFDF900C40B07 /* Incorrect.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFCCF39183EFDF900C40B07 /* Incorrect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +119,10 @@
 		FABA593318381AAA0038FBA7 /* TrueFalseQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueFalseQuestionViewController.h; sourceTree = "<group>"; };
 		FABA593418381AAA0038FBA7 /* TrueFalseQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueFalseQuestionViewController.m; sourceTree = "<group>"; };
 		FABA593518381AAA0038FBA7 /* TrueFalseQuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrueFalseQuestionViewController.xib; sourceTree = "<group>"; };
+		FAFCCF35183EFD3D00C40B07 /* Summary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Summary.h; sourceTree = "<group>"; };
+		FAFCCF36183EFD3D00C40B07 /* Summary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Summary.m; sourceTree = "<group>"; };
+		FAFCCF38183EFDF900C40B07 /* Incorrect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Incorrect.h; sourceTree = "<group>"; };
+		FAFCCF39183EFDF900C40B07 /* Incorrect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Incorrect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +185,10 @@
 				FA11F8B8183E9C8A0028FB70 /* SummaryViewController.h */,
 				FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */,
 				FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */,
+				FAFCCF35183EFD3D00C40B07 /* Summary.h */,
+				FAFCCF38183EFDF900C40B07 /* Incorrect.h */,
+				FAFCCF39183EFDF900C40B07 /* Incorrect.m */,
+				FAFCCF36183EFD3D00C40B07 /* Summary.m */,
 				FABA5902183810A50038FBA7 /* AppDelegate.h */,
 				FABA5903183810A50038FBA7 /* AppDelegate.m */,
 				C1A26541183DFBC300CAE795 /* TitleViewController.h */,
@@ -302,6 +312,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Alex Lipsett";
 				TargetAttributes = {
+					FABA58EF183810A50038FBA7 = {
+						DevelopmentTeam = 4NZP92642L;
+					};
 					FABA5913183810A50038FBA7 = {
 						TestTargetID = FABA58EF183810A50038FBA7;
 					};
@@ -371,12 +384,14 @@
 				FA39069318398F9A00E251E8 /* MultipleChoiceQuestion.m in Sources */,
 				FA7A8B88183DACB9000BBA72 /* Quiz.m in Sources */,
 				FABA593618381AAA0038FBA7 /* TrueFalseQuestionViewController.m in Sources */,
+				FAFCCF37183EFD3D00C40B07 /* Summary.m in Sources */,
 				FA7A8B84183D9F5C000BBA72 /* ThreeComicViewController.m in Sources */,
 				FA662BC6183C6E02007E40B2 /* SelectViewController.m in Sources */,
 				FA11F8BB183E9C8A0028FB70 /* SummaryViewController.m in Sources */,
 				C1A26544183DFBC300CAE795 /* TitleViewController.m in Sources */,
 				FABA592E183811850038FBA7 /* MenuViewController.m in Sources */,
 				FABA5900183810A50038FBA7 /* main.m in Sources */,
+				FAFCCF3A183EFDF900C40B07 /* Incorrect.m in Sources */,
 				FA7A8B94183DB06C000BBA72 /* ThreeComicTemplate.m in Sources */,
 				FA7A8B98183DB0FF000BBA72 /* CorrectViewController.m in Sources */,
 				FA3906961839976D00E251E8 /* CategorizationQuestion.m in Sources */,
@@ -500,10 +515,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WaitingGame/WaitingGame-Prefix.pch";
 				INFOPLIST_FILE = "WaitingGame/WaitingGame-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -514,10 +532,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WaitingGame/WaitingGame-Prefix.pch";
 				INFOPLIST_FILE = "WaitingGame/WaitingGame-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
