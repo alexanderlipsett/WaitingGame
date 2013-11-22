@@ -154,8 +154,11 @@
     NSString *badSummaryText = [summary objectForKey:@"badSummaryText"];
     NSNumber *threshold = [summary objectForKey:@"goodThreshold"];
     
-    sum.goodTitle
-
+    sum.goodComic = goodSummaryImage;
+    sum.badComic = badSummaryImage;
+    sum.goodDescription = goodSummaryText;
+    sum.badDescription = badSummaryText;
+    sum.threshold = threshold;
     
 }
 
