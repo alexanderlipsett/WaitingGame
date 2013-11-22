@@ -103,6 +103,9 @@
 
 -(IBAction)checkPressed:(id)sender
 {
+    NSLog(@"The selected answer is: %d", self.selectedAnswer);
+    NSLog(@"The correct answer is: %d", self.question.correctAnswer);
+    
     if(self.selectedAnswer == self.question.correctAnswer)
     {
         //load correct view controller, pass along state info if neccessary
