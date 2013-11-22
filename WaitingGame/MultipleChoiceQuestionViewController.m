@@ -54,6 +54,7 @@
         [self.optionThree setTitle:[options objectAtIndex:2] forState:UIControlStateNormal];
         [self.optionFour setTitle:[options objectAtIndex:3] forState:UIControlStateNormal];
     }
+    
     else
     {
         UIImage *btnImageOne = [UIImage imageNamed:[self.question.options objectAtIndex:0]];
