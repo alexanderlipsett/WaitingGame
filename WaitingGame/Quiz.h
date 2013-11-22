@@ -16,5 +16,5 @@
 @property NSString *quizTitle;
 
 -(void)readPlist:(NSString *)quizName;
-
+-(BOOL)quizIsDone:(NSNumber *)currentQuestion;
 @end
