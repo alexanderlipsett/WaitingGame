@@ -85,7 +85,7 @@
 {
     if(!self.falseButton.selected)
     {
-        [self.falseButton setSelected:NO];
+        [self.falseButton setSelected:YES];
         self.selectedAnswer = NO;
         if(self.trueButton.selected)
         {
