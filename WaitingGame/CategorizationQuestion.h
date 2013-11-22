@@ -13,7 +13,8 @@
 @property (strong, nonatomic) NSString *comicName;
 @property (strong, nonatomic) NSString *questionText;
 @property (strong, nonatomic) NSDictionary *options;
-
+@property (nonatomic) NSString *correctResponse;
+@property (nonatomic) NSString *incorrectResponse;
 
 -(id)initWithComicName:(NSString *)comicName questionText:(NSString *)comicText options:(NSDictionary *)options;
 

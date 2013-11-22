@@ -13,8 +13,10 @@
 @property (nonatomic, strong) NSString *comicName;
 @property (nonatomic, strong) NSString *questionText;
 @property (nonatomic, strong) NSArray *options;
-@property (nonatomic) NSArray *answers;
+@property (nonatomic) NSMutableArray *answers;
 @property (nonatomic) BOOL isPictureBased;
+@property (nonatomic) NSString *correctResponse;
+@property (nonatomic) NSString *incorrectResponse;
 
 
 -(BOOL)submitAnswers:(NSArray *)answers;
