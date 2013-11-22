@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) NSString *comicName;
 @property (nonatomic, strong) NSString *questionText;
-@property (nonatomic, strong) NSArray *options;
+@property (nonatomic, strong) NSMutableArray *options;
 @property (nonatomic) NSMutableArray *answers;
 @property (nonatomic) BOOL isPictureBased;
 @property (nonatomic) NSString *correctResponse;

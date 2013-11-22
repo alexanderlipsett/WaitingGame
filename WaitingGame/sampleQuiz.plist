@@ -5,7 +5,7 @@
 	<key>metadata</key>
 	<dict>
 		<key>numberOfQuestions</key>
-		<integer>5</integer>
+		<integer>4</integer>
 		<key>quizTitle</key>
 		<string>Sample Quiz</string>
 	</dict>
@@ -43,7 +43,7 @@
 		<key>correctAnswers</key>
 		<array>
 			<true/>
-			<false/>
+			<true/>
 			<false/>
 			<false/>
 		</array>
@@ -62,33 +62,36 @@
 		<string>testcomic3.jpg</string>
 		<key>questionText</key>
 		<string>test3</string>
-		<key>option1</key>
+		<key>options</key>
 		<dict>
-			<key>option</key>
-			<string>word1</string>
-			<key>answer</key>
-			<false/>
-		</dict>
-		<key>option2</key>
-		<dict>
-			<key>option</key>
-			<string>word2</string>
-			<key>answer</key>
-			<true/>
-		</dict>
-		<key>option3</key>
-		<dict>
-			<key>option</key>
-			<string>word3</string>
-			<key>answer</key>
-			<false/>
-		</dict>
-		<key>option4</key>
-		<dict>
-			<key>option</key>
-			<string>word4</string>
-			<key>answer</key>
-			<true/>
+			<key>option1</key>
+			<dict>
+				<key>text</key>
+				<string>one</string>
+				<key>answer</key>
+				<true/>
+			</dict>
+			<key>option2</key>
+			<dict>
+				<key>text</key>
+				<string>two</string>
+				<key>answer</key>
+				<false/>
+			</dict>
+			<key>option3</key>
+			<dict>
+				<key>text</key>
+				<string>three</string>
+				<key>answer</key>
+				<false/>
+			</dict>
+			<key>option4</key>
+			<dict>
+				<key>text</key>
+				<string>four</string>
+				<key>answer</key>
+				<true/>
+			</dict>
 		</dict>
 		<key>correctAnswer</key>
 		<integer>1</integer>
@@ -101,40 +104,32 @@
 	<dict>
 		<key>questionType</key>
 		<integer>4</integer>
-		<key>comicName</key>
-		<string>testComic4.jpg</string>
-		<key>questionText</key>
-		<string>question4</string>
-		<key>option1</key>
-		<string>option1.jpg</string>
-		<key>option2</key>
-		<string>option2.jpg</string>
-		<key>option3</key>
-		<string>option3.jpg</string>
-		<key>option4</key>
-		<string>option4.jpg</string>
-		<key>correctAnswer</key>
-		<integer>1</integer>
-		<key>correctResponse</key>
-		<string>Nice work ace.</string>
-		<key>incorrectResponse</key>
-		<string>Better luck next time, slugger.</string>
-	</dict>
-	<key>question5</key>
-	<dict>
-		<key>questionType</key>
-		<integer>5</integer>
 		<key>comic1</key>
 		<string>multicomic1.jpg</string>
 		<key>comic2</key>
 		<string>multicomic2.jpg</string>
 		<key>comic3</key>
 		<string>multicomic3.jpg</string>
+		<key>comic4</key>
+		<string>multicomic4.jpg</string>
+	</dict>
+	<key>question5</key>
+	<dict>
+		<key>questionType</key>
+		<string>5</string>
+		<key>comicName</key>
+		<string>widecomic.jpg</string>
+		<key>comicText</key>
+		<string>words words words words words</string>
 	</dict>
 	<key>summary</key>
 	<dict>
 		<key>goodSummaryImage</key>
 		<string>goodSummaryImage.jpg</string>
+		<key>goodSummaryTitle</key>
+		<string>Good Work!</string>
+		<key>badSummaryTitle</key>
+		<string>Oh no!</string>
 		<key>badSummaryImage</key>
 		<string>badSummaryImage.jpg</string>
 		<key>goodSummaryText</key>
