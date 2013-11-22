@@ -10,4 +10,6 @@
 
 @implementation Incorrect
 
+@synthesize text;
+
 @end

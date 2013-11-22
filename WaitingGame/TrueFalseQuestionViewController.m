@@ -111,7 +111,7 @@
     if(self.selectedAnswer == self.question.correctAnswer)
     {
         Correct *correct = [[Correct alloc] init];
-        correct.description = self.question.description;
+        correct.text = self.question.description;
         CorrectViewController *correctViewController = [[CorrectViewController alloc] initWithCorrectTemplate:correct andQuiz:self.quiz];
         [self.navigationController pushViewController:correctViewController animated:YES];
     }

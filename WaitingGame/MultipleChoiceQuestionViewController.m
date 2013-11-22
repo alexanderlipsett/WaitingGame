@@ -44,34 +44,37 @@
 {
     [super viewDidLoad];
     
+    UIImage *comic = [UIImage imageNamed:self.question.comicName];
+    [self.comicName setImage:comic];
+    
     [self.questionText setText:[self.question questionText]];
     NSArray *options = [self.question options];
     
     if(!self.question.isPictureBased)
     {
-        [self.optionOne setTitle:[options objectAtIndex:0] forState:UIControlStateNormal];
-        [self.optionTwo setTitle:[options objectAtIndex:1] forState:UIControlStateNormal];
-        [self.optionThree setTitle:[options objectAtIndex:2] forState:UIControlStateNormal];
-        [self.optionFour setTitle:[options objectAtIndex:3] forState:UIControlStateNormal];
+        [self.option1 setTitle:[options objectAtIndex:0] forState:UIControlStateNormal];
+        [self.option2 setTitle:[options objectAtIndex:1] forState:UIControlStateNormal];
+        [self.option3 setTitle:[options objectAtIndex:2] forState:UIControlStateNormal];
+        [self.option4 setTitle:[options objectAtIndex:3] forState:UIControlStateNormal];
     }
     
     else
     {
         UIImage *btnImageOne = [UIImage imageNamed:[self.question.options objectAtIndex:0]];
-        [self.optionOne setImage:btnImageOne forState:UIControlStateNormal];
-        [self.optionOne setImage:btnImageOne forState:UIControlStateSelected];
+        [self.option1 setImage:btnImageOne forState:UIControlStateNormal];
+        [self.option1 setImage:btnImageOne forState:UIControlStateSelected];
         
         UIImage *btnImageTwo = [UIImage imageNamed:[self.question.options objectAtIndex:1]];
-        [self.optionTwo setImage:btnImageTwo forState:UIControlStateNormal];
-        [self.optionTwo setImage:btnImageTwo forState:UIControlStateSelected];
+        [self.option2 setImage:btnImageTwo forState:UIControlStateNormal];
+        [self.option2 setImage:btnImageTwo forState:UIControlStateSelected];
         
         UIImage *btnImageThree = [UIImage imageNamed:[self.question.options objectAtIndex:2]];
-        [self.optionThree setImage:btnImageThree forState:UIControlStateNormal];
-        [self.optionThree setImage:btnImageThree forState:UIControlStateSelected];
+        [self.option3 setImage:btnImageThree forState:UIControlStateNormal];
+        [self.option3 setImage:btnImageThree forState:UIControlStateSelected];
         
         UIImage *btnImageFour = [UIImage imageNamed:[self.question.options objectAtIndex:3]];
-        [self.optionFour setImage:btnImageFour forState:UIControlStateNormal];
-        [self.optionFour setImage:btnImageFour forState:UIControlStateSelected];
+        [self.option4 setImage:btnImageFour forState:UIControlStateNormal];
+        [self.option4 setImage:btnImageFour forState:UIControlStateSelected];
     }
 }
 
@@ -81,7 +84,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)optionOnePressed:(id)sender
+-(IBAction)optionOnePressed:(id)sender
 {
     /*
     if ([question submitAnswer:0] == NO)
@@ -96,21 +99,21 @@
     }
     */
     
-    if (!self.optionOne.isSelected)
+    if (!self.option1.isSelected)
     {
-        [self.optionOne setSelected:YES];
+        [self.option1 setSelected:YES];
         [self.answers  insertObject:[NSNumber numberWithBool:YES] atIndex:0];
         
     }
     else
     {
-        [self.optionOne setSelected:NO];
+        [self.option1 setSelected:NO];
         [self.answers replaceObjectAtIndex:0 withObject:[NSNumber numberWithBool:NO]];
     }
     
 }
 
-- (void)optionTwoPressed:(id)sender
+- (IBAction)optionTwoPressed:(id)sender
 {
     /*
     if ([question submitAnswer:1] == NO)
@@ -125,20 +128,20 @@
     }
      */
     
-    if (!self.optionTwo.isSelected)
+    if (!self.option2.isSelected)
     {
-        [self.optionTwo setSelected:YES];
+        [self.option2 setSelected:YES];
         [self.answers insertObject:[NSNumber numberWithBool:YES] atIndex:1];
         
     }
     else
     {
-        [self.optionTwo setSelected:NO];
+        [self.option2 setSelected:NO];
         [self.answers replaceObjectAtIndex:1 withObject:[NSNumber numberWithBool:NO]];
     }
 }
 
-- (void)optionThreePressed:(id)sender
+- (IBAction)optionThreePressed:(id)sender
 {
     
     /*
@@ -154,20 +157,20 @@
     }
      */
     
-    if (!self.optionThree.isSelected)
+    if (!self.option3.isSelected)
     {
-        [self.optionThree setSelected:YES];
+        [self.option3 setSelected:YES];
         [self.answers insertObject:[NSNumber numberWithBool:YES] atIndex:2];
     }
     
     else
     {
-        [self.optionThree setSelected:NO];
+        [self.option3 setSelected:NO];
         [self.answers replaceObjectAtIndex:2 withObject:[NSNumber numberWithBool:NO]];
     }
 }
 
-- (void)optionFourPressed:(id)sender
+- (IBAction)optionFourPressed:(id)sender
 {
     /*
     if ([question submitAnswer:0] == NO)
@@ -182,14 +185,14 @@
     }
      */
     
-    if (!self.optionFour.isSelected)
+    if (!self.option4.isSelected)
     {
-        [self.optionFour setSelected:YES];
+        [self.option4 setSelected:YES];
         [self.answers insertObject:[NSNumber numberWithBool:YES] atIndex:3];
     }
     else
     {
-        [self.optionFour setSelected:NO];
+        [self.option4 setSelected:NO];
         [self.answers replaceObjectAtIndex:3 withObject:[NSNumber numberWithBool:NO]];
     }
     
@@ -202,7 +205,7 @@
     if([self.question submitAnswers:self.answers])
     {
         Correct *correct = [[Correct alloc] init];
-        correct.description = self.question.correctResponse;
+        correct.text = self.question.correctResponse;
         CorrectViewController *correctViewController = [[CorrectViewController alloc] initWithCorrectTemplate:correct
                                                                                                       andQuiz:self.quiz];
         [self.navigationController pushViewController:correctViewController animated:YES];
@@ -211,7 +214,7 @@
     else
     {
         Incorrect *incorrect = [[Incorrect alloc] init];
-        incorrect.description = self.question.incorrectResponse;
+        incorrect.text = self.question.incorrectResponse;
         
         IncorrectViewController *incorrectViewController = [[IncorrectViewController alloc] initWithIncorrectTemplate:incorrect];
         [self.navigationController pushViewController:incorrectViewController animated:YES];

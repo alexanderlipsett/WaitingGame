@@ -10,6 +10,6 @@
 
 @interface Correct : NSObject
 
-@property (nonatomic) NSString *description;
+@property (nonatomic) NSString *text;
 
 @end

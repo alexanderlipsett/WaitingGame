@@ -10,7 +10,7 @@
 
 @implementation Correct
 
-@synthesize description;
+@synthesize text;
 
 
 @end

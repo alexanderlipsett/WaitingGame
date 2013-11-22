@@ -6,12 +6,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MultipleChoiceQuestionViewController">
             <connections>
-                <outlet property="nextButtonPressed" destination="k1L-Ya-9HO" id="hfo-yE-ZCZ"/>
-                <outlet property="optionFour" destination="ruy-Yb-e1d" id="1oY-ai-CZt"/>
-                <outlet property="optionOne" destination="hfl-a7-4o0" id="mau-zG-5w0"/>
-                <outlet property="optionThree" destination="SgE-Os-dEI" id="lux-1K-fXQ"/>
-                <outlet property="optionTwo" destination="akT-9K-Pmc" id="6GO-fN-kOl"/>
-                <outlet property="questionText" destination="jKt-Px-sPB" id="64L-Bn-Qkg"/>
+                <outlet property="comicName" destination="B9h-Ux-yPy" id="FTB-eQ-Awp"/>
+                <outlet property="option1" destination="hfl-a7-4o0" id="BtP-u1-5x2"/>
+                <outlet property="option2" destination="akT-9K-Pmc" id="Xm7-pE-KuM"/>
+                <outlet property="option3" destination="SgE-Os-dEI" id="sGW-iU-c9N"/>
+                <outlet property="option4" destination="ruy-Yb-e1d" id="tTj-zy-S20"/>
+                <outlet property="questionText" destination="jKt-Px-sPB" id="X5r-jS-8K9"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>
@@ -21,54 +21,54 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B9h-Ux-yPy">
-                    <rect key="frame" x="162" y="59" width="700" height="350"/>
+                    <rect key="frame" x="20" y="20" width="984" height="492"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKt-Px-sPB">
-                    <rect key="frame" x="412" y="431" width="201" height="47"/>
+                    <rect key="frame" x="412" y="546" width="201" height="47"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfl-a7-4o0">
-                    <rect key="frame" x="84" y="579" width="55" height="30"/>
+                    <rect key="frame" x="83" y="617" width="55" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Option1">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="optionOnePressed:" destination="-1" eventType="touchUpInside" id="4Re-7p-Xik"/>
+                        <action selector="optionOnePressed:" destination="-1" eventType="touchUpInside" id="fal-X4-Jkw"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akT-9K-Pmc">
-                    <rect key="frame" x="373" y="579" width="55" height="30"/>
+                    <rect key="frame" x="334" y="617" width="55" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Option2">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="optionTwoPressed:" destination="-1" eventType="touchUpInside" id="LCU-bc-f2m"/>
+                        <action selector="optionTwoPressed:" destination="-1" eventType="touchUpInside" id="l82-f5-7Yp"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgE-Os-dEI">
-                    <rect key="frame" x="658" y="579" width="55" height="30"/>
+                    <rect key="frame" x="643" y="617" width="55" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Option3">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="optionThreePressed:" destination="-1" eventType="touchUpInside" id="Vy3-iv-e7F"/>
+                        <action selector="optionThreePressed:" destination="-1" eventType="touchUpInside" id="iTc-RS-MiH"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ruy-Yb-e1d">
-                    <rect key="frame" x="898" y="579" width="55" height="30"/>
+                    <rect key="frame" x="900" y="617" width="55" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Option4">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="optionFourPressed:" destination="-1" eventType="touchUpInside" id="xx3-bQ-jpd"/>
+                        <action selector="optionFourPressed:" destination="-1" eventType="touchUpInside" id="D4s-SU-vyM"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1L-Ya-9HO">
@@ -77,9 +77,6 @@
                     <state key="normal" title="Check >">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <connections>
-                        <action selector="checkButtonPressed:" destination="-1" eventType="touchUpInside" id="R60-8h-eQI"/>
-                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
