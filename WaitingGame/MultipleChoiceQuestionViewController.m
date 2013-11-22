@@ -198,13 +198,15 @@
 
 - (IBAction)checkButtonPressed:(id)sender
 {
+
     if([self.question submitAnswers:self.answers])
     {
         //move to correct view controller, pass along state info
     }
     else
     {
-        //move to incorrect view, pass along state info
+        IncorrectViewController *incorrectViewController = [[IncorrectViewController alloc] init];
+        [self.navigationController pushViewController:incorrectViewController animated:YES];
     }
 }
 

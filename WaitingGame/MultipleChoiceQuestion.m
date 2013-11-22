@@ -26,7 +26,7 @@
     }
 }
 
--(id)initWithComicName:(NSString *)comicName questionText:(NSString *)questionText options:(NSArray *)options answers:(NSArray *)answers isPictureBased:(BOOL)pics
+-(id)initWithComicName:(NSString *)comicName questionText:(NSString *)questionText options:(NSMutableArray *)options answers:(NSMutableArray *)answers isPictureBased:(BOOL)pics
 {
     self = [super init];
     

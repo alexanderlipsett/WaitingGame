@@ -8,13 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "WideComicTemplate.h"
+#import "Quiz.h"
 
 @interface WideComicTemplateViewController : UIViewController
 
+@property (nonatomic) Quiz *quiz;
 @property (nonatomic) WideComicTemplate *template;
 @property (strong, nonatomic) IBOutlet UIImageView *comic;
 @property (strong, nonatomic) IBOutlet UILabel *text;
 
 - (IBAction)nextPressed:(id)sender;
--(id)initWithTemplate:(WideComicTemplate *)template;
+-(id)initWithTemplate:(WideComicTemplate *)template andQuiz:(Quiz *)quiz;
 @end
