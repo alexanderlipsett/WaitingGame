@@ -19,11 +19,12 @@
 @property (nonatomic) IBOutlet UIButton *optionFour;
 @property (nonatomic) NSMutableArray *answers;
 
+-(id)initWithQuestion:(MultipleChoiceQuestion *)question;
 -(IBAction)optionOnePressed:(id)sender;
 -(IBAction)optionTwoPressed:(id)sender;
 -(IBAction)optionThreePressed:(id)sender;
 -(IBAction)optionFourPressed:(id)sender;
-- (IBAction)checkButtonPressed:(id)sender;
+-(IBAction)checkButtonPressed:(id)sender;
 
 
 @end

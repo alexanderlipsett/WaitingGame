@@ -23,6 +23,17 @@
     return self;
 }
 
+-(id)initWithQuestion:(TrueFalseQuestion *)question
+{
+    self = [super self];
+    if (self)
+    {
+        self.question = question;
+    }
+    
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -35,4 +46,55 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(IBAction)truePressed:(id)sender
+{
+    if (!self.trueButton.selected)
+    {
+        [self.trueButton setSelected:YES];
+        self.selectedAnswer = YES;
+        if(self.falseButton.selected)
+        {
+            [self.falseButton setSelected:NO];
+        }
+    }
+    else
+    {
+        [self.trueButton setSelected:NO];
+        self.selectedAnswer = NO;
+    }
+    
+}
+
+-(IBAction)falsePressed:(id)sender
+{
+    if(!self.falseButton.selected)
+    {
+        [self.falseButton setSelected:NO];
+        self.selectedAnswer = NO;
+        if(self.trueButton.selected)
+        {
+            [self.trueButton setSelected:NO];
+        }
+    }
+    else
+    {
+        [self.falseButton setSelected:NO];
+        self.selectedAnswer = NO;
+    }
+    
+}
+
+-(IBAction)checkPressed:(id)sender
+{
+    if(self.selectedAnswer == self.question.correctAnswer)
+    {
+        //load correct view controller, pass along state info if neccessary
+    }
+    else
+    {
+        //load incorrect view controller, etc.
+    }
+    
+}
 @end

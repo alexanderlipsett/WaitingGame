@@ -10,4 +10,8 @@
 
 @interface SummaryViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *description;
+@property (strong, nonatomic) IBOutlet UIImageView *image;
+@property (strong, nonatomic) IBOutlet UILabel *heading;
+- (IBAction)nextPressed:(id)sender;
 @end

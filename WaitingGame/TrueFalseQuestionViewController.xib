@@ -6,6 +6,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TrueFalseQuestionViewController">
             <connections>
+                <outlet property="comic" destination="yKf-1L-LVY" id="4Mw-qd-8hb"/>
+                <outlet property="falseButton" destination="aOv-GF-RYg" id="Y7K-pm-2Lf"/>
+                <outlet property="questionText" destination="STA-6O-bR0" id="cqS-3f-WHN"/>
+                <outlet property="trueButton" destination="pkP-hm-ABN" id="wT7-VO-Abn"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>
@@ -36,7 +40,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOv-GF-RYg">
-                    <rect key="frame" x="726" y="466" width="278" height="268"/>
+                    <rect key="frame" x="726" y="546" width="278" height="188"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="48"/>
                     <state key="normal" title="No">
@@ -44,6 +48,16 @@
                     </state>
                     <connections>
                         <action selector="falsePressed:" destination="-1" eventType="touchUpInside" id="Gct-EM-l59"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqP-1T-3Yi">
+                    <rect key="frame" x="958" y="718" width="58" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Check >">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="checkPressed:" destination="-1" eventType="touchUpInside" id="NlS-3V-DoV"/>
                     </connections>
                 </button>
             </subviews>

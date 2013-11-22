@@ -14,6 +14,18 @@
 
 @implementation CategorizationQuestionViewController
 
+-(id)initWithQuestion:(CategorizationQuestion *)question
+{
+    self = [super self];
+    
+    if (self)
+    {
+        self.question = question;
+    }
+    
+    return self;
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

@@ -11,6 +11,7 @@
 
 @interface CategorizationQuestionViewController : UIViewController
 
+@property (strong, nonatomic) CategorizationQuestion *question;
 @property (strong, nonatomic) IBOutlet UIImageView *comic;
 @property (strong, nonatomic) IBOutlet UILabel *questionText;
 @property (strong, nonatomic) IBOutlet UILabel *optionOne;
@@ -23,7 +24,7 @@
 @property (strong, nonatomic) IBOutlet UISegmentedControl *segmentedFour;
 
 
-
+-(id)initWithQuestion:(CategorizationQuestion *)question;
 - (IBAction)nextPressed:(id)sender;
 
 @end

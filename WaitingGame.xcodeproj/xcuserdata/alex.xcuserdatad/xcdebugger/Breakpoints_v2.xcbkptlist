@@ -63,8 +63,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
             endingLineNumber = "21"
-            landmarkName = "-submitAnswer:"
-            landmarkType = "4">
+            landmarkName = "@interface MultipleChoiceQuestion"
+            landmarkType = "2">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -79,7 +79,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
             endingLineNumber = "39"
-            landmarkName = "-viewDidLoad"
+            landmarkName = "-initWithQuestion:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

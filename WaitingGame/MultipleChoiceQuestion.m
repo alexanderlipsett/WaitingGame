@@ -10,7 +10,7 @@
 
 @implementation MultipleChoiceQuestion
 
-- (BOOL) submitAnswer:(NSArray *)answers
+- (BOOL) submitAnswers:(NSArray *)answers
 {
     if ([answers objectAtIndex:0] == [self.answers objectAtIndex:0] &&
         [answers objectAtIndex:1] == [self.answers objectAtIndex:1] &&

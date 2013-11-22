@@ -26,6 +26,19 @@
     return self;
 }
 
+-(id)initWithQuestion:(MultipleChoiceQuestion *)question
+{
+    self = [super self];
+    
+    if (self)
+    {
+        self.question = question;
+    }
+    
+    return self;
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -160,7 +173,16 @@
     
 }
 
-- (IBAction)checkButtonPressed:(id)sender {
+- (IBAction)checkButtonPressed:(id)sender
+{
+    if([self.question submitAnswers:self.answers])
+    {
+        //move to correct view controller, pass along state info
+    }
+    else
+    {
+        //move to incorrect view, pass along state info
+    }
 }
 
 

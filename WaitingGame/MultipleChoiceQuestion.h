@@ -17,7 +17,7 @@
 @property (nonatomic) BOOL isPictureBased;
 
 
--(BOOL)submitAnswer:(NSArray *)answers;
+-(BOOL)submitAnswers:(NSArray *)answers;
 
 -(id)initWithComicName:(NSString *)comicName questionText:(NSString *)questionText options:(NSArray *)options answers:(NSArray *)answers isPictureBased:(BOOL)pics;
 
