@@ -153,6 +153,8 @@
     NSString *goodSummaryText = [summary objectForKey:@"goodSummaryText"];
     NSString *badSummaryText = [summary objectForKey:@"badSummaryText"];
     NSNumber *threshold = [summary objectForKey:@"goodThreshold"];
+    
+    sum.goodTitle
 
     
 }

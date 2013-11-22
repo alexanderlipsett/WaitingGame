@@ -52,7 +52,7 @@
 		<key>incorrectResponse</key>
 		<string>Well, this is diappointing.</string>
 		<key>isPictureBased</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>question3</key>
 	<dict>
