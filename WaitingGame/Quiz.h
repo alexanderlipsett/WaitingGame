@@ -18,4 +18,5 @@
 -(void)readPlist:(NSString *)quizName;
 -(BOOL)quizIsDone:(NSNumber *)currentQuestion;
 -(void)incrementCurrentQuestion;
+
 @end

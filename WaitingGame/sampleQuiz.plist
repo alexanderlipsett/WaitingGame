@@ -18,11 +18,15 @@
 		<key>questionText</key>
 		<string>test</string>
 		<key>correctAnswer</key>
-		<false/>
+		<true/>
 		<key>correctResponse</key>
 		<string>You did well.</string>
 		<key>incorrectResponse</key>
 		<string>What a complete travesty.</string>
+		<key>trueQuestionLabel</key>
+		<string>true</string>
+		<key>falseQuestionLabel</key>
+		<string>false</string>
 	</dict>
 	<key>question2</key>
 	<dict>

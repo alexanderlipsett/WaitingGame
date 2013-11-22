@@ -27,6 +27,13 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    UIImage *comicImage = [UIImage imageNamed:self.template.comicName];
+    [self.comic setImage:comicImage];
+    
+    [self.text setText:self.template.text];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

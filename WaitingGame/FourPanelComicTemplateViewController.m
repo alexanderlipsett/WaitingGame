@@ -26,8 +26,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    UIImage *one = [UIImage imageNamed:self.template.comicOne];
+    [self.comicOne setImage:one];
+    
+    UIImage *two = [UIImage imageNamed:self.template.comicTwo];
+    [self.comicTwo setImage:two];
+    
+    UIImage *three = [UIImage imageNamed:self.template.comicThree];
+    [self.comicThree setImage:three];
+    
+    UIImage *four = [UIImage imageNamed:self.template.comicFour];
+    [self.comicFour setImage:four];
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -36,5 +48,6 @@
 }
 
 - (IBAction)nextPressed:(id)sender {
+    
 }
 @end

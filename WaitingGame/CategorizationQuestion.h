@@ -17,5 +17,6 @@
 @property (nonatomic) NSString *incorrectResponse;
 
 -(id)initWithComicName:(NSString *)comicName questionText:(NSString *)comicText options:(NSDictionary *)options;
+-(BOOL)submitAnswers
 
 @end
