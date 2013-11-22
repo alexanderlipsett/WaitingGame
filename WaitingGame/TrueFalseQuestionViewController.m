@@ -23,12 +23,13 @@
     return self;
 }
 
--(id)initWithQuestion:(TrueFalseQuestion *)question
+-(id)initWithQuestion:(TrueFalseQuestion *)question andQuiz:(Quiz *)quiz
 {
     self = [super self];
     if (self)
     {
         self.question = question;
+        self.quiz = quiz;
     }
     
     return self;

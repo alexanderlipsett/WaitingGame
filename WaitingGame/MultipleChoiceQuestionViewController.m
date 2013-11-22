@@ -26,13 +26,14 @@
     return self;
 }
 
--(id)initWithQuestion:(MultipleChoiceQuestion *)question
+-(id)initWithQuestion:(MultipleChoiceQuestion *)question andQuiz:(Quiz *)quiz
 {
     self = [super self];
     
     if (self)
     {
         self.question = question;
+        self.quiz = quiz;
     }
     
     return self;

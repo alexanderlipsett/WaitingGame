@@ -88,14 +88,14 @@
         {
             TrueFalseQuestionViewController *questionViewController =
             [[TrueFalseQuestionViewController alloc]
-             initWithQuestion:(TrueFalseQuestion *)currentQuestion];
+             initWithQuestion:(TrueFalseQuestion *)currentQuestion andQuiz:quiz];
             [self.navigationController pushViewController:questionViewController animated:YES];
         }
         else if ([currentQuestion isKindOfClass:[MultipleChoiceQuestion class]])
         {
             MultipleChoiceQuestionViewController *questionViewController =
             [[MultipleChoiceQuestionViewController alloc]
-             initWithQuestion:(MultipleChoiceQuestion *)currentQuestion];
+             initWithQuestion:(MultipleChoiceQuestion *)currentQuestion andQuiz:quiz];
             [self.navigationController pushViewController:questionViewController animated:YES];
         }
         else if ([currentQuestion isKindOfClass:[CategorizationQuestion class]])
