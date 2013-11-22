@@ -50,56 +50,59 @@
 - (void)basicMechanismsTapped:(id)sender
 {
     quiz = [[Quiz alloc] init];
-    [quiz readPlist:basicMechanismPList];
+    [quiz readPlist:@"sampleQuiz.plist"];
     
     [self presentNextQuestion];
 }
 
 - (void)preventionTapped:(id)sender
 {
-    quiz = [[Quiz alloc] init];
-    [quiz readPlist:preventionPList];
-    
-    [self presentNextQuestion];
+//    quiz = [[Quiz alloc] init];
+//    [quiz readPlist:preventionPList];
+//    
+//    [self presentNextQuestion];
 }
 
 - (void)treatmentTapped:(id)sender
 {
-    quiz = [[Quiz alloc] init];
-    [quiz readPlist:treatmentPList];
-    
-    [self presentNextQuestion];
+//    quiz = [[Quiz alloc] init];
+//    [quiz readPlist:treatmentPList];
+//    
+//    [self presentNextQuestion];
 }
 
 - (void)potentialComplicationsTapped:(id)sender
 {
-    quiz = [[Quiz alloc] init];
-    [quiz readPlist:potentialComplicationsPList];
-    
-    [self presentNextQuestion];
+//    quiz = [[Quiz alloc] init];
+//    [quiz readPlist:potentialComplicationsPList];
+//    
+//    [self presentNextQuestion];
 }
 
 - (void)presentNextQuestion
 {
-    if (![quiz quizIsDone:[quiz currentQuestion]])
+    if (![quiz quizIsDone])
     {
         NSObject *currentQuestion = [[quiz questions] objectAtIndex:(NSInteger)[quiz currentQuestion]];
         if ([currentQuestion isKindOfClass:[TrueFalseQuestion class]])
         {
-            TrueFalseQuestionViewController *questionViewController = [[TrueFalseQuestionViewController alloc]
-                                                                       initWithQuestion:(TrueFalseQuestion *)currentQuestion];
+            TrueFalseQuestionViewController *questionViewController =
+            [[TrueFalseQuestionViewController alloc]
+             initWithQuestion:(TrueFalseQuestion *)currentQuestion];
             [self.navigationController pushViewController:questionViewController animated:YES];
         }
         else if ([currentQuestion isKindOfClass:[MultipleChoiceQuestion class]])
         {
-            MultipleChoiceQuestionViewController *questionViewController = [[MultipleChoiceQuestionViewController alloc]
-                                                                            initWithQuestion:(MultipleChoiceQuestion *)currentQuestion];
+            MultipleChoiceQuestionViewController *questionViewController =
+            [[MultipleChoiceQuestionViewController alloc]
+             initWithQuestion:(MultipleChoiceQuestion *)currentQuestion];
             [self.navigationController pushViewController:questionViewController animated:YES];
         }
         else if ([currentQuestion isKindOfClass:[CategorizationQuestion class]])
         {
-            CategorizationQuestionViewController *questionViewController = [[CategorizationQuestionViewController alloc]
-                                                                            initWithQuestion:(CategorizationQuestion *)currentQuestion];
+            CategorizationQuestionViewController *questionViewController =
+            [[CategorizationQuestionViewController alloc]
+             initWithQuestion:(CategorizationQuestion *)currentQuestion];
             [self.navigationController pushViewController:questionViewController animated:YES];
         }
         else if ([currentQuestion isKindOfClass:[ThreeComicTemplate class]])

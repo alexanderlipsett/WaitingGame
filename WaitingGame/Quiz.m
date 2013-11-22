@@ -156,13 +156,8 @@
     NSString *badSummaryText = [summary objectForKey:@"badSummaryText"];
     NSNumber *threshold = [summary objectForKey:@"goodThreshold"];
     
-<<<<<<< HEAD
-<<<<<<< HEAD
-    sum.goodTitle;
+    //sum.goodTitle;
 
-=======
-=======
->>>>>>> b393df4b4eea5a381f170975a1c2e313eaee8182
     sum.goodComic = goodSummaryImage;
     sum.badComic = badSummaryImage;
     sum.goodDescription = goodSummaryText;
@@ -170,10 +165,6 @@
     sum.threshold = threshold;
     
     [self.questions addObject:sum];
-<<<<<<< HEAD
->>>>>>> b393df4b4eea5a381f170975a1c2e313eaee8182
-=======
->>>>>>> b393df4b4eea5a381f170975a1c2e313eaee8182
     
 }
 
