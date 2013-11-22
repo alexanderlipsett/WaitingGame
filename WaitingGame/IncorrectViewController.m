@@ -39,6 +39,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)nextPressed:(id)sender {
+- (IBAction)tryAgainButtonPressed:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 @end

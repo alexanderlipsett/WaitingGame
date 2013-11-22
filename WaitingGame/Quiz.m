@@ -52,7 +52,9 @@
             
             NSString *questionText = [question objectForKey:@"questionText"];
             tfQuest.questionText = questionText;
-            BOOL correctAnswer = [question objectForKey:@"correctAnswer"];
+            
+            NSNumber *n = [question objectForKey:@"correctAnswer"];
+            BOOL correctAnswer = [n boolValue];
             tfQuest.correctAnswer = correctAnswer;
             
             NSString *correctResponse = [question objectForKey:@"correctResponse"];
@@ -97,7 +99,8 @@
             NSMutableArray *correctAnswers = [question objectForKey:@"correctAnswers"];
             mcQuest.answers = correctAnswers;
             
-            BOOL isPictureBased = [question objectForKey:@"isPictureBased"];
+            NSNumber *n = [question objectForKey:@"isPictureBased"];
+            BOOL isPictureBased = [n boolValue];
             mcQuest.isPictureBased = isPictureBased;
             
             NSString *correctResponse = [question objectForKey:@"correctResponse"];
