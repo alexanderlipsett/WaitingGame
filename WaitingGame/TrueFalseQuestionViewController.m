@@ -112,7 +112,6 @@
     {
         Correct *correct = [[Correct alloc] init];
         correct.description = self.question.description;
-        correct.comicName = self.question.comicName;
         CorrectViewController *correctViewController = [[CorrectViewController alloc] initWithCorrectTemplate:correct andQuiz:self.quiz];
         [self.navigationController pushViewController:correctViewController animated:YES];
     }

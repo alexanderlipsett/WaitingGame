@@ -41,7 +41,6 @@
     // Do any additional setup after loading the view from its nib.
     
     [self.description setText:self.correct.description];
-    self.comicName = [self.correct comicName];
 }
 
 - (void)didReceiveMemoryWarning

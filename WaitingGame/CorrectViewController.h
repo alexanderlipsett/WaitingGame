@@ -13,8 +13,6 @@
 @interface CorrectViewController : UIViewController
 @property (nonatomic)Correct *correct;
 @property (nonatomic)Quiz *quiz;
-@property (nonatomic)NSString *comicName;
-@property (weak, nonatomic) IBOutlet UIImageView *comic;
 @property (weak, nonatomic) IBOutlet UILabel *description;
 
 -(IBAction)nextPressed:(id)sender;
