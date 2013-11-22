@@ -15,7 +15,8 @@
 @property (strong, nonatomic) IBOutlet UIImageView *image;
 @property (strong, nonatomic) IBOutlet UILabel *description;
 
-- (IBAction)tryAgainButtonPressed:(id)sender;
+-(IBAction)tryAgainButtonPressed:(id)sender;
+-(id)initWithIncorrectTemplate:(Incorrect *)incorrect;
 
 
 

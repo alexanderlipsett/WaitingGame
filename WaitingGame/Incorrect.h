@@ -10,7 +10,6 @@
 
 @interface Incorrect : NSObject
 
-@property (nonatomic) NSString *comicName;
 @property (nonatomic) NSString *description;
 
 @end

@@ -23,13 +23,20 @@
     return self;
 }
 
+-(id)initWithIncorrectTemplate:(Incorrect *)incorrect
+{
+    self = [super self];
+    if (self){
+        self.incorrect = incorrect;
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    UIImage *comic = [UIImage imageNamed:self.incorrect.comicName];
-    [self.image setImage:comic];
-    
+        
     [self.description setText:self.incorrect.description];
 }
 

@@ -201,11 +201,19 @@
 
     if([self.question submitAnswers:self.answers])
     {
-        //move to correct view controller, pass along state info
+        Correct *correct = [[Correct alloc] init];
+        correct.description = self.question.correctResponse;
+        CorrectViewController *correctViewController = [[CorrectViewController alloc] initWithCorrectTemplate:correct
+                                                                                                      andQuiz:self.quiz];
+        [self.navigationController pushViewController:correctViewController animated:YES];
+        
     }
     else
     {
-        IncorrectViewController *incorrectViewController = [[IncorrectViewController alloc] init];
+        Incorrect *incorrect = [[Incorrect alloc] init];
+        incorrect.description = self.question.incorrectResponse;
+        
+        IncorrectViewController *incorrectViewController = [[IncorrectViewController alloc] initWithIncorrectTemplate:incorrect];
         [self.navigationController pushViewController:incorrectViewController animated:YES];
     }
 }
