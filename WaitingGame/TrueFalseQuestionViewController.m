@@ -7,6 +7,7 @@
 //
 
 #import "TrueFalseQuestionViewController.h"
+#import "IncorrectViewController.h"
 
 @interface TrueFalseQuestionViewController ()
 
@@ -108,7 +109,8 @@
     }
     else
     {
-        //load incorrect view controller, etc.
+        IncorrectViewController *incorrectViewController = [[IncorrectViewController alloc] init];
+        [self.navigationController pushViewController:incorrectViewController animated:YES];
     }
     
 }
