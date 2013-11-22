@@ -11,8 +11,8 @@
 @interface Quiz : NSObject
 
 @property NSMutableArray *questions;
-@property NSNumber *currentQuestion;
-@property NSNumber *totalQuestions;
+@property int currentQuestion;
+@property int totalQuestions;
 @property NSString *quizTitle;
 
 -(void)readPlist:(NSString *)quizName;

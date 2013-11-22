@@ -50,7 +50,7 @@
 - (void)basicMechanismsTapped:(id)sender
 {
     quiz = [[Quiz alloc] init];
-    [quiz readPlist:@"sampleQuiz.plist"];
+    [quiz readPlist:@"sampleQuiz"];
     
     [self presentNextQuestion];
 }
@@ -117,6 +117,10 @@
         }
         
         [quiz incrementCurrentQuestion];
+    }
+    else
+    {
+        NSLog(@"Quiz is done!");
     }
 }
 

@@ -5,7 +5,7 @@
 	<key>metadata</key>
 	<dict>
 		<key>numberOfQuestions</key>
-		<integer>4</integer>
+		<integer>5</integer>
 		<key>quizTitle</key>
 		<string>Sample Quiz</string>
 	</dict>
