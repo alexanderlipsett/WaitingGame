@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CorrectViewController : UIViewController
+@property (nonatomic) Correct
 @property (strong, nonatomic) IBOutlet UIImageView *image;
 @property (strong, nonatomic) IBOutlet UILabel *description;
 

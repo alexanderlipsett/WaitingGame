@@ -16,4 +16,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *text;
 
 - (IBAction)nextPressed:(id)sender;
+-(id)initWithTemplate:(WideComicTemplate *)template;
 @end

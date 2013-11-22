@@ -7,12 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "Incorrect.h"
 
 @interface IncorrectViewController : UIViewController
 
+@property (nonatomic) Incorrect *incorrect;
 @property (strong, nonatomic) IBOutlet UIImageView *image;
 @property (strong, nonatomic) IBOutlet UILabel *description;
+
 - (IBAction)nextPressed:(id)sender;
+
 
 
 @end

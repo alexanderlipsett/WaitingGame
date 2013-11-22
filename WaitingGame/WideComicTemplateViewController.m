@@ -23,6 +23,18 @@
     return self;
 }
 
+- (id)initWithTemplate:(WideComicTemplate *)template
+{
+    self = [super self];
+    
+    if (self)
+    {
+        self.template = template;
+    }
+    
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

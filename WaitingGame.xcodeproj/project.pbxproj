@@ -19,6 +19,7 @@
 		FA0FF6DE183F3E680013EBFD /* FourPanelComicTemplateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6D8183F3E680013EBFD /* FourPanelComicTemplateViewController.xib */; };
 		FA0FF6DF183F3E680013EBFD /* WideComicTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0FF6DA183F3E680013EBFD /* WideComicTemplateViewController.m */; };
 		FA0FF6E0183F3E680013EBFD /* WideComicTemplateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0FF6DB183F3E680013EBFD /* WideComicTemplateViewController.xib */; };
+		FA0FF6E3183F50940013EBFD /* Correct.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0FF6E2183F50940013EBFD /* Correct.m */; };
 		FA11F8BB183E9C8A0028FB70 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */; };
 		FA11F8BC183E9C8A0028FB70 /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */; };
 		FA39069318398F9A00E251E8 /* MultipleChoiceQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39069218398F9A00E251E8 /* MultipleChoiceQuestion.m */; };
@@ -88,6 +89,8 @@
 		FA0FF6D9183F3E680013EBFD /* WideComicTemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WideComicTemplateViewController.h; sourceTree = "<group>"; };
 		FA0FF6DA183F3E680013EBFD /* WideComicTemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WideComicTemplateViewController.m; sourceTree = "<group>"; };
 		FA0FF6DB183F3E680013EBFD /* WideComicTemplateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WideComicTemplateViewController.xib; sourceTree = "<group>"; };
+		FA0FF6E1183F50940013EBFD /* Correct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Correct.h; sourceTree = "<group>"; };
+		FA0FF6E2183F50940013EBFD /* Correct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Correct.m; sourceTree = "<group>"; };
 		FA11F8B8183E9C8A0028FB70 /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
 		FA11F8B9183E9C8A0028FB70 /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
 		FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
@@ -257,6 +260,8 @@
 				FA11F8BA183E9C8A0028FB70 /* SummaryViewController.xib */,
 				FA0FF6C9183F38420013EBFD /* Summary.h */,
 				FA0FF6CA183F38420013EBFD /* Incorrect.h */,
+				FA0FF6E1183F50940013EBFD /* Correct.h */,
+				FA0FF6E2183F50940013EBFD /* Correct.m */,
 				FA0FF6CB183F38420013EBFD /* Incorrect.m */,
 				FA0FF6CC183F38420013EBFD /* Summary.m */,
 				FA0FF6CD183F38420013EBFD /* TitleViewController.h */,
@@ -424,6 +429,7 @@
 				FA7A8B88183DACB9000BBA72 /* Quiz.m in Sources */,
 				FABA593618381AAA0038FBA7 /* TrueFalseQuestionViewController.m in Sources */,
 				FA0FF6DC183F3E680013EBFD /* FourPanelComicTemplate.m in Sources */,
+				FA0FF6E3183F50940013EBFD /* Correct.m in Sources */,
 				FA7A8B84183D9F5C000BBA72 /* ThreeComicViewController.m in Sources */,
 				FA662BC6183C6E02007E40B2 /* SelectViewController.m in Sources */,
 				FA11F8BB183E9C8A0028FB70 /* SummaryViewController.m in Sources */,

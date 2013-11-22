@@ -1,14 +1,14 @@
 //
-//  Incorrect.h
+//  Correct.h
 //  WaitingGame
 //
-//  Created by Alex Lipsett on 11/21/13.
+//  Created by Alex Lipsett on 11/22/13.
 //  Copyright (c) 2013 Alex Lipsett. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface Incorrect : NSObject
+@interface Correct : NSObject
 
 @property (nonatomic) NSString *comicName;
 @property (nonatomic) NSString *description;

@@ -14,8 +14,10 @@
 #import "MultipleChoiceQuestionViewController.h"
 #import "CategorizationQuestion.h"
 #import "CategorizationQuestionViewController.h"
-#import "ThreeComicTemplate.h"
-#import "ThreeComicViewController.h"
+#import "FourPanelComicTemplate.h"
+#import "FourPanelComicTemplateViewController.h"
+#import "WideComicTemplate.h"
+#import "WideComicTemplateViewController.h"
 
 @interface SelectViewController ()
 
@@ -98,18 +100,19 @@
              initWithQuestion:(MultipleChoiceQuestion *)currentQuestion];
             [self.navigationController pushViewController:questionViewController animated:YES];
         }
-        else if ([currentQuestion isKindOfClass:[CategorizationQuestion class]])
+        else if ([currentQuestion isKindOfClass:[FourPanelComicTemplate class]])
         {
-            CategorizationQuestionViewController *questionViewController =
-            [[CategorizationQuestionViewController alloc]
-             initWithQuestion:(CategorizationQuestion *)currentQuestion];
-            [self.navigationController pushViewController:questionViewController animated:YES];
+           FourPanelComicTemplateViewController *panelViewController =
+            [[FourPanelComicTemplateViewController alloc]
+             initWithTemplate:(FourPanelComicTemplate *)currentQuestion];
+            [self.navigationController pushViewController:panelViewController animated:YES];
         }
-        else if ([currentQuestion isKindOfClass:[ThreeComicTemplate class]])
+        else if ([currentQuestion isKindOfClass:[WideComicTemplate class]])
         {
-            //            ThreeComicViewController *comicViewController = [[ThreeComicViewController alloc]
-            //                                                                       init...;
-            //            [self.navigationController pushViewController:comicViewController animated:YES];
+            WideComicTemplateViewController *panelViewController =
+            [[WideComicTemplateViewController alloc]
+             initWithTemplate:(WideComicTemplate *)currentQuestion];
+            [self.navigationController pushViewController:panelViewController animated:YES];
         }
         else
         {

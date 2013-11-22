@@ -47,6 +47,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(id)initWithTemplate:(FourPanelComicTemplate *)template
+{
+    self = [super self];
+    if (self)
+    {
+        self.template = template;
+    }
+    return self;
+}
+
 - (IBAction)nextPressed:(id)sender {
     
 }

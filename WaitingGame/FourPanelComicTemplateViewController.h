@@ -17,6 +17,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *comicThree;
 @property (strong, nonatomic) IBOutlet UIImageView *comicFour;
 
-- (IBAction)nextPressed:(id)sender;
+-(IBAction)nextPressed:(id)sender;
+-(id)initWithTemplate:(FourPanelComicTemplate *)template;
 
 @end
