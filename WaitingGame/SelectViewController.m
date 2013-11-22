@@ -52,7 +52,7 @@
 - (void)basicMechanismsTapped:(id)sender
 {
     quiz = [[Quiz alloc] init];
-    [quiz readPlist:@"sampleQuiz.plist"];
+    [quiz readPlist:@"sampleQuiz"];
     
     [self presentNextQuestion];
 }
@@ -90,14 +90,14 @@
         {
             TrueFalseQuestionViewController *questionViewController =
             [[TrueFalseQuestionViewController alloc]
-             initWithQuestion:(TrueFalseQuestion *)currentQuestion];
+             initWithQuestion:(TrueFalseQuestion *)currentQuestion andQuiz:quiz];
             [self.navigationController pushViewController:questionViewController animated:YES];
         }
         else if ([currentQuestion isKindOfClass:[MultipleChoiceQuestion class]])
         {
             MultipleChoiceQuestionViewController *questionViewController =
             [[MultipleChoiceQuestionViewController alloc]
-             initWithQuestion:(MultipleChoiceQuestion *)currentQuestion];
+             initWithQuestion:(MultipleChoiceQuestion *)currentQuestion andQuiz:quiz];
             [self.navigationController pushViewController:questionViewController animated:YES];
         }
         else if ([currentQuestion isKindOfClass:[FourPanelComicTemplate class]])
@@ -120,6 +120,10 @@
         }
         
         [quiz incrementCurrentQuestion];
+    }
+    else
+    {
+        NSLog(@"Quiz is done!");
     }
 }
 

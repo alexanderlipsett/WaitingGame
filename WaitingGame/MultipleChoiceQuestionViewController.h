@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "MultipleChoiceQuestion.h"
+#import "Quiz.h"
 
 @interface MultipleChoiceQuestionViewController : UIViewController
 
 @property (nonatomic) MultipleChoiceQuestion *question;
+@property (nonatomic) Quiz *quiz;
 @property (nonatomic) IBOutlet UILabel *questionText;
 @property (nonatomic) IBOutlet UIButton *optionOne;
 @property (nonatomic) IBOutlet UIButton *optionTwo;
@@ -19,7 +21,7 @@
 @property (nonatomic) IBOutlet UIButton *optionFour;
 @property (nonatomic) NSMutableArray *answers;
 
--(id)initWithQuestion:(MultipleChoiceQuestion *)question;
+-(id)initWithQuestion:(MultipleChoiceQuestion *)question andQuiz:(Quiz *)quiz;
 -(IBAction)optionOnePressed:(id)sender;
 -(IBAction)optionTwoPressed:(id)sender;
 -(IBAction)optionThreePressed:(id)sender;

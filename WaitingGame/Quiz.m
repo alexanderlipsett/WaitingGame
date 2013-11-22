@@ -21,21 +21,30 @@
 -(void)readPlist:(NSString *)quizName
 {
     NSString *pListPath = [[NSBundle mainBundle] pathForResource:quizName ofType:@"plist"];
+    NSLog(@"%@", pListPath);
     NSDictionary *quiz = [[NSDictionary alloc] initWithContentsOfFile:pListPath];
     
     NSDictionary *metadata = [quiz objectForKey:@"metadata"];
     
     self.quizTitle = [metadata objectForKey:@"quizTitle"];
-    self.totalQuestions = [metadata objectForKey:@"numberOfQuestions"];
+    self.totalQuestions = [[metadata objectForKey:@"numberOfQuestions"] intValue];
+    self.questions = [[NSMutableArray alloc] init];
     
-    for (int i = 0; i < [self.totalQuestions intValue]; i++)
+    NSLog(@"Total Questions is: %d", self.totalQuestions);
+    self.currentQuestion = 0;
+    
+    for (int i = 0; i < self.totalQuestions + 1; i++)
     {
-        NSString *questionName = [NSString stringWithFormat:@"question%d", i];
+        NSString *questionName = [NSString stringWithFormat:@"question%d", i + 1];
+//        NSLog(@"Question %d Name: %@", i, [NSString stringWithFormat:@"question%d", i + 1]);
         NSDictionary *question = [quiz objectForKey:questionName];
         NSNumber *type = [question objectForKey:@"questionType"];
+        int intType = [type intValue];
+//        NSLog(@"Integer Type: %d", intType);
         
         if ([type intValue]==1)
         {
+            NSLog(@"True and False question");
             TrueFalseQuestion *tfQuest = [[TrueFalseQuestion alloc] init];
             
             NSString *comic = [question objectForKey:@"comicName"];
@@ -43,7 +52,6 @@
             
             NSString *questionText = [question objectForKey:@"questionText"];
             tfQuest.questionText = questionText;
-            
             BOOL correctAnswer = [question objectForKey:@"correctAnswer"];
             tfQuest.correctAnswer = correctAnswer;
             
@@ -56,15 +64,16 @@
             NSString *trueQuestionLabel = [question objectForKey:@"trueQuestionLabel"];
             tfQuest.trueQuestionLabel = trueQuestionLabel;
             
-            NSString *falseQuestionLabel = [question objectForKey@"falseQuestionLabel"];
+            NSString *falseQuestionLabel = [question objectForKey:@"falseQuestionLabel"];
             tfQuest.falseQuestionLabel = falseQuestionLabel;
             
-            
             [self.questions addObject:tfQuest];
+            NSLog(@"Size of the questions array is: %d", [self.questions count]);
         }
         
         else if ([type intValue]==2)
         {
+            NSLog(@"Multiple Choice question");
             MultipleChoiceQuestion *mcQuest = [[MultipleChoiceQuestion alloc] init];
             
             NSString *comicName = [question objectForKey:@"comicName"];
@@ -102,6 +111,7 @@
         
         else if([type intValue]==3)
         {
+            NSLog(@"Categorization question");
             CategorizationQuestion *catQuest = [[CategorizationQuestion alloc] init];
             
             NSString *comicName = [question objectForKey:@"comicName"];
@@ -124,6 +134,7 @@
         
         else if([type intValue]==4)
         {
+            NSLog(@"Four Panel comic");
             FourPanelComicTemplate *fourComic = [[FourPanelComicTemplate alloc] init];
             
             NSString *comicOne = [question objectForKey:@"comic1"];
@@ -141,6 +152,7 @@
         
         else if([type intValue]==5)
         {
+            NSLog(@"Wide comic");
             WideComicTemplate *wideComic = [[WideComicTemplate alloc] init];
             
             NSString *comicName = [question objectForKey:@"comicName"];
@@ -151,6 +163,7 @@
             
             [self.questions addObject:wideComic];
         }
+
     }
     
     NSDictionary *summary = [quiz objectForKey:@"summary"];
@@ -177,17 +190,16 @@
 
 - (BOOL)quizIsDone
 {
-    BOOL done = YES;
-    if (currentQuestion != [self totalQuestions])
+    BOOL done = NO;
+    if (self.currentQuestion == self.totalQuestions)
     {
-        done = NO;
+        done = YES;
     }
     return done;
 }
 
 - (void)incrementCurrentQuestion
 {
-    int value = [currentQuestion intValue];
-    currentQuestion = [NSNumber numberWithInt:value + 1];
+    currentQuestion++;
 }
 @end
